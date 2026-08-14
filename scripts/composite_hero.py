@@ -25,7 +25,11 @@ import math
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageFilter, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
+
+FONT_DIR = Path(__file__).parent / "fonts"
+NAME_FONT_PATH = FONT_DIR / "Lora-Italic.ttf"
+EYEBROW_FONT_PATH = FONT_DIR / "WorkSans-Bold.ttf"
 
 CANVAS_W = 1200
 CANVAS_H = 675  # 16:9, per wcc-email-design-system.md Module 09 hero spec
@@ -106,6 +110,54 @@ def layout_params(n: int):
     return int(CANVAS_H * 0.30), 2  # 8-12 bottles: two rows
 
 
+def _corner_scrim(size: tuple[int, int], corner: str = "bottomleft", max_alpha: int = 165, tile: int = 64) -> Image.Image:
+    """Small radial gradient anchored at a corner, upscaled — cheap and smooth, no per-pixel loop at full res."""
+    grad = Image.new("L", (tile, tile), 0)
+    px = grad.load()
+    for y in range(tile):
+        for x in range(tile):
+            dx = x if "left" in corner else (tile - 1 - x)
+            dy = (tile - 1 - y) if "bottom" in corner else y
+            dist = (dx * dx + dy * dy) ** 0.5 / (tile * 1.05)
+            px[x, y] = int(max(0.0, 1.0 - dist) * max_alpha)
+    return grad.resize(size, Image.BILINEAR)
+
+
+def _draw_tracked_text(draw: ImageDraw.ImageDraw, pos, text: str, font: ImageFont.FreeTypeFont, fill, tracking: float = 0.14):
+    x, y = pos
+    for ch in text:
+        draw.text((x, y), ch, font=font, fill=fill)
+        bbox = draw.textbbox((0, 0), ch, font=font)
+        x += (bbox[2] - bbox[0]) + int(font.size * tracking)
+    return x
+
+
+def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATURED WINERY"):
+    """Winery name in the opposite corner from the bottles — Lora Italic for the name (same
+    editorial-italic voice as the email headlines), Work Sans tracked caps for the eyebrow label,
+    same label-over-headline pattern used everywhere else in the WCC email system. A corner
+    gradient scrim guarantees legibility regardless of what's in that part of the photo."""
+    w, h = canvas.size
+    scrim_alpha = _corner_scrim((int(w * 0.58), int(h * 0.88)), corner="bottomleft")
+    scrim = Image.new("RGBA", scrim_alpha.size, (14, 8, 6, 255))
+    scrim.putalpha(scrim_alpha)
+    canvas.alpha_composite(scrim, (0, h - scrim.size[1]))
+
+    draw = ImageDraw.Draw(canvas)
+    margin = int(w * 0.035)
+    eyebrow_size = max(11, int(h * 0.032))
+    name_size = max(24, int(h * 0.095))
+    eyebrow_font = ImageFont.truetype(str(EYEBROW_FONT_PATH), eyebrow_size)
+    name_font = ImageFont.truetype(str(NAME_FONT_PATH), name_size)
+
+    name_y = h - int(h * 0.09) - int(name_size * 1.2)
+    eyebrow_y = name_y - int(eyebrow_size * 1.7)
+
+    _draw_tracked_text(draw, (margin, eyebrow_y), eyebrow.upper(), eyebrow_font, (243, 239, 230, 235))
+    draw.text((margin + 2, name_y + 2), winery_name, font=name_font, fill=(10, 5, 5, 130))  # soft drop shadow
+    draw.text((margin, name_y), winery_name, font=name_font, fill=(255, 255, 255, 255))
+
+
 def add_shadow(canvas: Image.Image, bottle: Image.Image, pos: tuple[int, int]):
     alpha = bottle.split()[-1].point(lambda a: int(a * 0.32))
     shadow = Image.new("RGBA", bottle.size, (10, 5, 5, 255))
@@ -114,7 +166,8 @@ def add_shadow(canvas: Image.Image, bottle: Image.Image, pos: tuple[int, int]):
     canvas.alpha_composite(shadow, (pos[0] + 5, pos[1] + 10))
 
 
-def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Path):
+def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Path, scale: float = 1.0,
+                winery_name: str | None = None, eyebrow: str = "Featured Winery"):
     bg = Image.open(background_path).convert("RGB")
     bg = ImageOps.fit(bg, (CANVAS_W, CANVAS_H), method=Image.LANCZOS)
     canvas = bg.convert("RGBA")
@@ -133,6 +186,7 @@ def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Pat
         raise RuntimeError("No bottles could be placed — every source image was skipped. See notes above.")
 
     bottle_h, rows = layout_params(len(bottles))
+    bottle_h = min(int(bottle_h * scale), CANVAS_H - int(CANVAS_H * 0.04))  # never let scale push it past the frame
     resized = []
     for img in bottles:
         w, h = img.size
@@ -156,6 +210,9 @@ def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Pat
             x_cursor += im.size[0] + gap
         y_cursor = y_top - gap
 
+    if winery_name:
+        add_winery_name(canvas, winery_name, eyebrow)
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     canvas.convert("RGB").save(output_path, "JPEG", quality=88)
     return used, skipped
@@ -166,6 +223,9 @@ def main():
     ap.add_argument("--background", required=True, type=Path)
     ap.add_argument("--bottles", required=True, type=Path, nargs="+")
     ap.add_argument("--output", required=True, type=Path)
+    ap.add_argument("--scale", type=float, default=1.0, help="Multiplier on the default bottle size (e.g. 1.3 = 30%% bigger). Capped so it can't overflow the frame.")
+    ap.add_argument("--winery-name", type=str, default=None, help="If set, adds the winery name (opposite corner from the bottles) with a legibility scrim behind it.")
+    ap.add_argument("--eyebrow", type=str, default="Featured Winery", help="Small tracked label above the winery name.")
     args = ap.parse_args()
 
     if not args.background.exists():
@@ -174,7 +234,8 @@ def main():
     if missing:
         sys.exit(f"Bottle image(s) not found: {', '.join(missing)}")
 
-    used, skipped = build_hero(args.background, args.bottles, args.output)
+    used, skipped = build_hero(args.background, args.bottles, args.output, scale=args.scale,
+                                winery_name=args.winery_name, eyebrow=args.eyebrow)
 
     print(f"\nWrote {args.output} ({CANVAS_W}x{CANVAS_H})")
     print(f"Background: {args.background}")
