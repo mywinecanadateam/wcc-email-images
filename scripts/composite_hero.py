@@ -47,23 +47,94 @@ def has_real_alpha(img: Image.Image) -> bool:
     return lo < 250
 
 
-def estimate_background_color(rgb: Image.Image, sample: int = 14) -> tuple[int, int, int]:
+def sample_border_points(rgb: Image.Image, patch: int = 14, per_side: int = 12):
+    """Samples colour patches along the full perimeter (not just the 4 corners) —
+    a real studio backdrop, product bottles included, always has visible background
+    at the outer edge on all four sides, so this is still a safe "definitely
+    background" sample even when the centre is occluded by the bottle."""
     w, h = rgb.size
-    sample = min(sample, w // 4, h // 4) or 1
-    corners = [(0, 0), (w - sample, 0), (0, h - sample), (w - sample, h - sample)]
-    r = g = b = 0
-    for x, y in corners:
-        px = rgb.crop((x, y, x + sample, y + sample)).resize((1, 1), Image.LANCZOS).getpixel((0, 0))
-        r += px[0]; g += px[1]; b += px[2]
-    n = len(corners)
-    return (r // n, g // n, b // n)
+    patch = min(patch, w // 8, h // 8) or 1
+
+    def sample_at(x, y):
+        x = max(0, min(x, w - patch)); y = max(0, min(y, h - patch))
+        return rgb.crop((x, y, x + patch, y + patch)).resize((1, 1), Image.LANCZOS).getpixel((0, 0))
+
+    pts = []
+    for i in range(per_side):
+        t = i / (per_side - 1)
+        x = int(t * (w - patch))
+        pts.append((x + patch / 2, patch / 2, sample_at(x, 0)))
+        pts.append((x + patch / 2, h - patch / 2, sample_at(x, h - patch)))
+    for i in range(per_side):
+        t = i / (per_side - 1)
+        y = int(t * (h - patch))
+        pts.append((patch / 2, y + patch / 2, sample_at(0, y)))
+        pts.append((w - patch / 2, y + patch / 2, sample_at(w - patch, y)))
+    return pts
+
+
+def _solve_normal_equations(rows: list[list[float]], target: list[float]) -> list[float]:
+    """Least-squares solve for a small (6-unknown) system via Gaussian elimination —
+    pure Python, no numpy: this stays a plain arithmetic fit, not a new dependency."""
+    n = len(rows[0])
+    AtA = [[0.0] * n for _ in range(n)]
+    Atb = [0.0] * n
+    for feat, val in zip(rows, target):
+        for i in range(n):
+            Atb[i] += feat[i] * val
+            for j in range(n):
+                AtA[i][j] += feat[i] * feat[j]
+    M = [AtA[i] + [Atb[i]] for i in range(n)]
+    for col in range(n):
+        piv = max(range(col, n), key=lambda r: abs(M[r][col]))
+        M[col], M[piv] = M[piv], M[col]
+        pivot = M[col][col] or 1e-9
+        M[col] = [v / pivot for v in M[col]]
+        for r in range(n):
+            if r != col:
+                factor = M[r][col]
+                M[r] = [mv - factor * cv for mv, cv in zip(M[r], M[col])]
+    return [M[i][n] for i in range(n)]
+
+
+def _fit_background_surface(pts):
+    """Fits value = a + b*x + c*y + d*xy + e*x^2 + f*y^2 per channel from border
+    samples — a smooth quadratic can follow a real studio vignette (brighter centre,
+    darker edges) that a flat colour or a 4-corner bilinear gradient both miss."""
+    feats = [[1.0, x, y, x * y, x * x, y * y] for x, y, _ in pts]
+    betas = []
+    for ch in range(3):
+        betas.append(_solve_normal_equations(feats, [c[ch] for _, _, c in pts]))
+    return betas
+
+
+def build_gradient_layer(size: tuple[int, int], betas) -> Image.Image:
+    """Evaluates the fitted background surface on a coarse grid (cheap) and upscales —
+    degenerates to a flat fill when the backdrop truly is uniform, so this only changes
+    behaviour where the backdrop actually varies across the frame."""
+    w, h = size
+    gw = gh = 40
+    seed = Image.new("RGB", (gw, gh))
+    px = seed.load()
+    for gy in range(gh):
+        y = gy / (gh - 1) * (h - 1)
+        for gx in range(gw):
+            x = gx / (gw - 1) * (w - 1)
+            rgb = []
+            for beta in betas:
+                v = beta[0] + beta[1] * x + beta[2] * y + beta[3] * x * y + beta[4] * x * x + beta[5] * y * y
+                rgb.append(int(max(0, min(255, v))))
+            px[gx, gy] = tuple(rgb)
+    return seed.resize(size, Image.BILINEAR)
 
 
 def auto_matte(img: Image.Image):
     """Returns (matted_rgba, bg_color, background_fraction)."""
     rgb = img.convert("RGB")
-    bg_color = estimate_background_color(rgb)
-    bg_layer = Image.new("RGB", rgb.size, bg_color)
+    pts = sample_border_points(rgb)
+    betas = _fit_background_surface(pts)
+    bg_color = tuple(sum(c[i] for _, _, c in pts) // len(pts) for i in range(3))  # for the report string only
+    bg_layer = build_gradient_layer(rgb.size, betas)
     diff = ImageChops.difference(rgb, bg_layer)
     dr, dg, db = diff.split()
     dist = ImageChops.lighter(ImageChops.lighter(dr, dg), db)  # per-pixel max channel distance
@@ -75,7 +146,12 @@ def auto_matte(img: Image.Image):
             return 255
         return int((v - lo) / (hi - lo) * 255)
 
-    alpha = dist.point(ramp).filter(ImageFilter.GaussianBlur(1))
+    # Choke: erode the matte 1px inward (standard compositing technique) before the
+    # smoothing blur. A soft label/backdrop colour collision (e.g. a cream label on
+    # a light-grey background) leaves a faint semi-transparent fringe right at the
+    # edge, between "clearly background" and "clearly bottle" — eroding kills that
+    # fringe at the cost of ~1px of edge detail, a good trade at email resolution.
+    alpha = dist.point(ramp).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1))
     bg_pixels = alpha.histogram()[0:64]  # low end of the 0-255 histogram = background pixels
     bg_frac = sum(bg_pixels) / (rgb.size[0] * rgb.size[1])
 
