@@ -28,7 +28,7 @@ from composite_hero import load_bottle  # reuse the same loading/matting logic
 
 CANVAS = 1600  # reference scale, Shopify product-image friendly
 BOTTLE_H_FRAC = 0.74  # per row, before row-count shrinks it further
-OVERLAP_FRAC = 0.10  # tight spacing, not heavy overlap — keep every label readable
+OVERLAP_FRAC = -0.04  # small gap, no overlap: an overlapping neighbour clips the label text (OVERTIME)
 MAX_PER_ROW = 6  # beyond this many bottles, wrap to a second row rather than one very wide strip
 
 

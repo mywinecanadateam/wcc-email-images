@@ -164,7 +164,14 @@ def load_bottle(path: Path):
     """Returns (rgba_image, note) or (None, reason) if it had to be skipped."""
     img = Image.open(path)
     if has_real_alpha(img):
-        return img.convert("RGBA"), "used as-is (real transparency)"
+        rgba = img.convert("RGBA")
+        # Trim transparent margins: bottle cutouts are often delivered on a much larger
+        # canvas (a 1200x1500 frame for a ~400px-wide bottle). Laying out by canvas width
+        # instead of bottle width is what spread bundle bottles far apart.
+        bbox = rgba.split()[-1].point(lambda v: 255 if v > 20 else 0).getbbox()
+        if bbox:
+            rgba = rgba.crop(bbox)
+        return rgba, "used as-is (real transparency, trimmed to bottle)"
     matted, bg_color, bg_frac = auto_matte(img)
     if bg_frac < MATTE_MIN_BG_FRAC or bg_frac > MATTE_MAX_BG_FRAC:
         return None, (
