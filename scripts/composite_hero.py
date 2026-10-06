@@ -201,7 +201,7 @@ def _corner_scrim(size: tuple[int, int], corner: str = "bottomleft", max_alpha: 
         for x in range(tile):
             dx = x if "left" in corner else (tile - 1 - x)
             dy = (tile - 1 - y) if "bottom" in corner else y
-            dist = (dx * dx + dy * dy) ** 0.5 / (tile * 1.05)
+            dist = (dx * dx + dy * dy) ** 0.5 / (tile * 0.95)
             px[x, y] = int(max(0.0, 1.0 - dist) * max_alpha)
     return grad.resize(size, Image.BILINEAR)
 
@@ -227,7 +227,8 @@ def _wrap_name(draw, text: str, font, max_width: int) -> list[str]:
     return lines + [cur]
 
 
-def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATURED WINERY", max_width: int | None = None):
+def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATURED WINERY", max_width: int | None = None,
+                    x0: int | None = None):
     """Winery name in the opposite corner from the bottles — Lora Italic for the name (same
     editorial-italic voice as the email headlines), Work Sans tracked caps for the eyebrow label,
     same label-over-headline pattern used everywhere else in the WCC email system. A corner
@@ -236,16 +237,27 @@ def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATU
     scrim_alpha = _corner_scrim((int(w * 0.58), int(h * 0.88)), corner="bottomleft")
     scrim = Image.new("RGBA", scrim_alpha.size, (14, 8, 6, 255))
     scrim.putalpha(scrim_alpha)
-    canvas.alpha_composite(scrim, (0, h - scrim.size[1]))
+    scrim_x = 0 if x0 is None else max(0, x0 - int(w * 0.10))
+    if x0 is not None:  # fade the scrim in from its left edge so it leaves no seam on the photo
+        ramp_w = int(w * 0.10)
+        ramp = Image.new("L", scrim_alpha.size, 255)
+        ramp.paste(Image.linear_gradient("L").rotate(90, expand=True).resize((ramp_w, scrim_alpha.size[1])), (0, 0))
+        scrim_alpha = ImageChops.multiply(scrim_alpha, ramp)
+        scrim.putalpha(scrim_alpha)
+    canvas.alpha_composite(scrim, (scrim_x, h - scrim.size[1]))
 
     draw = ImageDraw.Draw(canvas)
-    margin = int(w * 0.035)
+    margin = int(w * 0.035) if x0 is None else x0
     eyebrow_size = max(11, int(h * 0.032))
     name_size = max(24, int(h * 0.095))
     eyebrow_font = ImageFont.truetype(str(EYEBROW_FONT_PATH), eyebrow_size)
     name_font = ImageFont.truetype(str(NAME_FONT_PATH), name_size)
 
     lines = _wrap_name(draw, winery_name, name_font, max_width) if max_width else [winery_name]
+    while max_width and len(lines) > 2 and name_size > 30:  # a long name shrinks rather than running to a third line
+        name_size -= 4
+        name_font = ImageFont.truetype(str(NAME_FONT_PATH), name_size)
+        lines = _wrap_name(draw, winery_name, name_font, max_width)
     line_h = int(name_size * 1.15)
     name_y = h - int(h * 0.09) - int(name_size * 1.2) - line_h * (len(lines) - 1)  # last line sits where a one-line name always sat
     eyebrow_y = name_y - int(eyebrow_size * 1.7)
@@ -316,9 +328,10 @@ def place_cluster(canvas: Image.Image, bottles: list[Image.Image]):
 
 
 def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Path, scale: float = 1.0,
-                winery_name: str | None = None, eyebrow: str = "Featured Winery", cluster: bool = False):
+                winery_name: str | None = None, eyebrow: str = "Featured Winery", cluster: bool = False,
+                focus_y: float = 0.5, name_x_frac: float | None = None):
     bg = Image.open(background_path).convert("RGB")
-    bg = ImageOps.fit(bg, (CANVAS_W, CANVAS_H), method=Image.LANCZOS)
+    bg = ImageOps.fit(bg, (CANVAS_W, CANVAS_H), method=Image.LANCZOS, centering=(0.5, focus_y))
     canvas = bg.convert("RGBA")
 
     used, skipped = [], []
@@ -339,7 +352,9 @@ def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Pat
             raise RuntimeError(f"--cluster holds at most {CLUSTER_MAX} bottles; pass the pack's six showcase bottles")
         left = place_cluster(canvas, bottles)
         if winery_name:
-            add_winery_name(canvas, winery_name, eyebrow, max_width=left - 2 * int(CANVAS_W * 0.035))
+            name_x = int(CANVAS_W * name_x_frac) if name_x_frac is not None else None
+            add_winery_name(canvas, winery_name, eyebrow, x0=name_x,
+                            max_width=left - (name_x or int(CANVAS_W * 0.035)) - int(CANVAS_W * 0.035))
         output_path.parent.mkdir(parents=True, exist_ok=True)
         canvas.convert("RGB").save(output_path, "JPEG", quality=88)
         return used, skipped
@@ -386,6 +401,8 @@ def main():
     ap.add_argument("--winery-name", type=str, default=None, help="If set, adds the winery name (opposite corner from the bottles) with a legibility scrim behind it.")
     ap.add_argument("--eyebrow", type=str, default="Featured Winery", help="Small tracked label above the winery name.")
     ap.add_argument("--cluster", action="store_true", help="Tight two-row group of at most 6 bottles (front row plus a staggered back row) with the winery name wrapped to the left of it.")
+    ap.add_argument("--focus-y", type=float, default=0.5, help="Where to crop a background taller than 16:9: 0 keeps the top, 1 keeps the bottom.")
+    ap.add_argument("--name-x", type=float, default=None, help="With --cluster: left edge of the winery name as a fraction of the width (default: the left margin).")
     args = ap.parse_args()
 
     if not args.background.exists():
@@ -395,7 +412,7 @@ def main():
         sys.exit(f"Bottle image(s) not found: {', '.join(missing)}")
 
     used, skipped = build_hero(args.background, args.bottles, args.output, scale=args.scale,
-                                winery_name=args.winery_name, eyebrow=args.eyebrow, cluster=args.cluster)
+                                winery_name=args.winery_name, eyebrow=args.eyebrow, cluster=args.cluster, focus_y=args.focus_y, name_x_frac=args.name_x)
 
     print(f"\nWrote {args.output} ({CANVAS_W}x{CANVAS_H})")
     print(f"Background: {args.background}")
