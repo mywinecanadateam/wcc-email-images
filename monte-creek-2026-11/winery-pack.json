@@ -198,16 +198,44 @@
     "palate": "Diesel and citrus mingle over a base of acidity; stone fruit shows as the wine sits. Smooth and a little richer as it warms, with some depth.",
     "serving": "8–10 °C.",
     "window": "",
-    "pairings": {
-     "Starter": "Corn chowder. High acidity refreshes the cream.",
-     "Cheese": "Smoked applewood cheddar. The acidity cuts the fat and smoke.",
-     "Meat": "Roast chicken with lemon. A light, delicate dish matches the wine's light body.",
-     "Vegetarian": "Green salad with pear and soft cheese. The wine is as acidic as the dressing.",
-     "Dessert": "A not-too-sweet lemon tart. A dessert sweeter than the wine makes it taste thin, so keep the sugar low."
-    },
     "extra": "Grown on scuitto soil, deep glaciolacustrine silty loam over volcanic bedrock. The 2022 season was a slow burn, so acids stayed high into harvest. 346 cases were made.",
     "expert": "Valerie van der Gracht"
-   }
+   },
+   "profile": {
+    "body": "light",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 9.5,
+    "abv": 10.8,
+    "intensity": "medium"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Corn chowder with sweet corn and a little cream",
+     "why": "High acidity refreshes the cream."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young white cheddar on plain crackers",
+     "why": "The acidity cuts through the fat."
+    },
+    {
+     "kind": "meat",
+     "dish": "Roast chicken with lemon and thyme",
+     "why": "Lemon echoes the wine's acidity, and a light bird matches its light body."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Green salad with pear, soft goat cheese and a light vinaigrette",
+     "why": "The wine is as acidic as the dressing."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Salted almonds with thin slices of fresh green apple",
+     "why": "A sweet dessert would make the wine taste thin, so finish light and not sugary."
+    }
+   ]
   },
   {
    "key": "ll_cab_merlot_22",
@@ -274,16 +302,44 @@
     "palate": "Medium to full-bodied and dry, with juicy blackcurrant and plum carried on lively acidity to a firm finish of ripe tannins.",
     "serving": "16–18 °C.",
     "window": "Hold 1–2 years.",
-    "pairings": {
-     "Starter": "Cured meats and pâté. Fat softens the tannins.",
-     "Cheese": "Aged cheddar. Fat and protein soften the tannins and match the wine's intensity.",
-     "Meat": "Roast lamb or steak. Protein and fat tame the tannins; the dish is as full-bodied as the wine.",
-     "Vegetarian": "Grilled portobello with herbs. A meaty, savoury dish of similar weight; keep the salt low, as salt and umami make tannins feel harder.",
-     "Dessert": "Baked pear with walnuts. Low in sugar, so it doesn't flatten the fruit."
-    },
     "extra": "Wood-fired pizza and spaghetti and meatballs are the winery's own suggestions.",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "medium",
+    "tannin": "high",
+    "sweetness_gl": 0.2,
+    "abv": 14,
+    "intensity": "high"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Sea-salted olives and warm sourdough",
+     "why": "Salt softens the tannins."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Gouda cubes",
+     "why": "Fat and salt soften the tannins."
+    },
+    {
+     "kind": "meat",
+     "dish": "Roast chicken with butter and sea salt",
+     "why": "Salt and butter soften the tannins; a plain roast lets the fruit lead."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted carrots and parsnips with olive oil and sea salt",
+     "why": "Caramelised roots echo the ripe fruit, and salt softens the tannins."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted walnuts",
+     "why": "No sugar: a sweet dessert would make the tannins taste harder."
+    }
+   ]
   },
   {
    "key": "ll_cab_franc_23",
@@ -350,16 +406,44 @@
     "palate": "Bright black raspberry, pepper and purple plum, married with warm, toasty oak and baking spice (cedar, nutmeg, vanilla). Dark chocolate notes arrive on a long finish.",
     "serving": "16–18 °C.",
     "window": "Now, or hold 5–10 years.",
-    "pairings": {
-     "Starter": "Charcuterie board. Fat and salt-cured richness soften the tannins.",
-     "Cheese": "Gouda. Medium-firm and nutty, it matches the wine's ripe, oaky style.",
-     "Meat": "T-bone steak or roast beef. Protein and fat soften the tannins; both are full in flavour.",
-     "Vegetarian": "Roasted root vegetables. Sweet, caramelised flavours echo the ripe fruit.",
-     "Dessert": "Cheese with a few walnuts instead of a sweet dessert. Sugar would make the tannins taste harder."
-    },
     "extra": "Bottled July 2025. 1,300 cases were made.",
     "expert": "Leah Spooner"
-   }
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "medium",
+    "tannin": "high",
+    "sweetness_gl": 0.2,
+    "abv": 14.4,
+    "intensity": "high"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Salted pretzel bites with whole-grain mustard",
+     "why": "Salt softens the tannins."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Gruyère cubes",
+     "why": "A firm, nutty cheese with enough fat to soften the tannins."
+    },
+    {
+     "kind": "meat",
+     "dish": "Slow-roasted turkey with butter and herbs",
+     "why": "A plain roast lets the oak and fruit lead, and butter softens the tannins."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted root vegetables with rosemary and sea salt",
+     "why": "Caramelised flavours echo the ripe fruit."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Salted roasted pecans",
+     "why": "No sugar: a sweet dessert would make the tannins taste harder."
+    }
+   ]
   },
   {
    "key": "aw_pinot_noir_23",
@@ -409,16 +493,44 @@
     "palate": "Medium-bodied, dry and earthy, with black cherry. The winery notes medium-minus acidity, excellent mid-palate weight, a long finish and velvety tannins.",
     "serving": "14–16 °C.",
     "window": "Now through 2027.",
-    "pairings": {
-     "Starter": "Mushroom tart. Earthy flavours echo the wine's earthiness.",
-     "Cheese": "Brie. Mild and creamy, it won't overpower a medium-bodied red.",
-     "Meat": "Roast chicken with mushrooms, or duck breast. Medium-weight dishes match the wine's body.",
-     "Vegetarian": "Roasted beet and lentil salad. Earthy again, and light enough not to bury the fruit.",
-     "Dessert": "Poached pear. Gentle sweetness without overpowering the fruit."
-    },
     "extra": "111 cases were made.",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "medium",
+    "tannin": "medium",
+    "sweetness_gl": 0.5,
+    "abv": 13.8,
+    "intensity": "medium"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Mushroom tart",
+     "why": "Earthy flavours echo the wine's earthiness, and its tannins are moderate."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Brie with crusty bread",
+     "why": "Mild and creamy, it won't overpower a medium-bodied red."
+    },
+    {
+     "kind": "meat",
+     "dish": "Roast chicken thighs with mushrooms and thyme",
+     "why": "A medium-weight dish for a medium-bodied wine."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted beet salad with goat cheese and walnuts",
+     "why": "Earthy again, and light enough not to bury the fruit."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Toasted walnuts with a mild, nutty cheese",
+     "why": "No sugar: a sweet dessert would make the wine taste thin."
+    }
+   ]
   },
   {
    "key": "ll_foch_23",
@@ -470,16 +582,44 @@
     "palate": "Medium to full-bodied, dry and savoury, with herbal blackberry and a finish of dry tannins.",
     "serving": "16–18 °C.",
     "window": "Hold 1–2 years.",
-    "pairings": {
-     "Starter": "Charred eggplant with labneh. Smoky and rich, like the wine.",
-     "Cheese": "Aged, nutty cheese. Fat and protein soften the dry tannins.",
-     "Meat": "Lamb burgers. Rich, fatty and full-flavoured, as the winery suggests.",
-     "Vegetarian": "Lentil curry with mild spice. Savoury and earthy; keep the heat low, as chilli makes tannins taste harsher.",
-     "Dessert": "A little dark chocolate with nuts. Low sugar and bitter, like the wine's finish."
-    },
     "extra": "725 cases were made.",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "medium",
+    "tannin": "medium",
+    "sweetness_gl": 0.5,
+    "abv": 13,
+    "intensity": "high"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Charred eggplant with labneh and herbs",
+     "why": "Smoky and rich, like the wine."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Firm, nutty cheese",
+     "why": "Fat and protein soften the dry tannins."
+    },
+    {
+     "kind": "meat",
+     "dish": "Lamb burgers with mint and red onion",
+     "why": "Rich, fatty and full-flavoured, as the winery suggests."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Mild lentil curry",
+     "why": "Savoury and earthy; keep the heat low."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted hazelnuts with a few squares of firm cheese",
+     "why": "No sugar: a sweet dessert would make the wine taste thin."
+    }
+   ]
   },
   {
    "key": "ll_gamay_24",
@@ -522,16 +662,49 @@
     "palate": "Richly extracted black cherry flavour, firm tannic structure and good length.",
     "serving": "12–14 °C, lightly chilled.",
     "window": "Drink now.",
-    "pairings": {
-     "Starter": "A charcuterie plate. Fat and salt soften the firm tannins.",
-     "Cheese": "Mild cheddar. Medium weight, it doesn't overpower the fruit.",
-     "Meat": "Grilled sausages or ribs. Fat and char match a juicy, tannic red.",
-     "Vegetarian": "Roasted mushroom pizza. Savoury and medium in weight.",
-     "Dessert": "Black cherry clafoutis, lightly sweetened. Echoes the fruit."
-    },
     "extra": "",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "medium",
+    "tannin": "medium",
+    "sweetness_gl": 0.5,
+    "abv": 12.5,
+    "intensity": "medium",
+    "estimated": [
+     "abv",
+     "sweetness_gl",
+     "acidity"
+    ]
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "A charcuterie plate",
+     "why": "Fat and salt soften the firm tannins."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Mild cheddar",
+     "why": "Medium weight, so it does not overpower the fruit."
+    },
+    {
+     "kind": "meat",
+     "dish": "Grilled sausages with mustard",
+     "why": "Fat and char match a juicy, tannic red."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted mushroom and onion pizza",
+     "why": "Savoury and medium in weight; the tannins are moderate."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Toasted almonds with a few cubes of mild cheese",
+     "why": "No sugar: a sweet dessert would make the wine taste thin."
+    }
+   ]
   },
   {
    "key": "ll_hands_up_red_23",
@@ -574,16 +747,48 @@
     "palate": "Full-bodied and dry, with juicy black fruit carried on lively acidity to a firm finish.",
     "serving": "16–18 °C.",
     "window": "Hold for 1 year.",
-    "pairings": {
-     "Starter": "Smoked sausage bites. Fatty and savoury to soften the firm finish.",
-     "Cheese": "Aged cheddar. Fat and intensity match a full-bodied red.",
-     "Meat": "Barbecued red meat or a winter stew. Full flavour and fat tame the tannins.",
-     "Vegetarian": "Hearty bean chili, mild. Rich and filling; keep the heat modest.",
-     "Dessert": "Baked pear with walnuts. Low sugar so the fruit isn't flattened."
-    },
     "extra": "",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "high",
+    "tannin": "high",
+    "sweetness_gl": 1,
+    "abv": 13.5,
+    "intensity": "high",
+    "estimated": [
+     "abv",
+     "sweetness_gl"
+    ]
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Salted pretzel bites with grainy mustard",
+     "why": "Salt softens the tannins."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Gouda",
+     "why": "Fat and salt soften a firm finish."
+    },
+    {
+     "kind": "meat",
+     "dish": "Roast pork loin with sea salt and rosemary",
+     "why": "Fat and salt soften the tannins; the dish has enough weight for a full-bodied wine."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted cauliflower with olive oil and sea salt",
+     "why": "Salt softens the tannins and roasting adds weight."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Salted roasted walnuts",
+     "why": "No sugar: a sweet dessert would make the tannins taste harder."
+    }
+   ]
   },
   {
    "key": "ll_frontenac_gris_25",
@@ -651,16 +856,44 @@
     "palate": "The richness of oak leads, then lush, fresh fruit with citrus keeping it tight. Pineapple, mango and tangerine from the winery's notes. It gets more flavourful as it sits.",
     "serving": "8–10 °C. Beautiful straight from the fridge, richer after a few minutes.",
     "window": "",
-    "pairings": {
-     "Starter": "Scallop crudo. Delicate seafood matches a wine this fresh.",
-     "Cheese": "Fresh goat cheese. Its tang matches the wine's acidity.",
-     "Meat": "Dungeness crab, or a mildly spiced dish. A touch of sweetness and fruit in the wine calms the heat.",
-     "Vegetarian": "A mango and chickpea salad with lime. Fruity and acidic, like the wine.",
-     "Dessert": "Pineapple sorbet. Light sugar, close to the wine's own sweetness."
-    },
     "extra": "Few wineries grow Frontenac Gris, so this is a chance to try a new varietal. Bottled February 26, 2026. 545 cases were made.",
     "expert": "Valerie van der Gracht"
-   }
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 10.5,
+    "abv": 12.2,
+    "intensity": "medium"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Scallop crudo with lime and olive oil",
+     "why": "Delicate seafood matches a wine this fresh, and lime echoes its acidity."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Fresh goat cheese on crackers",
+     "why": "Its tang matches the wine's acidity."
+    },
+    {
+     "kind": "meat",
+     "dish": "Steamed Dungeness crab with butter and lemon",
+     "why": "The acidity cuts the butter; the crab is sweet and delicate like the wine."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Mango and chickpea salad with lime and mint",
+     "why": "Fruity and acidic, like the wine."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Fresh pineapple with a pinch of sea salt",
+     "why": "Light fruit with little sugar stays close to the wine's own sweetness."
+    }
+   ]
   },
   {
    "key": "ll_chardonnay_25",
@@ -718,16 +951,48 @@
     "palate": "Richly extracted apple and pear flavours with mouth-watering acidity. Well-integrated oak and a lovely mouth feel.",
     "serving": "8–10 °C.",
     "window": "Now through 2027.",
-    "pairings": {
-     "Starter": "Roasted squash soup. A creamy, medium-weight dish for a medium to full-bodied wine.",
-     "Cheese": "Brie. Creamy texture meets the wine's rounded body.",
-     "Meat": "Roast chicken or salmon in a cream sauce. The acidity cuts through the richness.",
-     "Vegetarian": "Creamy mushroom pasta. Rich but not heavy; the oak echoes the earthiness.",
-     "Dessert": "Baked apple with little sugar. Echoes the apple in the wine."
-    },
     "extra": "",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 13,
+    "intensity": "medium",
+    "estimated": [
+     "abv",
+     "sweetness_gl"
+    ]
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Roasted butternut squash soup with a swirl of cream",
+     "why": "A creamy dish for a rounded wine; the acidity keeps it fresh."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Brie",
+     "why": "Creamy texture meets the wine's rounded body."
+    },
+    {
+     "kind": "meat",
+     "dish": "Roast salmon with lemon butter",
+     "why": "The acidity cuts through the richness and the lemon echoes it."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Creamy leek and potato gratin",
+     "why": "Rich but not heavy; the wine's acidity lifts it."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Toasted salted hazelnuts",
+     "why": "No sugar: a sweet dessert would make the wine taste thin."
+    }
+   ]
   },
   {
    "key": "ll_sparkling_25",
@@ -777,16 +1042,44 @@
     "palate": "Floral, with peach and apple. Good length.",
     "serving": "6–8 °C.",
     "window": "Drink now.",
-    "pairings": {
-     "Starter": "Salted nuts or olives. Salt and bubbles are a classic pair.",
-     "Cheese": "Fresh, mild cheeses. Light and creamy, they don't weigh down the bubbles.",
-     "Meat": "Sushi or lightly fried seafood. The acidity and fizz cut through oil.",
-     "Vegetarian": "Spring rolls. Light, a little salty and fried: ideal with sparkling.",
-     "Dessert": "Fresh fruit. Light and not too sweet, so the wine keeps its freshness."
-    },
     "extra": "Bottled May 14, 2026. 1,110 cases were made.",
     "expert": "Tony Aspler"
-   }
+   },
+   "profile": {
+    "body": "light",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 8.2,
+    "abv": 12.7,
+    "intensity": "medium"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Salted almonds and green olives",
+     "why": "Salt and bubbles are a classic pair."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Fresh mozzarella with olive oil",
+     "why": "Light and creamy, so it does not weigh down the bubbles."
+    },
+    {
+     "kind": "meat",
+     "dish": "Sushi rolls with pickled ginger",
+     "why": "Acidity and bubbles cut through rice and fish."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Crispy vegetable tempura",
+     "why": "High acidity and fizz cut through fried food."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Fresh strawberries",
+     "why": "Light fruit with little sugar stays near the wine's own sweetness."
+    }
+   ]
   },
   {
    "key": "aw_rose_25",
@@ -839,16 +1132,44 @@
     "palate": "Fresh cranberry, juicy raspberry and sweet cherry. Fresh and silky, with a smooth finish.",
     "serving": "8–10 °C.",
     "window": "",
-    "pairings": {
-     "Starter": "Spiced olives. Salt and gentle spice suit the wine's freshness.",
-     "Cheese": "Double cream brie. Creamy richness balanced by the wine's acidity.",
-     "Meat": "Barbecued sockeye salmon. A richer fish that stands up to the wine's firm body.",
-     "Vegetarian": "A light summer salad with a tangy dressing. The wine matches its acidity.",
-     "Dessert": "Fresh strawberries. Close to the wine's fruit, with little added sugar."
-    },
     "extra": "202 cases were made.",
     "expert": "Valerie van der Gracht"
-   }
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 5,
+    "abv": 12.5,
+    "intensity": "medium"
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Spiced olives with orange zest",
+     "why": "Salt and gentle spice suit the wine's freshness."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Double cream brie",
+     "why": "Creamy richness balanced by the wine's acidity."
+    },
+    {
+     "kind": "meat",
+     "dish": "Pan-seared sockeye salmon with lemon and dill",
+     "why": "A richer fish that stands up to the wine's firm body; lemon echoes its acidity."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Tomato, cucumber and feta salad with a light vinaigrette",
+     "why": "Acidic food needs a high-acid wine, and this is one."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Marcona almonds with a few slices of firm cheese",
+     "why": "No sugar: a sweet dessert would make the wine taste thin."
+    }
+   ]
   },
   {
    "key": "gruner_veltliner",
@@ -889,7 +1210,7 @@
   "Winery images: only winery building, winemaker in the barrel room and a hand holding grapes were pulled; larger Drive originals (5-6 MB) were not needed.",
   "12-Bottle Mixed follows the sheet's structure (3 reds x2, 4 whites, 1 Rosé, 1 Sparkling) with Grüner Veltliner as the fourth white, per the winery's Oct 1 email. Grüner has no vintage, notes, score, awards or photo (placeholder image).",
   "Awards on the lineup sheet are used as given and are to be verified by the creative director (Chardonnay: ACWC 2025 gold on a 2025 wine is suspect).",
-  "Pairings are drafted from the experts' suggestions using WSET food and wine principles (weight, acidity, sweetness, tannin, salt, umami, fat); Adriana to review."
+  "Pairings follow the WSET pocket guide and pass check-pairings.py. Chardonnay, Gamay and Hands Up Red have no abv or sugar on any spec sheet: their profiles use estimates (listed in `profile.estimated`)."
  ],
  "page_slots": [
   "aw_riesling_22",
