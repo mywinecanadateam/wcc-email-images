@@ -66,7 +66,7 @@
   }
  ],
  "lineup_source": "Drive lineup sheet 3.Winery LineUp_MonteCreekWinery.xlsx (modified 2026-10-02), the winery's approved list",
- "lineup_size": 11,
+ "lineup_size": 12,
  "packs": {
   "2-bottle-mixed": [
    "aw_riesling_22",
@@ -114,6 +114,20 @@
    "ll_gamay_24",
    "ll_foch_23",
    "ll_hands_up_red_23"
+  ],
+  "12-bottle-mixed": [
+   "aw_pinot_noir_23",
+   "aw_pinot_noir_23",
+   "ll_cab_franc_23",
+   "ll_cab_franc_23",
+   "ll_cab_merlot_22",
+   "ll_cab_merlot_22",
+   "aw_riesling_22",
+   "ll_frontenac_gris_25",
+   "ll_chardonnay_25",
+   "gruner_veltliner",
+   "aw_rose_25",
+   "ll_sparkling_25"
   ]
  },
  "wines": [
@@ -170,7 +184,30 @@
    "pairing": "Leah: lemon tarts, roasted chicken, smoked applewood cheddar. Valerie: charcuterie and soft cheeses. Tony: smoked salmon.",
    "mwc": "catalogue",
    "role": "Jesse's most underestimated wine; the one wine the winery says is close to stocking out at 1,600 members",
-   "page_expert": "Valerie van der Gracht"
+   "page_expert": "Valerie van der Gracht",
+   "page_note": {
+    "gi": "Thompson Valley VQA",
+    "vineyard": "Monte Creek Ranch and Lion's Head Vineyard",
+    "varietal": "100% Riesling",
+    "abv": "10.8%",
+    "rs": "9.5 g/L",
+    "style": "A traditional, flavourful, low-alcohol Riesling: fresh, smooth and acidity-driven, with some depth. Winemaker Jesse Steinley calls it the most underestimated wine in the lineup, a reminder that Riesling is not always sweet.",
+    "score_line": "92. Four months in stainless steel. Riesling benefits from a little air, so let it lose its chill for a few minutes.",
+    "appearance": "A pale, clear gold in the glass.",
+    "nose": "Diesel comes first, then tangy citrus, white grapefruit and a touch of kiwi, finishing with light brioche.",
+    "palate": "Diesel and citrus mingle over a base of acidity; stone fruit shows as the wine sits. Smooth and a little richer as it warms, with some depth.",
+    "serving": "8–10 °C.",
+    "window": "",
+    "pairings": {
+     "Starter": "Corn chowder. High acidity refreshes the cream.",
+     "Cheese": "Smoked applewood cheddar. The acidity cuts the fat and smoke.",
+     "Meat": "Roast chicken with lemon. A light, delicate dish matches the wine's light body.",
+     "Vegetarian": "Green salad with pear and soft cheese. The wine is as acidic as the dressing.",
+     "Dessert": "A not-too-sweet lemon tart. A dessert sweeter than the wine makes it taste thin, so keep the sugar low."
+    },
+    "extra": "Grown on scuitto soil, deep glaciolacustrine silty loam over volcanic bedrock. The 2022 season was a slow burn, so acids stayed high into harvest. 346 cases were made.",
+    "expert": "Valerie van der Gracht"
+   }
   },
   {
    "key": "ll_cab_merlot_22",
@@ -224,7 +261,29 @@
    ],
    "pairing": "Red meats, wood-fire pizza, spaghetti and meatballs (winery). Leah: grilled steak, hamburgers.",
    "mwc": "catalogue",
-   "page_expert": "Tony Aspler"
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "vineyard": "Monte Creek, Keremeos and Nettle Rd (Oliver)",
+    "varietal": "Merlot and Cabernet Franc",
+    "abv": "14%",
+    "rs": "0.2 g/L",
+    "style": "A medium to full-bodied, dry red: juicy blackcurrant and plum on lively acidity, finishing on ripe, firm tannins.",
+    "score_line": "90. 24–36 months in French oak. Awards: Gold, 92 points, National Wine Awards of Canada 2025 (lineup sheet).",
+    "appearance": "Deep ruby.",
+    "nose": "Cedary, with blackcurrant and baking spice.",
+    "palate": "Medium to full-bodied and dry, with juicy blackcurrant and plum carried on lively acidity to a firm finish of ripe tannins.",
+    "serving": "16–18 °C.",
+    "window": "Hold 1–2 years.",
+    "pairings": {
+     "Starter": "Cured meats and pâté. Fat softens the tannins.",
+     "Cheese": "Aged cheddar. Fat and protein soften the tannins and match the wine's intensity.",
+     "Meat": "Roast lamb or steak. Protein and fat tame the tannins; the dish is as full-bodied as the wine.",
+     "Vegetarian": "Grilled portobello with herbs. A meaty, savoury dish of similar weight; keep the salt low, as salt and umami make tannins feel harder.",
+     "Dessert": "Baked pear with walnuts. Low in sugar, so it doesn't flatten the fruit."
+    },
+    "extra": "Wood-fired pizza and spaghetti and meatballs are the winery's own suggestions.",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "ll_cab_franc_23",
@@ -278,7 +337,29 @@
    ],
    "pairing": "Grilled vegetables and herb-rubbed halloumi or roasted poultry (winery). Leah: T-bone steak, roast turkey.",
    "mwc": "catalogue",
-   "page_expert": "Leah Spooner"
+   "page_expert": "Leah Spooner",
+   "page_note": {
+    "vineyard": "Nettle Rd (Oliver) and Bordertown (Osoyoos)",
+    "varietal": "88% Cabernet Franc, 12% Merlot",
+    "abv": "14.4%",
+    "rs": "0.2 g/L",
+    "style": "Full-bodied and well balanced, with concentrated fruit and good oak integration. The tannins are ripe, granular and sand-like.",
+    "score_line": "93. 15 months in French oak. Awards: Silver, 93 points, IWSC 2026 (lineup sheet). Excellent quality. Delicious Cab Franc! Leah says it would still reward further ageing, 5–10 years.",
+    "appearance": "Purple/red.",
+    "nose": "Intensely perfumed with violets, black caps, cherry, vanilla and nutmeg.",
+    "palate": "Bright black raspberry, pepper and purple plum, married with warm, toasty oak and baking spice (cedar, nutmeg, vanilla). Dark chocolate notes arrive on a long finish.",
+    "serving": "16–18 °C.",
+    "window": "Now, or hold 5–10 years.",
+    "pairings": {
+     "Starter": "Charcuterie board. Fat and salt-cured richness soften the tannins.",
+     "Cheese": "Gouda. Medium-firm and nutty, it matches the wine's ripe, oaky style.",
+     "Meat": "T-bone steak or roast beef. Protein and fat soften the tannins; both are full in flavour.",
+     "Vegetarian": "Roasted root vegetables. Sweet, caramelised flavours echo the ripe fruit.",
+     "Dessert": "Cheese with a few walnuts instead of a sweet dessert. Sugar would make the tannins taste harder."
+    },
+    "extra": "Bottled July 2025. 1,300 cases were made.",
+    "expert": "Leah Spooner"
+   }
   },
   {
    "key": "aw_pinot_noir_23",
@@ -315,7 +396,29 @@
    ],
    "pairing": "Roast chicken with mushrooms, cheese-based dishes, BBQ salmon (winery).",
    "mwc": "catalogue",
-   "page_expert": "Tony Aspler"
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "vineyard": "Keremeos",
+    "varietal": "100% Pinot Noir",
+    "abv": "13.8%",
+    "rs": "0.5 g/L",
+    "style": "Medium-bodied, dry and earthy, with black cherry flavour and a tannic structure. Best served slightly chilled.",
+    "score_line": "88. 18 months in French oak barriques. Can be opened now and served through 2027.",
+    "appearance": "Ruby.",
+    "nose": "A lifted, slightly volatile nose of black raspberry with oak spice. The winery describes dark cherry, raspberry, black tea, leather and rose petal.",
+    "palate": "Medium-bodied, dry and earthy, with black cherry. The winery notes medium-minus acidity, excellent mid-palate weight, a long finish and velvety tannins.",
+    "serving": "14–16 °C.",
+    "window": "Now through 2027.",
+    "pairings": {
+     "Starter": "Mushroom tart. Earthy flavours echo the wine's earthiness.",
+     "Cheese": "Brie. Mild and creamy, it won't overpower a medium-bodied red.",
+     "Meat": "Roast chicken with mushrooms, or duck breast. Medium-weight dishes match the wine's body.",
+     "Vegetarian": "Roasted beet and lentil salad. Earthy again, and light enough not to bury the fruit.",
+     "Dessert": "Poached pear. Gentle sweetness without overpowering the fruit."
+    },
+    "extra": "111 cases were made.",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "ll_foch_23",
@@ -352,8 +455,31 @@
    ],
    "pairing": "Lamb burgers, charred eggplant with labneh, lentil curry (winery).",
    "mwc": "catalogue",
-   "flag": "Scored 87 by the only expert who tasted it: under the 88-point showcase rule",
-   "page_expert": "Tony Aspler"
+   "flag": "Scored 87: kept as in the lineup (Adriana, Oct 6)",
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "gi": "Thompson Valley BC VQA",
+    "vineyard": "Monte Creek",
+    "varietal": "100% Foch",
+    "abv": "13%",
+    "rs": "0.5 g/L (dry)",
+    "style": "Medium to full-bodied, dry and savoury, with an herbal blackberry flavour finishing on dry tannins. Earthy and mushroom-like on the winery's palate, with red berries and plums.",
+    "score_line": "87. Hold 1–2 years to allow the tannins to soften. 32% aged nine months in French oak; 68% four months in foudres, then five months in barrel.",
+    "appearance": "Deep purple-ruby.",
+    "nose": "Toasty blackberry with a smoky note.",
+    "palate": "Medium to full-bodied, dry and savoury, with herbal blackberry and a finish of dry tannins.",
+    "serving": "16–18 °C.",
+    "window": "Hold 1–2 years.",
+    "pairings": {
+     "Starter": "Charred eggplant with labneh. Smoky and rich, like the wine.",
+     "Cheese": "Aged, nutty cheese. Fat and protein soften the dry tannins.",
+     "Meat": "Lamb burgers. Rich, fatty and full-flavoured, as the winery suggests.",
+     "Vegetarian": "Lentil curry with mild spice. Savoury and earthy; keep the heat low, as chilli makes tannins taste harsher.",
+     "Dessert": "A little dark chocolate with nuts. Low sugar and bitter, like the wine's finish."
+    },
+    "extra": "725 cases were made.",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "ll_gamay_24",
@@ -386,7 +512,26 @@
    "pairing": "",
    "mwc": "catalogue",
    "flag": "Lineup status is Suggested; spec sheet blank",
-   "page_expert": "Tony Aspler"
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "varietal": "Gamay Noir",
+    "style": "Medium-bodied and dry, with richly extracted black cherry and a firm tannic structure. Chillable. Organic.",
+    "score_line": "89. Drink now.",
+    "appearance": "Ruby.",
+    "nose": "Cherry pit.",
+    "palate": "Richly extracted black cherry flavour, firm tannic structure and good length.",
+    "serving": "12–14 °C, lightly chilled.",
+    "window": "Drink now.",
+    "pairings": {
+     "Starter": "A charcuterie plate. Fat and salt soften the firm tannins.",
+     "Cheese": "Mild cheddar. Medium weight, it doesn't overpower the fruit.",
+     "Meat": "Grilled sausages or ribs. Fat and char match a juicy, tannic red.",
+     "Vegetarian": "Roasted mushroom pizza. Savoury and medium in weight.",
+     "Dessert": "Black cherry clafoutis, lightly sweetened. Echoes the fruit."
+    },
+    "extra": "",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "ll_hands_up_red_23",
@@ -419,7 +564,26 @@
    "pairing": "",
    "mwc": "catalogue",
    "flag": "No winery spec sheet; named Hands Up Red on the sheet, Living Land line not confirmed",
-   "page_expert": "Tony Aspler"
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "varietal": "Frontenac Noir, Merlot and Cabernet Franc",
+    "style": "Full-bodied and dry, with juicy black fruit carried on lively acidity to a firm finish.",
+    "score_line": "88. Hold for 1 year to allow the tannins to meld.",
+    "appearance": "Deep ruby-purple.",
+    "nose": "Spicy, with blackberry and vanilla.",
+    "palate": "Full-bodied and dry, with juicy black fruit carried on lively acidity to a firm finish.",
+    "serving": "16–18 °C.",
+    "window": "Hold for 1 year.",
+    "pairings": {
+     "Starter": "Smoked sausage bites. Fatty and savoury to soften the firm finish.",
+     "Cheese": "Aged cheddar. Fat and intensity match a full-bodied red.",
+     "Meat": "Barbecued red meat or a winter stew. Full flavour and fat tame the tannins.",
+     "Vegetarian": "Hearty bean chili, mild. Rich and filling; keep the heat modest.",
+     "Dessert": "Baked pear with walnuts. Low sugar so the fruit isn't flattened."
+    },
+    "extra": "",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "ll_frontenac_gris_25",
@@ -473,7 +637,30 @@
    "pairing": "General spicy dishes (winery). Valerie: scallop crudo, Dungeness crab.",
    "mwc": "catalogue",
    "role": "Jesse's first-bottle pick",
-   "page_expert": "Valerie van der Gracht"
+   "page_expert": "Valerie van der Gracht",
+   "page_note": {
+    "gi": "Thompson Valley",
+    "vineyard": "Lion's Head and Monte Creek",
+    "varietal": "100% Frontenac Gris",
+    "abv": "12.2%",
+    "rs": "10.5 g/L",
+    "style": "Lush but never heavy, and never too crisp: a refreshing, focused wine with acidity that never quits. Best-selling wine in the winery's tasting room, and winemaker Jesse Steinley's pick if you open only one bottle.",
+    "score_line": "92. Four months in stainless steel. Awards: 89 points, Gismondi on Wine (lineup sheet).",
+    "appearance": "A light yellow with a very slight green tinge, clear as crystal.",
+    "nose": "Floral, with fresh pear, underlying citrus and honey notes. A faint essence of freshly chopped parsley and the tiniest hint of oak. The winery adds gooseberry and candied citrus.",
+    "palate": "The richness of oak leads, then lush, fresh fruit with citrus keeping it tight. Pineapple, mango and tangerine from the winery's notes. It gets more flavourful as it sits.",
+    "serving": "8–10 °C. Beautiful straight from the fridge, richer after a few minutes.",
+    "window": "",
+    "pairings": {
+     "Starter": "Scallop crudo. Delicate seafood matches a wine this fresh.",
+     "Cheese": "Fresh goat cheese. Its tang matches the wine's acidity.",
+     "Meat": "Dungeness crab, or a mildly spiced dish. A touch of sweetness and fruit in the wine calms the heat.",
+     "Vegetarian": "A mango and chickpea salad with lime. Fruity and acidic, like the wine.",
+     "Dessert": "Pineapple sorbet. Light sugar, close to the wine's own sweetness."
+    },
+    "extra": "Few wineries grow Frontenac Gris, so this is a chance to try a new varietal. Bottled February 26, 2026. 545 cases were made.",
+    "expert": "Valerie van der Gracht"
+   }
   },
   {
    "key": "ll_chardonnay_25",
@@ -494,10 +681,10 @@
    "score_by": "Tony Aspler",
    "awards": [
     {
-     "award": "Gold, ACWC 2025",
-     "body": "",
+     "award": "Gold",
+     "body": "All Canadian Wine Championship",
      "year": "2025",
-     "source": "lineup sheet; UNVERIFIED and the vintage cannot have won in 2025: do not use"
+     "source": "lineup sheet; to verify with the creative director"
     }
    ],
    "oak": [],
@@ -520,8 +707,27 @@
    ],
    "pairing": "",
    "mwc": "catalogue",
-   "flag": "Winery website lists the 2024 vintage; sheet lists 2025 (Elvis, Oct 3). Winery email Oct 1 confirms 2025.",
-   "page_expert": "Tony Aspler"
+   "flag": "Winery website lists 2024 vintage; sheet and winery's Oct 1 email say 2025",
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "varietal": "Chardonnay",
+    "style": "Medium to full-bodied and dry, richly extracted, with mouth-watering acidity and well-integrated oak.",
+    "score_line": "89. Drink now and through 2027. Awards: Gold, All Canadian Wine Championship 2025 (lineup sheet).",
+    "appearance": "Pale straw.",
+    "nose": "Green apple.",
+    "palate": "Richly extracted apple and pear flavours with mouth-watering acidity. Well-integrated oak and a lovely mouth feel.",
+    "serving": "8–10 °C.",
+    "window": "Now through 2027.",
+    "pairings": {
+     "Starter": "Roasted squash soup. A creamy, medium-weight dish for a medium to full-bodied wine.",
+     "Cheese": "Brie. Creamy texture meets the wine's rounded body.",
+     "Meat": "Roast chicken or salmon in a cream sauce. The acidity cuts through the richness.",
+     "Vegetarian": "Creamy mushroom pasta. Rich but not heavy; the oak echoes the earthiness.",
+     "Dessert": "Baked apple with little sugar. Echoes the apple in the wine."
+    },
+    "extra": "",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "ll_sparkling_25",
@@ -558,7 +764,29 @@
    ],
    "pairing": "Light small bites, aperitif (winery).",
    "mwc": "catalogue",
-   "page_expert": "Tony Aspler"
+   "page_expert": "Tony Aspler",
+   "page_note": {
+    "varietal": "100% La Crescent",
+    "vineyard": "Monte Creek Ranch and Lion's Head",
+    "abv": "12.7%",
+    "rs": "8.2 g/L",
+    "style": "A fresh, ready-to-drink sparkling wine made in the tank (Charmat) method. Light to medium-bodied and just off-dry, with a gentle mousse. An aperitif or patio party starter.",
+    "score_line": "89. Drink now. First fermentation four months in stainless steel, then two months in Charmat tanks.",
+    "appearance": "Pale straw with a gentle mousse.",
+    "nose": "Smoky, with citrus zest. The winery adds peach, pineapple and green apple.",
+    "palate": "Floral, with peach and apple. Good length.",
+    "serving": "6–8 °C.",
+    "window": "Drink now.",
+    "pairings": {
+     "Starter": "Salted nuts or olives. Salt and bubbles are a classic pair.",
+     "Cheese": "Fresh, mild cheeses. Light and creamy, they don't weigh down the bubbles.",
+     "Meat": "Sushi or lightly fried seafood. The acidity and fizz cut through oil.",
+     "Vegetarian": "Spring rolls. Light, a little salty and fried: ideal with sparkling.",
+     "Dessert": "Fresh fruit. Light and not too sweet, so the wine keeps its freshness."
+    },
+    "extra": "Bottled May 14, 2026. 1,110 cases were made.",
+    "expert": "Tony Aspler"
+   }
   },
   {
    "key": "aw_rose_25",
@@ -597,7 +825,48 @@
    ],
    "pairing": "Light summer salad, light seafood, tangy cheeses (winery).",
    "mwc": "catalogue",
-   "page_expert": "Valerie van der Gracht"
+   "page_expert": "Valerie van der Gracht",
+   "page_note": {
+    "gi": "Similkameen Valley",
+    "vineyard": "Keremeos",
+    "varietal": "100% Pinot Noir",
+    "abv": "12.5%",
+    "rs": "5 g/L",
+    "style": "Not your aunt's Rosé: bright, vibrant and serious, with a firm body that hits close to medium without any heaviness. Fresh cranberry gives it its backbone. Half of the Pinot Noir is saignée: the juice sits on the skins for 24 hours before some is bled off for fermentation.",
+    "score_line": "92. Decanting is not necessary. Don't drink it too cold: let it sit a little for richer flavour.",
+    "appearance": "Crystal rose gold, somewhere between pale and shimmering. Like a jewel.",
+    "nose": "Subtle wild strawberry with light florals and a hint of candy and almond. The winery adds ripe cherry and honeysuckle.",
+    "palate": "Fresh cranberry, juicy raspberry and sweet cherry. Fresh and silky, with a smooth finish.",
+    "serving": "8–10 °C.",
+    "window": "",
+    "pairings": {
+     "Starter": "Spiced olives. Salt and gentle spice suit the wine's freshness.",
+     "Cheese": "Double cream brie. Creamy richness balanced by the wine's acidity.",
+     "Meat": "Barbecued sockeye salmon. A richer fish that stands up to the wine's firm body.",
+     "Vegetarian": "A light summer salad with a tangy dressing. The wine matches its acidity.",
+     "Dessert": "Fresh strawberries. Close to the wine's fruit, with little added sugar."
+    },
+    "extra": "202 cases were made.",
+    "expert": "Valerie van der Gracht"
+   }
+  },
+  {
+   "key": "gruner_veltliner",
+   "name": "Grüner Veltliner",
+   "vintage": "",
+   "line": "",
+   "image": "bottle-shots/placeholder-gruner-veltliner.png",
+   "specs": {},
+   "score": null,
+   "score_by": "",
+   "awards": [],
+   "oak": [],
+   "winery_words": "Proposed by the winery on Oct 1 as the replacement for the second Ancient Waters Riesling in the 12-Bottle Mixed; about 9 bottles available.",
+   "expert_notes": [],
+   "pairing": "",
+   "mwc": "catalogue",
+   "placeholder": true,
+   "flag": "No vintage, notes, score, awards or photo yet; image is a placeholder"
   }
  ],
  "images": {
@@ -613,13 +882,27 @@
   "only one bottle"
  ],
  "gaps": [
-  "12-Bottle Mixed not built: the sheet's 12-pack list repeats the 2023 Cabernet Franc and carries stray values, and Karen (Oct 1) proposed swapping the second Riesling for the Grüner Veltliner, which has no cutout or notes. Needs Adriana/Alberto.",
-  "2025 LL Chardonnay Organic: award on the sheet (Gold ACWC 2025) is unverified and cannot belong to a 2025 vintage; the winery website lists 2024. Not used.",
   "Prices differ between the sheet and the winery site for Rosé and Frontenac Gris (Elvis, Oct 3). No prices are used in the emails.",
-  "2023 LL Foch is scored 87 (below the 88-point showcase rule).",
   "Award lines for Cabernet Merlot (Gold 92, NWAC 2025) and Cabernet Franc (Silver 93, IWSC 2026) come from the sheet and are not independently verified.",
   "Spec sheets missing GI/vineyard for several wines; Gamay and Hands Up Red have no spec sheet.",
   "Spec sheet for the 2022 Cabernet Merlot lists 66% Merlot and 43% Cabernet Franc (109%); blend percentages not quoted.",
-  "Winery images: only winery building, winemaker in the barrel room and a hand holding grapes were pulled; larger Drive originals (5-6 MB) were not needed."
- ]
+  "Winery images: only winery building, winemaker in the barrel room and a hand holding grapes were pulled; larger Drive originals (5-6 MB) were not needed.",
+  "12-Bottle Mixed follows the sheet's structure (3 reds x2, 4 whites, 1 Rosé, 1 Sparkling) with Grüner Veltliner as the fourth white, per the winery's Oct 1 email. Grüner has no vintage, notes, score, awards or photo (placeholder image).",
+  "Awards on the lineup sheet are used as given and are to be verified by the creative director (Chardonnay: ACWC 2025 gold on a 2025 wine is suspect).",
+  "Pairings are drafted from the experts' suggestions using WSET food and wine principles (weight, acidity, sweetness, tannin, salt, umami, fat); Adriana to review."
+ ],
+ "page_slots": [
+  "aw_riesling_22",
+  "ll_cab_merlot_22",
+  "ll_cab_franc_23",
+  "aw_pinot_noir_23",
+  "ll_frontenac_gris_25",
+  "ll_chardonnay_25",
+  "ll_sparkling_25",
+  "aw_rose_25",
+  "ll_gamay_24",
+  "ll_foch_23",
+  "ll_hands_up_red_23"
+ ],
+ "mwc_catalogue_url": "https://mywinecanada.com/collections/monte-creek-winery"
 }
