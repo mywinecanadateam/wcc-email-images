@@ -1,0 +1,456 @@
+{
+ "winery": "Palatine Hills Estate Winery",
+ "slug": "palatine-hills-2026-10",
+ "month": "2026-10",
+ "province": "Ontario",
+ "region": "Niagara-on-the-Lake",
+ "interview": "full",
+ "people": {
+  "winemaker": "Vadim Chelekhov",
+  "role": "Head Winemaker",
+  "quotes": [
+   {
+    "text": "Our Overtime Merlot 2021 stands out as one of the best wines we've made!",
+    "source": "interview"
+   },
+   {
+    "text": "Our 2023 Overtime Chardonnay for sure!",
+    "source": "interview, on the wine most likely to be underestimated"
+   },
+   {
+    "text": "Thank you for supporting a family owned and operated winery from our own backyard here in Canada!",
+    "source": "interview"
+   }
+  ]
+ },
+ "facts": [
+  {
+   "fact": "Founded 2003 as a winery, 1972 as grape growers",
+   "source": "interview"
+  },
+  {
+   "fact": "Family owned and operated",
+   "source": "interview"
+  },
+  {
+   "fact": "Head Winemaker Vadim Chelekhov started as an amateur winemaker at 14; winemaking became his profession in 2011",
+   "source": "interview"
+  },
+  {
+   "fact": "Estimated production 12,000 to 16,000 cases",
+   "source": "interview"
+  },
+  {
+   "fact": "Niagara-on-the-Lake, Ontario (911 Lakeshore Road)",
+   "source": "interview, sheet"
+  },
+  {
+   "fact": "Grapes come from Neufeld Farm (vineyard name on every tasting note); an owning family name is not stated in any source",
+   "source": "tasting notes"
+  },
+  {
+   "fact": "'Wine is the fruit of labour' is printed on the Overtime labels",
+   "source": "bottle photographs"
+  },
+  {
+   "fact": "Vadim says Niagara reds can rival those from the world's biggest regions; the portfolio is broad with many easy, approachable, great-value wines",
+   "source": "interview"
+  }
+ ],
+ "lineup_source": "Drive 2026.10 - Palatine Hills / 3.Winery LineUp_PalatineHills.xlsx, tab 'Revised Lineup'",
+ "lineup_size": 13,
+ "packs": {
+  "2-bottle-mixed": [
+   "sauvignon_blanc",
+   "cabernet_sauvignon_21"
+  ],
+  "2-bottle-white": [
+   "sauvignon_blanc",
+   "chardonnay_23"
+  ],
+  "2-bottle-red": [
+   "merlot_20",
+   "reserve_merlot_20"
+  ],
+  "2-bottle-rose-sparkling": [
+   "savage_brut",
+   "overtime_brut"
+  ],
+  "3-bottle-mixed": [
+   "pinot_grigio_25",
+   "merlot_21",
+   "cabernet_sauvignon_21"
+  ],
+  "3-bottle-white": [
+   "viognier_24",
+   "sauvignon_blanc",
+   "chardonnay_23"
+  ],
+  "3-bottle-red": [
+   "merlot_20",
+   "cabernet_sauvignon_21",
+   "meritage_21"
+  ],
+  "6-bottle-mixed": [
+   "pinot_grigio_25",
+   "viognier_24",
+   "chardonnay_23",
+   "lakeshore_merlot_24",
+   "meritage_21",
+   "merlot_21"
+  ],
+  "6-bottle-red": [
+   "lakeshore_merlot_24",
+   "cabernet_sauvignon_21",
+   "reserve_cabernet_sauvignon_20",
+   "merlot_20",
+   "reserve_merlot_20",
+   "meritage_21"
+  ],
+  "12-bottle-mixed": [
+   "pinot_grigio_25",
+   "viognier_24",
+   "sauvignon_blanc",
+   "chardonnay_23",
+   "lakeshore_merlot_24",
+   "reserve_cabernet_sauvignon_20",
+   "cabernet_sauvignon_21",
+   "merlot_20",
+   "merlot_21",
+   "meritage_21",
+   "savage_brut",
+   "overtime_brut"
+  ]
+ },
+ "wines": [
+  {
+   "key": "sauvignon_blanc",
+   "name": "Overtime Sauvignon Blanc",
+   "vintage": "2024",
+   "score": 88,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "sixteen months in older French oak",
+     "source": "sheet"
+    }
+   ],
+   "winery_words": "Sixteen months in older French oak gives another dimension without losing freshness. Grapefruit, gooseberry, apple and tropical fruit meet subtle creaminess (Revised Lineup sheet).",
+   "expert_notes": "Dry, medium-bodied, herbal and grassy, gooseberry nose, green plum, firm lightly bitter finish. Drink now. (Aspler 88)"
+  },
+  {
+   "key": "chardonnay_23",
+   "name": "Overtime Chardonnay",
+   "vintage": "2023",
+   "score": 88,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "two years in older French oak",
+     "source": "sheet"
+    }
+   ],
+   "winery_words": "Two years in older French oak builds richness without letting oak take over. Ripe peach, pear, mango, buttery pastry (sheet). Vadim: silky smooth buttery texture, clean crisp mineral finish, tropical fruit, poached pear, fresh brioche, light honey (interview).",
+   "expert_notes": "Full-bodied, dry, viscous, toasty apple, buttery note, touch of bitterness. Drink now and through 2027. (Aspler 88)"
+  },
+  {
+   "key": "viognier_24",
+   "name": "Lakeshore Viognier",
+   "vintage": "2024",
+   "score": 89,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Gold",
+     "body": "National Wine Awards of Canada",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "All Canadian Wine Championship",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    }
+   ],
+   "oak": [],
+   "winery_words": "Wonderfully aromatic without needing sweetness. Stone fruit and lavender, soft rounded palate, fresh acidity (sheet).",
+   "expert_notes": "Aromatic, medium-to-full-bodied, honeysuckle and peach, floral, peach and muskmelon. Drink now. (Aspler 89)"
+  },
+  {
+   "key": "pinot_grigio_25",
+   "name": "Lakeshore Pinot Grigio",
+   "vintage": "2025",
+   "score": 89,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Gold",
+     "body": "All Canadian Wine Championship",
+     "year": "2026"
+    }
+   ],
+   "oak": [],
+   "winery_words": "Uncomplicated in the best way. Crisp citrus, apple, green melon, subtle tropical lift; refreshing, approachable, easy to reach for (sheet).",
+   "expert_notes": "Easy-drinking, medium-bodied, spicy peach, floral, peach-melon. Drink now. (Aspler 89, Spooner 88)"
+  },
+  {
+   "key": "lakeshore_merlot_24",
+   "name": "Lakeshore Merlot",
+   "vintage": "2024",
+   "score": 91,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Double Gold",
+     "body": "All Canadian Wine Championship",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "vanilla oak",
+     "source": "Tony Aspler notes"
+    }
+   ],
+   "winery_words": "Doesn't demand a special occasion. Juicy raspberry, dark cherry, blueberry, warm spice, soft texture, savoury edge (sheet).",
+   "expert_notes": "Juicy, medium-to-full-bodied, spicy plum and currant, vanilla oak. Drink now or hold 1 to 2 years. (Aspler 91)"
+  },
+  {
+   "key": "merlot_20",
+   "name": "Overtime Merlot",
+   "vintage": "2020",
+   "score": 90,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "wrapped in French oak (no duration stated)",
+     "source": "sheet"
+    }
+   ],
+   "winery_words": "Captures everything that made the outstanding 2020 Ontario vintage so memorable. Ripe plum, blackberry, raspberry, dark chocolate wrapped in French oak; bold yet balanced; rewarding now or cellared (sheet).",
+   "expert_notes": "Full-bodied, dry, plum and blackcurrant, cedary oak spice, bitter-chocolate finish. Opens now, rewards 1 to 2 years. Drinking window to about 2028. (Aspler 90)"
+  },
+  {
+   "key": "merlot_21",
+   "name": "Overtime Merlot",
+   "vintage": "2021",
+   "score": 91,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Gold",
+     "body": "All Canadian Wine Championship",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "National Wine Awards of Canada",
+     "year": "2026"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "four years in premium French oak",
+     "source": "interview"
+    }
+   ],
+   "winery_words": "Vadim's pick of the bottle to open first: one of the best wines we've made; bright red fruit, refined acidity, smooth integrated tannins; four years in premium French oak; plum, dark cherry, cedar, dark chocolate (interview). Elegance from a difficult growing season (sheet).",
+   "expert_notes": "Medium-to-full-bodied, balanced, firm structure, cedary plum and blackcurrant, oak spice. Hold 1 to 2 years. (Aspler 91, Spooner 89)"
+  },
+  {
+   "key": "cabernet_sauvignon_21",
+   "name": "Overtime Cabernet Sauvignon",
+   "vintage": "2021",
+   "score": 88,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Gold",
+     "body": "National Wine Awards of Canada",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "All Canadian Wine Championship",
+     "year": "2026"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "four years in French oak",
+     "source": "sheet"
+    }
+   ],
+   "winery_words": "What this Cabernet says about a challenging Niagara vintage: careful vineyard work and four years in French oak produced a structured, savoury wine; black currant, dark cherry, cedar, graphite, polished tannins (sheet).",
+   "expert_notes": "Full-bodied, dry, blackcurrant, cedary oak spice, green-pepper finish; hold 1 to 2 years (Aspler 88). Leah Spooner: drink now with a hearty meal (88)."
+  },
+  {
+   "key": "meritage_21",
+   "name": "Overtime Meritage",
+   "vintage": "2021",
+   "score": 91,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Platinum",
+     "body": "National Wine Awards of Canada",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "only our strongest barrels were chosen for this blend",
+     "source": "sheet"
+    },
+    {
+     "claim": "oak (no duration stated)",
+     "source": "Tony Aspler notes"
+    }
+   ],
+   "winery_words": "Only our strongest barrels were chosen for this blend. Black cherry, blackberry, dried plum, dark chocolate, mint, toasted oak; round, velvety, long fresh finish (sheet).",
+   "expert_notes": "75% Merlot, 25% Cabernet Sauvignon. Medium-to-full-bodied, firm, blackcurrant and redcurrant, polished oak spice. Hold 1 to 2 years. (Aspler 91)"
+  },
+  {
+   "key": "reserve_merlot_20",
+   "name": "Overtime Reserve Merlot",
+   "vintage": "2020",
+   "score": 92,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    },
+    {
+     "award": "Gold",
+     "body": "National Wine Awards of Canada",
+     "year": "2025"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "only the finest barrels, aged for more than three years in French oak",
+     "source": "winery page notes"
+    }
+   ],
+   "winery_words": "(The sheet's insight text for this wine repeats the 2021 Merlot's; not used.)",
+   "expert_notes": "100% Merlot. Full-bodied, dry, blackberry and black plum, cedary spice, ripe firm tannins. Drink now or through 2028. (Aspler 92) Nose: cedary and spicy, with black plum and black cherry."
+  },
+  {
+   "key": "reserve_cabernet_sauvignon_20",
+   "name": "Overtime Reserve Cabernet Sauvignon",
+   "vintage": "2020",
+   "score": 90,
+   "score_by": "Tony Aspler",
+   "awards": [
+    {
+     "award": "Silver",
+     "body": "Ontario Wine Awards",
+     "year": "2026"
+    },
+    {
+     "award": "Silver",
+     "body": "National Wine Awards of Canada",
+     "year": "2025"
+    },
+    {
+     "award": "Bronze",
+     "body": "All Canadian Wine Championships",
+     "year": "2025"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "barrel-selected lots from the 2020 vintage, aged for more than three years in French oak",
+     "source": "winery page notes"
+    }
+   ],
+   "winery_words": "(The sheet's insight text for this wine repeats the 2021 Cabernet's; not used.)",
+   "expert_notes": "100% Cabernet Sauvignon. Bold, extracted ripe black fruit, cedary spice, vanilla oak, fresh acidic finish. Drink now or hold a couple of years. (Aspler 90) Nose: cedary and spicy, with blackcurrant and vanilla oak notes."
+  },
+  {
+   "key": "overtime_brut",
+   "name": "Overtime Traditional Method Sparkling Brut Nature",
+   "vintage": "NV",
+   "score": 89,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "more than ten years on lees",
+     "source": "sheet"
+    }
+   ],
+   "winery_words": "The patience behind this wine: more than ten years on lees transformed Chardonnay from two Niagara vintages into a creamy, bone-dry sparkling wine with toasted brioche, marzipan, citrus (sheet).",
+   "expert_notes": "100% Chardonnay, Brut Nature, 0.2 g/L residual sugar. Persistent fine mousse, toasty leesy apple, biscuity, long finish. Drink now. (Aspler 89)"
+  },
+  {
+   "key": "savage_brut",
+   "name": "Wild & Free 'Savage' Brut",
+   "vintage": "NV",
+   "score": 89,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [],
+   "winery_words": "(No winery text for this wine in the sheet.)",
+   "expert_notes": "100% Chardonnay, traditional method, 5.8 g/L residual sugar. Deep golden, fine subdued mousse, toasty leesy peach bouquet, dried-apricot flavour on fresh acidity, light-to-medium, dry. Drink now through 2027. (Aspler 89)"
+  }
+ ],
+ "images": {
+  "hero": "hero-bg-sunset.jpg",
+  "bottle_shots": "bottle-shots/"
+ },
+ "gaps": [
+  "Sauvignon Blanc: the sheet lists awards on one row only and they match the Viognier's, so no award is claimed for it",
+  "Reserve Merlot and Reserve Cabernet: the sheet's winery insight text is copied from other wines, so the expert notes and the winery page notes are the source",
+  "No wine here has an owning-family name in any source"
+ ],
+ "allowed_absolutes": [
+  "only palatine hills’ strongest barrels go into this blend",
+  "only the finest barrels, aged more than three years in french oak, make the reserve",
+  "only palatine hills' strongest barrels go into this blend",
+  "only the finest barrels",
+  "one of the best wines they’ve made",
+  "one of the best wines they've made"
+ ]
+}
