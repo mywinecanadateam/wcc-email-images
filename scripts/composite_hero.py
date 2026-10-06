@@ -215,7 +215,19 @@ def _draw_tracked_text(draw: ImageDraw.ImageDraw, pos, text: str, font: ImageFon
     return x
 
 
-def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATURED WINERY"):
+def _wrap_name(draw, text: str, font, max_width: int) -> list[str]:
+    lines, cur = [], ""
+    for word in text.split():
+        trial = (cur + " " + word).strip()
+        if cur and draw.textlength(trial, font=font) > max_width:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = trial
+    return lines + [cur]
+
+
+def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATURED WINERY", max_width: int | None = None):
     """Winery name in the opposite corner from the bottles — Lora Italic for the name (same
     editorial-italic voice as the email headlines), Work Sans tracked caps for the eyebrow label,
     same label-over-headline pattern used everywhere else in the WCC email system. A corner
@@ -233,12 +245,16 @@ def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATU
     eyebrow_font = ImageFont.truetype(str(EYEBROW_FONT_PATH), eyebrow_size)
     name_font = ImageFont.truetype(str(NAME_FONT_PATH), name_size)
 
-    name_y = h - int(h * 0.09) - int(name_size * 1.2)
+    lines = _wrap_name(draw, winery_name, name_font, max_width) if max_width else [winery_name]
+    line_h = int(name_size * 1.15)
+    name_y = h - int(h * 0.09) - int(name_size * 1.2) - line_h * (len(lines) - 1)  # last line sits where a one-line name always sat
     eyebrow_y = name_y - int(eyebrow_size * 1.7)
 
     _draw_tracked_text(draw, (margin, eyebrow_y), eyebrow.upper(), eyebrow_font, (243, 239, 230, 235))
-    draw.text((margin + 2, name_y + 2), winery_name, font=name_font, fill=(10, 5, 5, 130))  # soft drop shadow
-    draw.text((margin, name_y), winery_name, font=name_font, fill=(255, 255, 255, 255))
+    for i, line in enumerate(lines):
+        y = name_y + i * line_h
+        draw.text((margin + 2, y + 2), line, font=name_font, fill=(10, 5, 5, 130))  # soft drop shadow
+        draw.text((margin, y), line, font=name_font, fill=(255, 255, 255, 255))
 
 
 def add_shadow(canvas: Image.Image, bottle: Image.Image, pos: tuple[int, int]):
@@ -257,8 +273,50 @@ def add_shadow(canvas: Image.Image, bottle: Image.Image, pos: tuple[int, int]):
     canvas.alpha_composite(shadow, (max(0, x), max(0, y)))
 
 
+CLUSTER_MAX = 6
+
+
+def place_cluster(canvas: Image.Image, bottles: list[Image.Image]):
+    """Tight two-row group on the right: front row of ceil(n/2) bottles, back row standing in the gaps between them,
+    slightly smaller and higher for depth. Wines keep list order, alternating front/back. Returns the cluster's left edge."""
+    n = len(bottles)
+    front_n = n if n <= 2 else math.ceil(n / 2)
+    front_h = int(CANVAS_H * (0.74 if n <= 2 else 0.66))
+    back_h = int(front_h * 0.94)
+    if n <= 2:
+        slots = [("front", i, i) for i in range(n)]
+    else:
+        slots, fi, bi = [], 0, 0
+        for i in range(n):
+            if i % 2 == 0 and fi < front_n or bi >= n - front_n:
+                slots.append(("front", fi, i)); fi += 1
+            else:
+                slots.append(("back", bi + 0.5, i)); bi += 1
+    sized = {}
+    for row, _pos, i in slots:
+        h = front_h if row == "front" else back_h
+        im = bottles[i]
+        sized[i] = im.resize((max(1, int(h * im.width / im.height)), h), Image.LANCZOS)
+    pitch = int(sum(im.width for im in sized.values()) / n * 0.95)
+    max_pos = max(pos for _r, pos, _i in slots)
+    cluster_w = int(max_pos * pitch) + max(im.width for im in sized.values())
+    margin = int(CANVAS_W * 0.035)
+    left = CANVAS_W - margin - cluster_w
+    base = CANVAS_H - margin
+    for row in ("back", "front"):  # back row first so the front stands in front of it
+        for r, pos, i in slots:
+            if r != row:
+                continue
+            im = sized[i]
+            x = left + int(pos * pitch) + (max(w.width for w in sized.values()) - im.width) // 2
+            y = base - im.height - (0 if row == "front" else int(front_h * 0.11))
+            add_shadow(canvas, im, (x, y))
+            canvas.alpha_composite(im, (x, y))
+    return left
+
+
 def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Path, scale: float = 1.0,
-                winery_name: str | None = None, eyebrow: str = "Featured Winery"):
+                winery_name: str | None = None, eyebrow: str = "Featured Winery", cluster: bool = False):
     bg = Image.open(background_path).convert("RGB")
     bg = ImageOps.fit(bg, (CANVAS_W, CANVAS_H), method=Image.LANCZOS)
     canvas = bg.convert("RGBA")
@@ -275,6 +333,16 @@ def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Pat
 
     if not bottles:
         raise RuntimeError("No bottles could be placed — every source image was skipped. See notes above.")
+
+    if cluster:
+        if len(bottles) > CLUSTER_MAX:
+            raise RuntimeError(f"--cluster holds at most {CLUSTER_MAX} bottles; pass the pack's six showcase bottles")
+        left = place_cluster(canvas, bottles)
+        if winery_name:
+            add_winery_name(canvas, winery_name, eyebrow, max_width=left - 2 * int(CANVAS_W * 0.035))
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        canvas.convert("RGB").save(output_path, "JPEG", quality=88)
+        return used, skipped
 
     bottle_h, rows = layout_params(len(bottles))
     bottle_h = min(int(bottle_h * scale), CANVAS_H - int(CANVAS_H * 0.04))  # never let scale push it past the frame
@@ -317,6 +385,7 @@ def main():
     ap.add_argument("--scale", type=float, default=1.0, help="Multiplier on the default bottle size (e.g. 1.3 = 30%% bigger). Capped so it can't overflow the frame.")
     ap.add_argument("--winery-name", type=str, default=None, help="If set, adds the winery name (opposite corner from the bottles) with a legibility scrim behind it.")
     ap.add_argument("--eyebrow", type=str, default="Featured Winery", help="Small tracked label above the winery name.")
+    ap.add_argument("--cluster", action="store_true", help="Tight two-row group of at most 6 bottles (front row plus a staggered back row) with the winery name wrapped to the left of it.")
     args = ap.parse_args()
 
     if not args.background.exists():
@@ -326,7 +395,7 @@ def main():
         sys.exit(f"Bottle image(s) not found: {', '.join(missing)}")
 
     used, skipped = build_hero(args.background, args.bottles, args.output, scale=args.scale,
-                                winery_name=args.winery_name, eyebrow=args.eyebrow)
+                                winery_name=args.winery_name, eyebrow=args.eyebrow, cluster=args.cluster)
 
     print(f"\nWrote {args.output} ({CANVAS_W}x{CANVAS_H})")
     print(f"Background: {args.background}")
