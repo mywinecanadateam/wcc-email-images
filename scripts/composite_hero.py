@@ -262,7 +262,10 @@ def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATU
     eyebrow_font = ImageFont.truetype(str(EYEBROW_FONT_PATH), eyebrow_size)
     name_font = load_name_font(name_size, bold)
 
-    lines = _wrap_name(draw, winery_name, name_font, max_width) if max_width else [winery_name]
+    if bold and winery_name.endswith(" Estate Winery"):  # cluster hero: the same two lines for every pack
+        lines = [winery_name[:-len(" Estate Winery")], "Estate Winery"]
+    else:
+        lines = _wrap_name(draw, winery_name, name_font, max_width) if max_width else [winery_name]
     while max_width and len(lines) > 2 and name_size > 30:  # a long name shrinks rather than running to a third line
         name_size -= 4
         name_font = load_name_font(name_size, bold)
@@ -302,7 +305,7 @@ def place_cluster(canvas: Image.Image, bottles: list[Image.Image]):
     slightly smaller and higher for depth. Wines keep list order, alternating front/back. Returns the cluster's left edge."""
     n = len(bottles)
     front_n = min(n, 3)  # three bottles always stand in front; only a fourth and beyond go behind
-    front_h = int(CANVAS_H * (0.66 if n > 3 else 0.74))
+    front_h = int(CANVAS_H * 0.66)  # one bottle size for every pack, so the heroes read as a set
     back_h = int(front_h * 0.88)
     if n <= 3:
         slots = [("front", i, i) for i in range(n)]
