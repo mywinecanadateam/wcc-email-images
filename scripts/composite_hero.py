@@ -306,7 +306,7 @@ def place_cluster(canvas: Image.Image, bottles: list[Image.Image]):
     n = len(bottles)
     front_n = min(n, 3)  # three bottles always stand in front; only a fourth and beyond go behind
     front_h = int(CANVAS_H * 0.66)  # one bottle size for every pack, so the heroes read as a set
-    back_h = int(front_h * 0.88)
+    back_h = front_h  # same size front and back; depth comes from the raised, slightly darker back row
     if n <= 3:
         slots = [("front", i, i) for i in range(n)]
     else:
