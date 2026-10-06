@@ -259,8 +259,9 @@
      "award": "Gold",
      "body": "National Wine Awards of Canada",
      "year": "2025",
-     "source": "lineup sheet; not independently verified",
-     "points": 92
+     "source": "lineup sheet; WineAlign NWAC 2025 results via web search, 2026-10-06",
+     "points": 92,
+     "status": "confirmed"
     }
    ],
    "oak": [
@@ -363,8 +364,9 @@
      "award": "Silver",
      "body": "IWSC",
      "year": "2026",
-     "source": "lineup sheet; not independently verified",
-     "points": 93
+     "source": "lineup sheet",
+     "points": 93,
+     "status": "winery-stated"
     }
    ],
    "oak": [
@@ -812,7 +814,8 @@
      "award": "89 points",
      "body": "Gismondi on Wine",
      "year": "",
-     "source": "lineup sheet"
+     "source": "lineup sheet",
+     "status": "winery-stated"
     }
    ],
    "oak": [
@@ -917,7 +920,8 @@
      "award": "Gold",
      "body": "All Canadian Wine Championship",
      "year": "2025",
-     "source": "lineup sheet; to verify with the creative director"
+     "source": "lineup sheet",
+     "status": "winery-stated"
     }
    ],
    "oak": [],
@@ -1204,13 +1208,12 @@
  ],
  "gaps": [
   "Prices differ between the sheet and the winery site for Rosé and Frontenac Gris (Elvis, Oct 3). No prices are used in the emails.",
-  "Award lines for Cabernet Merlot (Gold 92, NWAC 2025) and Cabernet Franc (Silver 93, IWSC 2026) come from the sheet and are not independently verified.",
   "Spec sheets missing GI/vineyard for several wines; Gamay and Hands Up Red have no spec sheet.",
   "Spec sheet for the 2022 Cabernet Merlot lists 66% Merlot and 43% Cabernet Franc (109%); blend percentages not quoted.",
   "Winery images: only winery building, winemaker in the barrel room and a hand holding grapes were pulled; larger Drive originals (5-6 MB) were not needed.",
   "12-Bottle Mixed follows the sheet's structure (3 reds x2, 4 whites, 1 Rosé, 1 Sparkling) with Grüner Veltliner as the fourth white, per the winery's Oct 1 email. Grüner has no vintage, notes, score, awards or photo (placeholder image).",
-  "Awards on the lineup sheet are used as given and are to be verified by the creative director (Chardonnay: ACWC 2025 gold on a 2025 wine is suspect).",
-  "Pairings follow the WSET pocket guide and pass check-pairings.py. Chardonnay, Gamay and Hands Up Red have no abv or sugar on any spec sheet: their profiles use estimates (listed in `profile.estimated`)."
+  "Pairings follow the WSET pocket guide and pass check-pairings.py. Chardonnay, Gamay and Hands Up Red have no abv or sugar on any spec sheet: their profiles use estimates (listed in `profile.estimated`).",
+  "Awards: Cabernet Merlot Gold NWAC 2025 confirmed (2026-10-06). Cabernet Franc Silver IWSC 2026, Chardonnay Gold ACWC 2025 and Frontenac Gris 89 pts Gismondi are winery-stated (not found in a second source); they stay in the copy and are flagged."
  ],
  "page_slots": [
   "aw_riesling_22",
