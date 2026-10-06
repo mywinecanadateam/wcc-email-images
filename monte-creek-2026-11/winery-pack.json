@@ -132,8 +132,8 @@
     "volume": "750 mL",
     "vineyard": "Monte Creek Ranch and Lion's Head Vineyard"
    },
-   "score": 93,
-   "score_by": "Leah Spooner",
+   "score": 92,
+   "score_by": "Valerie van der Gracht",
    "awards": [],
    "oak": [
     {
@@ -169,7 +169,8 @@
    ],
    "pairing": "Leah: lemon tarts, roasted chicken, smoked applewood cheddar. Valerie: charcuterie and soft cheeses. Tony: smoked salmon.",
    "mwc": "catalogue",
-   "role": "Jesse's most underestimated wine; the one wine the winery says is close to stocking out at 1,600 members"
+   "role": "Jesse's most underestimated wine; the one wine the winery says is close to stocking out at 1,600 members",
+   "page_expert": "Valerie van der Gracht"
   },
   {
    "key": "ll_cab_merlot_22",
@@ -186,14 +187,15 @@
     "volume": "750 mL",
     "vineyard": "Monte Creek, Keremeos, Nettle Rd (Oliver)"
    },
-   "score": 91,
-   "score_by": "Leah Spooner",
+   "score": 90,
+   "score_by": "Tony Aspler",
    "awards": [
     {
-     "award": "Gold, 92 points",
+     "award": "Gold",
      "body": "National Wine Awards of Canada",
      "year": "2025",
-     "source": "lineup sheet; not independently verified"
+     "source": "lineup sheet; not independently verified",
+     "points": 92
     }
    ],
    "oak": [
@@ -221,7 +223,8 @@
     }
    ],
    "pairing": "Red meats, wood-fire pizza, spaghetti and meatballs (winery). Leah: grilled steak, hamburgers.",
-   "mwc": "catalogue"
+   "mwc": "catalogue",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "ll_cab_franc_23",
@@ -242,10 +245,11 @@
    "score_by": "Leah Spooner",
    "awards": [
     {
-     "award": "Silver, 93 points",
+     "award": "Silver",
      "body": "IWSC",
      "year": "2026",
-     "source": "lineup sheet; not independently verified"
+     "source": "lineup sheet; not independently verified",
+     "points": 93
     }
    ],
    "oak": [
@@ -273,7 +277,8 @@
     }
    ],
    "pairing": "Grilled vegetables and herb-rubbed halloumi or roasted poultry (winery). Leah: T-bone steak, roast turkey.",
-   "mwc": "catalogue"
+   "mwc": "catalogue",
+   "page_expert": "Leah Spooner"
   },
   {
    "key": "aw_pinot_noir_23",
@@ -309,7 +314,8 @@
     }
    ],
    "pairing": "Roast chicken with mushrooms, cheese-based dishes, BBQ salmon (winery).",
-   "mwc": "catalogue"
+   "mwc": "catalogue",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "ll_foch_23",
@@ -346,7 +352,8 @@
    ],
    "pairing": "Lamb burgers, charred eggplant with labneh, lentil curry (winery).",
    "mwc": "catalogue",
-   "flag": "Scored 87 by the only expert who tasted it: under the 88-point showcase rule"
+   "flag": "Scored 87 by the only expert who tasted it: under the 88-point showcase rule",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "ll_gamay_24",
@@ -378,7 +385,8 @@
    ],
    "pairing": "",
    "mwc": "catalogue",
-   "flag": "Lineup status is Suggested; spec sheet blank"
+   "flag": "Lineup status is Suggested; spec sheet blank",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "ll_hands_up_red_23",
@@ -410,7 +418,8 @@
    ],
    "pairing": "",
    "mwc": "catalogue",
-   "flag": "No winery spec sheet; named Hands Up Red on the sheet, Living Land line not confirmed"
+   "flag": "No winery spec sheet; named Hands Up Red on the sheet, Living Land line not confirmed",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "ll_frontenac_gris_25",
@@ -463,7 +472,8 @@
    ],
    "pairing": "General spicy dishes (winery). Valerie: scallop crudo, Dungeness crab.",
    "mwc": "catalogue",
-   "role": "Jesse's first-bottle pick"
+   "role": "Jesse's first-bottle pick",
+   "page_expert": "Valerie van der Gracht"
   },
   {
    "key": "ll_chardonnay_25",
@@ -480,8 +490,8 @@
     "volume": "750 mL",
     "vineyard": ""
    },
-   "score": 90,
-   "score_by": "Valerie van der Gracht",
+   "score": 89,
+   "score_by": "Tony Aspler",
    "awards": [
     {
      "award": "Gold, ACWC 2025",
@@ -510,7 +520,8 @@
    ],
    "pairing": "",
    "mwc": "catalogue",
-   "flag": "Winery website lists the 2024 vintage; sheet lists 2025 (Elvis, Oct 3). Winery email Oct 1 confirms 2025."
+   "flag": "Winery website lists the 2024 vintage; sheet lists 2025 (Elvis, Oct 3). Winery email Oct 1 confirms 2025.",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "ll_sparkling_25",
@@ -546,7 +557,8 @@
     }
    ],
    "pairing": "Light small bites, aperitif (winery).",
-   "mwc": "catalogue"
+   "mwc": "catalogue",
+   "page_expert": "Tony Aspler"
   },
   {
    "key": "aw_rose_25",
@@ -584,7 +596,8 @@
     }
    ],
    "pairing": "Light summer salad, light seafood, tangy cheeses (winery).",
-   "mwc": "catalogue"
+   "mwc": "catalogue",
+   "page_expert": "Valerie van der Gracht"
   }
  ],
  "images": {
@@ -595,7 +608,10 @@
   ],
   "bottle_shots": "bottle-shots/"
  },
- "allowed_absolutes": [],
+ "allowed_absolutes": [
+  "every riesling",
+  "only one bottle"
+ ],
  "gaps": [
   "12-Bottle Mixed not built: the sheet's 12-pack list repeats the 2023 Cabernet Franc and carries stray values, and Karen (Oct 1) proposed swapping the second Riesling for the Grüner Veltliner, which has no cutout or notes. Needs Adriana/Alberto.",
   "2025 LL Chardonnay Organic: award on the sheet (Gold ACWC 2025) is unverified and cannot belong to a 2025 vintage; the winery website lists 2024. Not used.",
