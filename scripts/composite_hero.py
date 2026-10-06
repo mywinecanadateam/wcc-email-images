@@ -25,10 +25,19 @@ import math
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 FONT_DIR = Path(__file__).parent / "fonts"
 NAME_FONT_PATH = FONT_DIR / "Lora-Italic.ttf"
+NAME_VF_PATH = FONT_DIR / "Lora-Italic-VF.ttf"  # variable Lora Italic (OFL), used at SemiBold for the cluster hero
+
+
+def load_name_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
+    if bold and NAME_VF_PATH.exists():
+        f = ImageFont.truetype(str(NAME_VF_PATH), size)
+        f.set_variation_by_axes([600])
+        return f
+    return ImageFont.truetype(str(NAME_FONT_PATH), size)
 EYEBROW_FONT_PATH = FONT_DIR / "WorkSans-Bold.ttf"
 
 CANVAS_W = 1200
@@ -228,7 +237,7 @@ def _wrap_name(draw, text: str, font, max_width: int) -> list[str]:
 
 
 def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATURED WINERY", max_width: int | None = None,
-                    x0: int | None = None):
+                    x0: int | None = None, bold: bool = False):
     """Winery name in the opposite corner from the bottles — Lora Italic for the name (same
     editorial-italic voice as the email headlines), Work Sans tracked caps for the eyebrow label,
     same label-over-headline pattern used everywhere else in the WCC email system. A corner
@@ -249,14 +258,14 @@ def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATU
     draw = ImageDraw.Draw(canvas)
     margin = int(w * 0.035) if x0 is None else x0
     eyebrow_size = max(11, int(h * 0.032))
-    name_size = max(24, int(h * 0.095))
+    name_size = max(24, int(h * (0.118 if bold else 0.095)))
     eyebrow_font = ImageFont.truetype(str(EYEBROW_FONT_PATH), eyebrow_size)
-    name_font = ImageFont.truetype(str(NAME_FONT_PATH), name_size)
+    name_font = load_name_font(name_size, bold)
 
     lines = _wrap_name(draw, winery_name, name_font, max_width) if max_width else [winery_name]
     while max_width and len(lines) > 2 and name_size > 30:  # a long name shrinks rather than running to a third line
         name_size -= 4
-        name_font = ImageFont.truetype(str(NAME_FONT_PATH), name_size)
+        name_font = load_name_font(name_size, bold)
         lines = _wrap_name(draw, winery_name, name_font, max_width)
     line_h = int(name_size * 1.15)
     name_y = h - int(h * 0.09) - int(name_size * 1.2) - line_h * (len(lines) - 1)  # last line sits where a one-line name always sat
@@ -292,24 +301,21 @@ def place_cluster(canvas: Image.Image, bottles: list[Image.Image]):
     """Tight two-row group on the right: front row of ceil(n/2) bottles, back row standing in the gaps between them,
     slightly smaller and higher for depth. Wines keep list order, alternating front/back. Returns the cluster's left edge."""
     n = len(bottles)
-    front_n = n if n <= 2 else math.ceil(n / 2)
-    front_h = int(CANVAS_H * (0.74 if n <= 2 else 0.66))
-    back_h = int(front_h * 0.94)
-    if n <= 2:
+    front_n = min(n, 3)  # three bottles always stand in front; only a fourth and beyond go behind
+    front_h = int(CANVAS_H * (0.66 if n > 3 else 0.74))
+    back_h = int(front_h * 0.88)
+    if n <= 3:
         slots = [("front", i, i) for i in range(n)]
     else:
-        slots, fi, bi = [], 0, 0
-        for i in range(n):
-            if i % 2 == 0 and fi < front_n or bi >= n - front_n:
-                slots.append(("front", fi, i)); fi += 1
-            else:
-                slots.append(("back", bi + 0.5, i)); bi += 1
+        seq = [("front", 0), ("back", 0.5), ("front", 1), ("back", 1.5), ("front", 2), ("back", 2.5)]
+        seq = [(r, p) for r, p in seq if r == "front" or p < n - 3 + 0.5]
+        slots = [(r, p, i) for i, (r, p) in enumerate(seq)]
     sized = {}
     for row, _pos, i in slots:
         h = front_h if row == "front" else back_h
         im = bottles[i]
         sized[i] = im.resize((max(1, int(h * im.width / im.height)), h), Image.LANCZOS)
-    pitch = int(sum(im.width for im in sized.values()) / n * 0.95)
+    pitch = int(sum(im.width for im in sized.values()) / n * (1.55 if n > 3 else 1.15))  # wide enough that each back bottle shows between two fronts
     max_pos = max(pos for _r, pos, _i in slots)
     cluster_w = int(max_pos * pitch) + max(im.width for im in sized.values())
     margin = int(CANVAS_W * 0.035)
@@ -321,7 +327,10 @@ def place_cluster(canvas: Image.Image, bottles: list[Image.Image]):
                 continue
             im = sized[i]
             x = left + int(pos * pitch) + (max(w.width for w in sized.values()) - im.width) // 2
-            y = base - im.height - (0 if row == "front" else int(front_h * 0.11))
+            y = base - im.height - (0 if row == "front" else int(front_h * 0.075))
+            if row == "back":  # a little darker, so the back row reads as farther away
+                rgb = ImageEnhance.Brightness(im.convert("RGB")).enhance(0.86)
+                im = Image.merge("RGBA", (*rgb.split(), im.split()[-1]))
             add_shadow(canvas, im, (x, y))
             canvas.alpha_composite(im, (x, y))
     return left
@@ -353,7 +362,7 @@ def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Pat
         left = place_cluster(canvas, bottles)
         if winery_name:
             name_x = int(CANVAS_W * name_x_frac) if name_x_frac is not None else None
-            add_winery_name(canvas, winery_name, eyebrow, x0=name_x,
+            add_winery_name(canvas, winery_name, eyebrow, x0=name_x, bold=True,
                             max_width=left - (name_x or int(CANVAS_W * 0.035)) - int(CANVAS_W * 0.035))
         output_path.parent.mkdir(parents=True, exist_ok=True)
         canvas.convert("RGB").save(output_path, "JPEG", quality=88)

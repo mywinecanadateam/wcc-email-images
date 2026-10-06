@@ -450,9 +450,7 @@
   }
  ],
  "images": {
-  "hero": "hero-bg-patio.jpg",
-  "hero_focus_y": 0.9,
-  "hero_name_x": 0.27,
+  "hero": "hero-bg-vineyard.jpg",
   "bottle_shots": "bottle-shots/"
  },
  "gaps": [
