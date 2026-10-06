@@ -1,7 +1,17 @@
 {
  "winery": "Monte Creek Winery",
  "slug": "monte-creek-2026-11",
- "month": "2026-11",
+ "month": {
+  "name": "Monte Creek",
+  "possessive": "Monte Creek&rsquo;s",
+  "region_label": "Monte Creek, BC",
+  "page_url": "https://wineclub.ca/pages/subscription/monte-creek-winery-2026",
+  "join_url": "https://wineclub.ca/products/mixed-wine-subscription?variant=45984147702005",
+  "deadline": "November 14",
+  "asset_version": "1",
+  "hero_background": "hero-winery-building.jpg",
+  "join_variant_check": "Mixed Wine Monthly Subscription - 3 Bottles, ACTIVE, checked 2026-10-06"
+ },
  "province": "BC",
  "region": "Thompson Valley (Kamloops)",
  "interview": "full",
@@ -235,7 +245,12 @@
      "dish": "Salted almonds with thin slices of fresh green apple",
      "why": "A sweet dessert would make the wine taste thin, so finish light and not sugary."
     }
-   ]
+   ],
+   "email": {
+    "short": "Ancient Waters Riesling",
+    "badge": "Underrated Gem",
+    "why": "Jesse Steinley&rsquo;s pick for the most underestimated wine in the lineup, because many people still assume every Riesling is sweet. Bright and crisp, with tangy citrus, white grapefruit, and a touch of kiwi, finishing with light brioche."
+   }
   },
   {
    "key": "ll_cab_merlot_22",
@@ -340,7 +355,12 @@
      "dish": "Roasted salted walnuts",
      "why": "No sugar: a sweet dessert would make the tannins taste harder."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Cabernet Merlot",
+    "badge": "Oak-Aged Red",
+    "why": "24 to 36 months in French oak. Cedary blackcurrant and plum on lively acidity, finishing on ripe, firm tannins. Gold, National Wine Awards of Canada 2025."
+   }
   },
   {
    "key": "ll_cab_franc_23",
@@ -445,7 +465,12 @@
      "dish": "Salted roasted pecans",
      "why": "No sugar: a sweet dessert would make the tannins taste harder."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Cabernet Franc",
+    "badge": "Silver Medal Red",
+    "why": "15 months in French oak. Black raspberry, pepper, and purple plum with warm, toasty oak and baking spice, ripe tannins, and dark chocolate on a long finish. Silver, IWSC 2026."
+   }
   },
   {
    "key": "aw_pinot_noir_23",
@@ -532,7 +557,12 @@
      "dish": "Toasted walnuts with a mild, nutty cheese",
      "why": "No sugar: a sweet dessert would make the wine taste thin."
     }
-   ]
+   ],
+   "email": {
+    "short": "Ancient Waters Pinot Noir",
+    "badge": "French Oak",
+    "why": "18 months in French oak. Dark cherry, raspberry, black tea, leather, and rose petal, with velvety tannins."
+   }
   },
   {
    "key": "ll_foch_23",
@@ -896,7 +926,12 @@
      "dish": "Fresh pineapple with a pinch of sea salt",
      "why": "Light fruit with little sugar stays close to the wine's own sweetness."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Frontenac Gris",
+    "badge": "Jesse&rsquo;s First Pick",
+    "why": "Jesse&rsquo;s pick if you open only one bottle: organic, bright and refreshing, from a grape very few wineries grow."
+   }
   },
   {
    "key": "ll_chardonnay_25",
@@ -996,7 +1031,12 @@
      "dish": "Toasted salted hazelnuts",
      "why": "No sugar: a sweet dessert would make the wine taste thin."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Chardonnay",
+    "badge": "Organic",
+    "why": "Richly extracted apple and pear with mouth-watering acidity and well-integrated oak."
+   }
   },
   {
    "key": "ll_sparkling_25",
@@ -1228,5 +1268,72 @@
   "ll_foch_23",
   "ll_hands_up_red_23"
  ],
- "mwc_catalogue_url": "https://mywinecanada.com/collections/monte-creek-winery"
+ "mwc_catalogue_url": "https://mywinecanada.com/collections/monte-creek-winery",
+ "story": {
+  "promise": "Cooler nights, fresher wines: cool-climate Thompson Valley wines from a winemaker whose rule is never to get too comfortable.",
+  "hook": "Never get too comfortable.",
+  "hero_headline": {
+   "lead": "Cooler nights,",
+   "em": "fresher wines."
+  },
+  "winemakers_pick": "2025 Living Land Frontenac Gris",
+  "underestimated": "2022 Ancient Waters Riesling",
+  "context": "Monte Creek makes its wines in the Thompson Valley, near Kamloops, where cooler nights and shorter days keep the fruit fresh. Winemaker Jesse Steinley has more than 20 years in vines and wine, and his rule is simple: never get too comfortable.",
+  "voice_note": "Facts first. Winemaker and place lead; critics complement. No prices in any email."
+ },
+ "emails": {
+  "witb_teaser": {
+   "title": "What&rsquo;s actually in Monte Creek&rsquo;s box this month &middot; WineClub.ca",
+   "headline": {
+    "lead": "What&rsquo;s actually in",
+    "em": "Monte Creek&rsquo;s",
+    "tail": " box this month."
+   },
+   "standfirst": "Every month, WineClub members get curated Canadian wines from a different winery. This month it&rsquo;s Monte Creek, in BC&rsquo;s Thompson Valley. Here&rsquo;s exactly what&rsquo;s in their 3-Bottle Mixed.",
+   "label": "3-Bottle Mixed",
+   "highlight": "A Riesling, a Gold-medal Cabernet Merlot and a Silver-medal Cabernet Franc",
+   "wines_label": "What&rsquo;s in the 3-Bottle Mixed",
+   "why_body": "Every WineClub box works the same way. One Canadian winery, real people behind every bottle, and wines picked to show you something new about Canadian wine. No commitment beyond the box in front of you.",
+   "reviews": [
+    {
+     "name": "Lisa",
+     "quote": "I love getting to try these wines from all over Canada. We have some great wines and it&rsquo;s awesome to be able to sample some of them."
+    },
+    {
+     "name": "Clayton",
+     "quote": "The opportunity to learn about and taste truly exceptional wines from some of our boutique Canadian wineries is a great experience and well worth the investment in the club."
+    },
+    {
+     "name": "Pierre",
+     "quote": "I have received only the August order for now and I was very satisfied of the wines received."
+    }
+   ],
+   "sublabel": "Featuring Monte Creek, BC",
+   "subject": "What's actually in Monte Creek's box this month",
+   "preview": "Three wines from one Thompson Valley winery, with no long-term commitment.",
+   "hero": "3_bottle_mixed",
+   "pack": "3-bottle-mixed"
+  }
+ },
+ "audit": {
+  "date": "2026-10-06",
+  "method": "Lineup sheet is the source of truth. Awards checked by web search; founding year and organic status checked against the winery's site.",
+  "confirmed": [
+   "Cabernet Merlot 2022: Gold, NWAC 2025 (WineAlign results)",
+   "Winery open to the public since June 2015",
+   "All three vineyards and the production facility certified organic since fall 2023 (winery site)"
+  ],
+  "winery_stated": [
+   "Cabernet Franc 2023: Silver, IWSC 2026 (not found in a second source)",
+   "Chardonnay 2025: Gold, All Canadian Wine Championship 2025 (not found; possible, same-year)",
+   "Frontenac Gris 2025: 89 points, Gismondi on Wine (lineup sheet)"
+  ],
+  "flags_for_a_human": [
+   "Winemaker: a web page names Galen Barnhardt as winemaker; the interview and every email name Jesse Steinley. Interview kept; confirm with Elvis which is current.",
+   "Score choice: the pack shows Riesling 92 (Valerie) though Leah gave 93, and Cabernet Merlot 90 (Tony) though Leah gave 91. The pillars rule says use the higher score. Kept as the pack states; confirm which rule applies.",
+   "Cabernet Merlot spec sheet blend adds to 109%; blend not quoted.",
+   "Prices differ between the sheet and the winery site for Rose and Frontenac Gris; no prices are used in emails."
+  ],
+  "impossible_removed": []
+ }
 }
