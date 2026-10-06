@@ -156,8 +156,8 @@
     "volume": "750 mL",
     "vineyard": "Monte Creek Ranch and Lion's Head Vineyard"
    },
-   "score": 92,
-   "score_by": "Valerie van der Gracht",
+   "score": 93,
+   "score_by": "Leah Spooner",
    "awards": [],
    "oak": [
     {
@@ -267,8 +267,8 @@
     "volume": "750 mL",
     "vineyard": "Monte Creek, Keremeos, Nettle Rd (Oliver)"
    },
-   "score": 90,
-   "score_by": "Tony Aspler",
+   "score": 91,
+   "score_by": "Leah Spooner",
    "awards": [
     {
      "award": "Gold",
@@ -948,8 +948,8 @@
     "volume": "750 mL",
     "vineyard": ""
    },
-   "score": 89,
-   "score_by": "Tony Aspler",
+   "score": 90,
+   "score_by": "Valerie van der Gracht",
    "awards": [
     {
      "award": "Gold",
@@ -1329,11 +1329,13 @@
    "Frontenac Gris 2025: 89 points, Gismondi on Wine (lineup sheet)"
   ],
   "flags_for_a_human": [
-   "Winemaker: a web page names Galen Barnhardt as winemaker; the interview and every email name Jesse Steinley. Interview kept; confirm with Elvis which is current.",
-   "Score choice: the pack shows Riesling 92 (Valerie) though Leah gave 93, and Cabernet Merlot 90 (Tony) though Leah gave 91. The pillars rule says use the higher score. Kept as the pack states; confirm which rule applies.",
    "Cabernet Merlot spec sheet blend adds to 109%; blend not quoted.",
    "Prices differ between the sheet and the winery site for Rose and Frontenac Gris; no prices are used in emails."
   ],
-  "impossible_removed": []
+  "impossible_removed": [],
+  "decided": [
+   "Winemaker: the interview's name (Jesse Steinley) always wins over any other source. A web page naming Galen Barnhardt is ignored.",
+   "Score: the highest expert score is shown (aw_riesling_22 92->93 (Leah Spooner); ll_cab_merlot_22 90->91 (Leah Spooner); ll_chardonnay_25 89->90 (Valerie van der Gracht))."
+  ]
  }
 }
