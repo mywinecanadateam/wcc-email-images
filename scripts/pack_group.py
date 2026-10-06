@@ -32,11 +32,11 @@ OVERLAP_FRAC = -0.04  # small gap, no overlap: an overlapping neighbour clips th
 MAX_PER_ROW = 6  # beyond this many bottles, wrap to a second row rather than one very wide strip
 
 
-def _row_count(n: int) -> int:
-    return math.ceil(n / MAX_PER_ROW)
+def _row_count(n: int, per_row: int = MAX_PER_ROW) -> int:
+    return math.ceil(n / per_row)
 
 
-def build_group(bottle_paths, output_path, bottle_h_frac=BOTTLE_H_FRAC, overlap_frac=OVERLAP_FRAC):
+def build_group(bottle_paths, output_path, bottle_h_frac=BOTTLE_H_FRAC, overlap_frac=OVERLAP_FRAC, max_per_row=MAX_PER_ROW):
     used, skipped = [], []
     bottles = []
     for p in bottle_paths:
@@ -50,7 +50,7 @@ def build_group(bottle_paths, output_path, bottle_h_frac=BOTTLE_H_FRAC, overlap_
     if not bottles:
         raise RuntimeError("No bottles could be placed — every source image was skipped.")
 
-    rows = _row_count(len(bottles))
+    rows = _row_count(len(bottles), max_per_row)
     per_row = math.ceil(len(bottles) / rows)
     row_groups = [bottles[i * per_row:(i + 1) * per_row] for i in range(rows)]
 
@@ -92,11 +92,16 @@ def build_group(bottle_paths, output_path, bottle_h_frac=BOTTLE_H_FRAC, overlap_
         x_offset = pad_x + (canvas_content_w - total) // 2  # centre shorter rows under longer ones
         for i, im in enumerate(row):
             x_pos = positions[i] + x_offset
-            shadow_alpha = im.split()[-1].point(lambda a: int(a * 0.28))
-            shadow = Image.new("RGBA", im.size, (10, 5, 5, 255))
-            shadow.putalpha(shadow_alpha)
-            shadow = shadow.filter(ImageFilter.GaussianBlur(9))
-            canvas.alpha_composite(shadow, (x_pos + 4, y + 12))
+            # Blur on a padded canvas: blurring inside a canvas cut to the bottle clips the shadow into a hard box.
+            sp = 30
+            base = Image.new("L", (im.size[0] + 2 * sp, im.size[1] + 2 * sp), 0)
+            base.paste(im.split()[-1].point(lambda a: int(a * 0.28)), (sp, sp))
+            shadow = Image.new("RGBA", base.size, (10, 5, 5, 255))
+            shadow.putalpha(base.filter(ImageFilter.GaussianBlur(9)))
+            sx, sy = x_pos + 4 - sp, y + 12 - sp
+            if sx < 0 or sy < 0:
+                shadow = shadow.crop((max(0, -sx), max(0, -sy), shadow.width, shadow.height))
+            canvas.alpha_composite(shadow, (max(0, sx), max(0, sy)))
             canvas.alpha_composite(im, (x_pos, y))
         y += bottle_h + row_gap
 
@@ -109,13 +114,14 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--bottles", required=True, type=Path, nargs="+")
     ap.add_argument("--output", required=True, type=Path)
+    ap.add_argument("--max-per-row", type=int, default=MAX_PER_ROW, help="bottles per row before wrapping (default 6); use 12 for one wide row")
     args = ap.parse_args()
 
     missing = [str(p) for p in args.bottles if not p.exists()]
     if missing:
         sys.exit(f"Bottle image(s) not found: {', '.join(missing)}")
 
-    used, skipped, size = build_group(args.bottles, args.output)
+    used, skipped, size = build_group(args.bottles, args.output, max_per_row=args.max_per_row)
 
     print(f"\nWrote {args.output} ({size[0]}x{size[1]}, transparent)")
     print(f"\nBottles used ({len(used)}):")

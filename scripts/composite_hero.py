@@ -242,11 +242,19 @@ def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATU
 
 
 def add_shadow(canvas: Image.Image, bottle: Image.Image, pos: tuple[int, int]):
-    alpha = bottle.split()[-1].point(lambda a: int(a * 0.32))
-    shadow = Image.new("RGBA", bottle.size, (10, 5, 5, 255))
-    shadow.putalpha(alpha)
-    shadow = shadow.filter(ImageFilter.GaussianBlur(7))
-    canvas.alpha_composite(shadow, (pos[0] + 5, pos[1] + 10))
+    # Blur on a padded canvas. Blurring inside a canvas cut exactly to the bottle leaves a hard vertical
+    # edge where the shadow is clipped, which reads as a dark box behind every bottle.
+    pad = 28
+    w, h = bottle.size
+    base = Image.new("L", (w + 2 * pad, h + 2 * pad), 0)
+    base.paste(bottle.split()[-1].point(lambda a: int(a * 0.32)), (pad, pad))
+    shadow = Image.new("RGBA", base.size, (10, 5, 5, 255))
+    shadow.putalpha(base.filter(ImageFilter.GaussianBlur(7)))
+    x, y = pos[0] + 5 - pad, pos[1] + 10 - pad
+    cx0, cy0 = max(0, -x), max(0, -y)
+    if cx0 or cy0:
+        shadow = shadow.crop((cx0, cy0, shadow.width, shadow.height))
+    canvas.alpha_composite(shadow, (max(0, x), max(0, y)))
 
 
 def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Path, scale: float = 1.0,
