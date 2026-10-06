@@ -1,0 +1,609 @@
+{
+ "winery": "Monte Creek Winery",
+ "slug": "monte-creek-2026-11",
+ "month": "2026-11",
+ "province": "BC",
+ "region": "Thompson Valley (Kamloops)",
+ "interview": "full",
+ "people": {
+  "winemaker": "Jesse Steinley",
+  "role": "Winemaker",
+  "quotes": [
+   {
+    "text": "Never get too comfortable. Even when everything seems to be going perfectly, stay vigilant, be ready to pivot, and don't be afraid to adjust the plan.",
+    "source": "interview"
+   },
+   {
+    "text": "In the vineyard, adaptability is just as important as having a good plan in the first place.",
+    "source": "interview"
+   },
+   {
+    "text": "Canada's greatest strength isn't trying to be like everyone else. It's producing wines with an identity that's unmistakably Canadian.",
+    "source": "interview"
+   },
+   {
+    "text": "There is always something waiting in the shadows.",
+    "source": "interview"
+   }
+  ]
+ },
+ "facts": [
+  {
+   "fact": "Monte Creek Winery is in the Thompson Valley, BC, near Kamloops; founded 2015; about 30,000 cases a year",
+   "source": "interview"
+  },
+  {
+   "fact": "Jesse Steinley has more than 20 years in vines and wine; he started as a dishwasher at an Ontario winery in his mid-teens, studied audio engineering planning to be a rock star, then followed someone across the country to a harvest job in BC",
+   "source": "interview"
+  },
+  {
+   "fact": "The vineyards are farmed organically",
+   "source": "interview, winery spec sheets"
+  },
+  {
+   "fact": "Winemaking style: elegant, acid and fruit driven wines that let the fruit express itself rather than hide the terroir",
+   "source": "winery spec sheets"
+  },
+  {
+   "fact": "The 2025 vintage note: the northern latitude, once considered a disadvantage, has become one of Monte Creek's greatest strengths; Kamloops fruit stays on the vine longer, with cooler nights and shorter days",
+   "source": "winery spec sheets (2025 vintage)"
+  },
+  {
+   "fact": "2023 was the biggest harvest Monte Creek has had in the Thompson Valley, in a year when the BC industry lost nearly 60% of its crop to a winter cold snap",
+   "source": "winery spec sheets (2023 vintage)"
+  },
+  {
+   "fact": "Frontenac Gris is the best-selling wine in the tasting room",
+   "source": "winery spec sheet"
+  },
+  {
+   "fact": "Jesse's one-bottle pick is the 2025 Living Land Frontenac Gris; the wine he thinks people underestimate is the Ancient Waters Riesling",
+   "source": "interview"
+  },
+  {
+   "fact": "Cold-tolerant varieties, geotextiles and burying the vines protect the Thompson Valley vineyards through winter",
+   "source": "winery spec sheet (2024 vintage)"
+  }
+ ],
+ "lineup_source": "Drive lineup sheet 3.Winery LineUp_MonteCreekWinery.xlsx (modified 2026-10-02), the winery's approved list",
+ "lineup_size": 11,
+ "packs": {
+  "2-bottle-mixed": [
+   "aw_riesling_22",
+   "ll_cab_franc_23"
+  ],
+  "2-bottle-white": [
+   "aw_riesling_22",
+   "ll_chardonnay_25"
+  ],
+  "2-bottle-red": [
+   "ll_cab_franc_23",
+   "ll_cab_merlot_22"
+  ],
+  "2-bottle-rose-sparkling": [
+   "ll_sparkling_25",
+   "aw_rose_25"
+  ],
+  "3-bottle-mixed": [
+   "aw_riesling_22",
+   "ll_cab_merlot_22",
+   "ll_cab_franc_23"
+  ],
+  "3-bottle-white": [
+   "aw_riesling_22",
+   "ll_frontenac_gris_25",
+   "ll_chardonnay_25"
+  ],
+  "3-bottle-red": [
+   "aw_pinot_noir_23",
+   "ll_cab_franc_23",
+   "ll_cab_merlot_22"
+  ],
+  "6-bottle-mixed": [
+   "aw_pinot_noir_23",
+   "ll_cab_franc_23",
+   "ll_cab_merlot_22",
+   "aw_riesling_22",
+   "ll_frontenac_gris_25",
+   "ll_chardonnay_25"
+  ],
+  "6-bottle-red": [
+   "aw_pinot_noir_23",
+   "ll_cab_franc_23",
+   "ll_cab_merlot_22",
+   "ll_gamay_24",
+   "ll_foch_23",
+   "ll_hands_up_red_23"
+  ]
+ },
+ "wines": [
+  {
+   "key": "aw_riesling_22",
+   "name": "Ancient Waters Riesling",
+   "vintage": "2022",
+   "line": "Ancient Waters",
+   "image": "bottle-shots/2022-ancient-waters-riesling.png",
+   "specs": {
+    "gi": "Thompson Valley VQA",
+    "varietal": "100% Riesling",
+    "abv": "10.8%",
+    "rs": "9.5 g/L",
+    "cases": "346",
+    "volume": "750 mL",
+    "vineyard": "Monte Creek Ranch and Lion's Head Vineyard"
+   },
+   "score": 93,
+   "score_by": "Leah Spooner",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "four months in stainless steel",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "100% Riesling, four months in stainless steel. Grown on scuitto soil, deep glaciolacustrine silty loam over volcanic bedrock. The 2022 season was a slow burn: acids stayed high well into harvest (spec sheet). Jesse: the most underestimated wine in the lineup, bright, crisp and beautifully balanced, with lively acidity and fresh citrus and orchard fruit; not sweet (interview).",
+   "expert_notes": [
+    {
+     "expert": "Leah Spooner",
+     "score": 93,
+     "appearance": "Pale green/gold",
+     "nose": "Sweet lime and jasmine aromas, with hints of guava and starfruit.",
+     "palate": "Zesty citrus rushes the palate, bursting with lime, grapefruit and lemon drop. Light to medium bodied, and loaded with powerful, invigorating acidity. Some soft salinity adds depth on a long finish.",
+     "notes": "This low-alcohol wine is perfect for wine lovers seeking acidity driven wines.",
+     "pairing": "Lemon meringue pie, pineapple upside down cake, lemon tarts; roasted chicken, French fries, corn chowder, smoked applewood cheddar."
+    },
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 92,
+     "appearance": "A pale clear gold in the glass.",
+     "nose": "The delicious scent of diesel is the first sense that hit the nose. Followed by some pleasant tangy citrus, white grapefruit and a touch of kiwi, finishing with light brioche.",
+     "palate": "The palate follows the nose with the diesel and citrus mingle together with a base of acidity. Smooth and with some depth.",
+     "pairing": "Charcuterie and an assortment of soft cheeses."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "Very pale straw with a greenish hue; minerally, lime bouquet; light-bodied, elegant, lime and grapefruit flavours with just a suggestion of honey to balance the rush of acidity.",
+     "pairing": "Baked ham; smoked salmon; pork risotto."
+    }
+   ],
+   "pairing": "Leah: lemon tarts, roasted chicken, smoked applewood cheddar. Valerie: charcuterie and soft cheeses. Tony: smoked salmon.",
+   "mwc": "catalogue",
+   "role": "Jesse's most underestimated wine; the one wine the winery says is close to stocking out at 1,600 members"
+  },
+  {
+   "key": "ll_cab_merlot_22",
+   "name": "Living Land Cabernet Merlot",
+   "vintage": "2022",
+   "line": "Living Land",
+   "image": "bottle-shots/2022-living-land-cabernet-merlot.png",
+   "specs": {
+    "gi": "",
+    "varietal": "Merlot and Cabernet Franc (spec sheet lists 66% Merlot and 43% Cabernet Franc, which sums to 109%: not quoted)",
+    "abv": "14%",
+    "rs": "0.2 g/L",
+    "cases": "",
+    "volume": "750 mL",
+    "vineyard": "Monte Creek, Keremeos, Nettle Rd (Oliver)"
+   },
+   "score": 91,
+   "score_by": "Leah Spooner",
+   "awards": [
+    {
+     "award": "Gold, 92 points",
+     "body": "National Wine Awards of Canada",
+     "year": "2025",
+     "source": "lineup sheet; not independently verified"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "24 to 36 months in French oak",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "Baking spice, plum and red cherry; full-bodied, ripe and polished tannins. 24 to 36 months in French oak. Bottled May 24, 2023.",
+   "expert_notes": [
+    {
+     "expert": "Leah Spooner",
+     "score": 91,
+     "appearance": "Ruby",
+     "nose": "Leather and blueberry compote, dark cherry, sage and cedar",
+     "palate": "Blackberry and dark cherry, vanilla notes are carried on a clean palate that delivers fresh acids and fine, velvety tannins. Full-bodied, concentrated, and nicely balanced between pure dark fruit and earthy nuances that extend on an extra long finish.",
+     "notes": "Drink now or cellar for another 5 years.",
+     "pairing": "Burritos, grilled steak, hamburgers, candied peanuts, black bean casserole"
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "Deep ruby in colour; cedary, blackcurrant bouquet; medium to full-bodied, dry, juicy blackcurrant and plum flavours carried on lively acidity to a firm finish of ripe tannins. Hold 1 - 2 years.",
+     "pairing": "Roast lamb; steak; veal."
+    }
+   ],
+   "pairing": "Red meats, wood-fire pizza, spaghetti and meatballs (winery). Leah: grilled steak, hamburgers.",
+   "mwc": "catalogue"
+  },
+  {
+   "key": "ll_cab_franc_23",
+   "name": "Living Land Cabernet Franc",
+   "vintage": "2023",
+   "line": "Living Land",
+   "image": "bottle-shots/2023-living-land-cabernet-franc.png",
+   "specs": {
+    "gi": "",
+    "varietal": "88% Cabernet Franc, 12% Merlot",
+    "abv": "14.4%",
+    "rs": "0.2 g/L",
+    "cases": "1,300",
+    "volume": "750 mL",
+    "vineyard": "Nettle Rd (Oliver) and Bordertown (Osoyoos)"
+   },
+   "score": 93,
+   "score_by": "Leah Spooner",
+   "awards": [
+    {
+     "award": "Silver, 93 points",
+     "body": "IWSC",
+     "year": "2026",
+     "source": "lineup sheet; not independently verified"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "15 months in French oak",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "88% Cabernet Franc, 12% Merlot, 15 months in French oak. Sweetly exuberant with snappy candied cherries and luscious spice, well-integrated oak; structured through to the finish with chewy tannins. Bottled July 2025. 1,300 cases.",
+   "expert_notes": [
+    {
+     "expert": "Leah Spooner",
+     "score": 93,
+     "appearance": "Purple/red",
+     "nose": "Intensely perfumed with violets, black caps, cherry, vanilla, nutmeg",
+     "palate": "Bright, black raspberry, pepper and purple plum notes are married with warm, toasty oak and baking spice notes: cedar, nutmeg, vanilla. Full-bodied, well-balanced, and beautiful concentrated fruit that is balanced with good oak integration. The tannins are ripe, granular and sand-like which reveals this wine would still reward further aging (5-10 years). Dark chocolate notes approach on a long finish.",
+     "notes": "Excellent quality. Delicious Cab Franc!",
+     "pairing": "T-bone steak, hot roast-beef sandwiches, turkey dinners, charcuterie boards, gouda, mozzarella, roasted root veggies, Chinese food."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "Deep purple in colour; spicy, vanilla and black cherry nose; medium to full-bodied, dry, well extracted black cherry and black plum flavours with a firm finish of ripe tannins. Well-integrated oak. Hold 1 - 2 years.",
+     "pairing": "Lamb chops; pork with fruit sauce; grilled eggplant."
+    }
+   ],
+   "pairing": "Grilled vegetables and herb-rubbed halloumi or roasted poultry (winery). Leah: T-bone steak, roast turkey.",
+   "mwc": "catalogue"
+  },
+  {
+   "key": "aw_pinot_noir_23",
+   "name": "Ancient Waters Pinot Noir",
+   "vintage": "2023",
+   "line": "Ancient Waters",
+   "image": "bottle-shots/2023-ancient-waters-pinot-noir.png",
+   "specs": {
+    "gi": "",
+    "varietal": "100% Pinot Noir",
+    "abv": "13.8%",
+    "rs": "0.5 g/L",
+    "cases": "111",
+    "volume": "750 mL",
+    "vineyard": "Keremeos"
+   },
+   "score": 88,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "18 months in French oak barriques",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "100% Pinot Noir, 18 months in French oak barriques. Dark cherry, raspberry, black tea, leather and rose petal; medium minus acidity, excellent mid palate weight, long finish, velvety tannins. Best served slightly chilled. 111 cases.",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 88,
+     "text": "Ruby colour; lifted (slightly volatile) nose of black raspberry with oak spice; medium-bodied, dry, earthy, tannic, black cherry flavour. Can be opened now and served through 2027.",
+     "pairing": "Duck breast; pork loin; salmon."
+    }
+   ],
+   "pairing": "Roast chicken with mushrooms, cheese-based dishes, BBQ salmon (winery).",
+   "mwc": "catalogue"
+  },
+  {
+   "key": "ll_foch_23",
+   "name": "Living Land Foch",
+   "vintage": "2023",
+   "line": "Living Land",
+   "image": "bottle-shots/2023-living-land-foch.png",
+   "specs": {
+    "gi": "Thompson Valley BC VQA",
+    "varietal": "100% Foch",
+    "abv": "13%",
+    "rs": "0.5 g/L (dry)",
+    "cases": "725",
+    "volume": "750 mL",
+    "vineyard": "Monte Creek"
+   },
+   "score": 87,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "32% aged 9 months in French oak; 68% four months in foudres then five months in barrel",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "100% Foch, picked September 28 and October 5. Earthy, mushroom character with red berries and plums; broad palate, soft acidity, light tannin. 725 cases.",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 87,
+     "text": "Deep purple-ruby in colour; toasty, blackberry bouquet with a smoky note; medium to full-bodied, dry, savoury, herbal blackberry flavour finishing on a note of dry tannins. Hold 1 - 2 years to allow the tannins to soften.",
+     "pairing": "Ratatouille; hamburgers; roasted beet salad."
+    }
+   ],
+   "pairing": "Lamb burgers, charred eggplant with labneh, lentil curry (winery).",
+   "mwc": "catalogue",
+   "flag": "Scored 87 by the only expert who tasted it: under the 88-point showcase rule"
+  },
+  {
+   "key": "ll_gamay_24",
+   "name": "Living Land Gamay Noir",
+   "vintage": "2024",
+   "line": "Living Land",
+   "image": "bottle-shots/2024-living-land-gamay-noir.png",
+   "specs": {
+    "gi": "",
+    "varietal": "Gamay Noir",
+    "abv": "",
+    "rs": "",
+    "cases": "",
+    "volume": "750 mL",
+    "vineyard": ""
+   },
+   "score": 89,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [],
+   "winery_words": "Organic. Winery club exclusive; the sheet marks it Suggested, not Approved (spec sheet is blank).",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 89,
+     "text": "Ruby colour; cherry pit nose; medium-bodied, dry, richly extracted black cherry flavour with a firm tannic structure and good length. Chillable. Drink now.",
+     "pairing": "Sausages; pizza; ribs."
+    }
+   ],
+   "pairing": "",
+   "mwc": "catalogue",
+   "flag": "Lineup status is Suggested; spec sheet blank"
+  },
+  {
+   "key": "ll_hands_up_red_23",
+   "name": "Hands Up Red",
+   "vintage": "2023",
+   "line": "Living Land",
+   "image": "bottle-shots/2023-hands-up-red.png",
+   "specs": {
+    "gi": "",
+    "varietal": "Frontenac Noir, Merlot, Cabernet Franc",
+    "abv": "",
+    "rs": "",
+    "cases": "",
+    "volume": "750 mL",
+    "vineyard": ""
+   },
+   "score": 88,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [],
+   "winery_words": "",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 88,
+     "text": "A blend of Frontenac Noir, Merlot and Cabernet Franc. Deep ruby-purple in colour; spicy, blackberry and vanilla bouquet; full-bodied, dry, juicy black fruit flavours carried on lively acidity to a firm finish. Hold for 1 year to allow the tannins to meld.",
+     "pairing": "BBQ-ed red meat; winter stews; aged cheddar."
+    }
+   ],
+   "pairing": "",
+   "mwc": "catalogue",
+   "flag": "No winery spec sheet; named Hands Up Red on the sheet, Living Land line not confirmed"
+  },
+  {
+   "key": "ll_frontenac_gris_25",
+   "name": "Living Land Frontenac Gris Organic",
+   "vintage": "2025",
+   "line": "Living Land",
+   "image": "bottle-shots/2025-living-land-frontenac-gris.png",
+   "specs": {
+    "gi": "Thompson Valley",
+    "varietal": "100% Frontenac Gris",
+    "abv": "12.2%",
+    "rs": "10.5 g/L",
+    "cases": "545",
+    "volume": "750 mL",
+    "vineyard": "Lion's Head and Monte Creek"
+   },
+   "score": 92,
+   "score_by": "Valerie van der Gracht",
+   "awards": [
+    {
+     "award": "89 points",
+     "body": "Gismondi on Wine",
+     "year": "",
+     "source": "lineup sheet"
+    }
+   ],
+   "oak": [
+    {
+     "claim": "four months in stainless steel",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "100% Frontenac Gris, four months in stainless steel, bottled February 26, 2026. Herbaceous nose, fresh gooseberry and candied citrus; pineapple, mango, tangerine. The best-selling wine in the tasting room. Jesse's pick if members open only one bottle: bright, refreshing, easy-drinking, and very few wineries grow Frontenac Gris (interview).",
+   "expert_notes": [
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 92,
+     "appearance": "A light yellow with a very slight green tinge but clear as crystal as it shimmers in the glass.",
+     "nose": "The scents of the wine are beyond heavenly, floral with fresh pear and underlying citrus, some honey notes. Faint essence of freshly chopped parsley adds interest to the clean, pure aromas as the wine sits in the glass. The tiniest hint of oak.",
+     "palate": "On the palate the first thing that hits is the richness of the oak that follows from the nose. Beautifully lush but never heavy nor too crisp. Enticingly fresh and the citrus keeps it tight. This is an incredibly refreshing wine. Focused with an acidity that never quits.",
+     "pairing": "Fabulous on its own; fresh seafood, scallop crudo, Dungeness crab."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "Tasted as the 2022 vintage: pale straw colour; earthy, green melon bouquet; medium-bodied, dry, spicy, tangerine flavour; lively acidity, lovely mouth feel.",
+     "pairing": "Seafood dishes; soft cheeses; lobster rolls.",
+     "vintage_note": "2022 vintage, not the 2025: do not quote"
+    }
+   ],
+   "pairing": "General spicy dishes (winery). Valerie: scallop crudo, Dungeness crab.",
+   "mwc": "catalogue",
+   "role": "Jesse's first-bottle pick"
+  },
+  {
+   "key": "ll_chardonnay_25",
+   "name": "Living Land Chardonnay Organic",
+   "vintage": "2025",
+   "line": "Living Land",
+   "image": "bottle-shots/2025-living-land-chardonnay-organic.png",
+   "specs": {
+    "gi": "",
+    "varietal": "Chardonnay",
+    "abv": "",
+    "rs": "",
+    "cases": "",
+    "volume": "750 mL",
+    "vineyard": ""
+   },
+   "score": 90,
+   "score_by": "Valerie van der Gracht",
+   "awards": [
+    {
+     "award": "Gold, ACWC 2025",
+     "body": "",
+     "year": "2025",
+     "source": "lineup sheet; UNVERIFIED and the vintage cannot have won in 2025: do not use"
+    }
+   ],
+   "oak": [],
+   "winery_words": "",
+   "expert_notes": [
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 90,
+     "appearance": "A pleasantly clear and pale yellow colour in the glass.",
+     "nose": "A delicate hint of oak, just light enough to be there, adding a pleasant underlying aroma to the scents of crisp apple. An enticing floral note, a bit sweet like the scent of Jasmine.",
+     "palate": "In the mouth the wine is more serious as the apple adds to the mix of fall flavours with Bartlett pear and some savoury notes. An elegant body that lingers on the palate with a mix of freshness from fall fruit and a slight touch of the tropics. Creating a fresh but mellow finish combined with the light touch of oak.",
+     "pairing": "Scallops, Coquille Saint Jacques, Oysters Rockefeller."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 89,
+     "text": "Pale straw in colour; green apple bouquet; medium to full-bodied, dry, richly extracted apple and pear flavours with mouth-watering acidity. Well-integrated oak. Lovely mouth feel. Drink now and through 2027.",
+     "pairing": "Cream sauces; roast chicken; salmon; lobster."
+    }
+   ],
+   "pairing": "",
+   "mwc": "catalogue",
+   "flag": "Winery website lists the 2024 vintage; sheet lists 2025 (Elvis, Oct 3). Winery email Oct 1 confirms 2025."
+  },
+  {
+   "key": "ll_sparkling_25",
+   "name": "Living Land Sparkling",
+   "vintage": "2025",
+   "line": "Living Land",
+   "image": "bottle-shots/2025-living-land-sparkling.png",
+   "specs": {
+    "gi": "",
+    "varietal": "100% La Crescent",
+    "abv": "12.7%",
+    "rs": "8.2 g/L",
+    "cases": "1,110",
+    "volume": "750 mL",
+    "vineyard": "Monte Creek Ranch / Lion's Head"
+   },
+   "score": 89,
+   "score_by": "Tony Aspler",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "first fermentation four months in stainless steel, then two months in Charmat tanks",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "100% La Crescent, Charmat method. Peach, pineapple, green apple; light bodied. A fresh, ready-to-drink sparkling wine, ideal aperitif or patio party starter. Bottled May 14, 2026. 1,110 cases.",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 89,
+     "text": "Pale straw in colour with a gentle mousse; smoky, citrus zest nose; light to medium-bodied, just off-dry, floral, peach-apple flavour. Good length. Drink now.",
+     "pairing": "Aperitif wine; Chinese food; sushi."
+    }
+   ],
+   "pairing": "Light small bites, aperitif (winery).",
+   "mwc": "catalogue"
+  },
+  {
+   "key": "aw_rose_25",
+   "name": "Ancient Waters Rosé",
+   "vintage": "2025",
+   "line": "Ancient Waters",
+   "image": "bottle-shots/2025-ancient-waters-rose.png",
+   "specs": {
+    "gi": "Similkameen Valley",
+    "varietal": "100% Pinot Noir",
+    "abv": "12.5%",
+    "rs": "5 g/L",
+    "cases": "202",
+    "volume": "750 mL",
+    "vineyard": "Keremeos"
+   },
+   "score": 92,
+   "score_by": "Valerie van der Gracht",
+   "awards": [],
+   "oak": [
+    {
+     "claim": "50% saignée Pinot Noir, 24 hours on skins before part of the juice is bled off",
+     "source": "winery spec sheet"
+    }
+   ],
+   "winery_words": "100% Pinot Noir, 50% saignée. Fresh strawberry and ripe cherry, honeysuckle; strawberry, juicy raspberry, sweet cherry; fresh and silky. 202 cases.",
+   "expert_notes": [
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 92,
+     "appearance": "Beautiful crystal rose colour, somewhere between pale and shimmering. Very attractive in the glass, a rose gold. Like a jewel.",
+     "nose": "Wild strawberry mixed with light floral and a touch of Jolly Rancher with an almond finish.",
+     "palate": "A serious wine, far from what I expected. Firm, with an amazingly tantalizing body that hits close to medium without any evidence of heaviness. This is not your aunt's Rosé: bright and vibrant. Flavours of fresh cranberry provide the backbone.",
+     "pairing": "Soft cheese like a double cream Brie, charcuterie with spiced olives, barbecued sockeye salmon with grilled vegetables."
+    }
+   ],
+   "pairing": "Light summer salad, light seafood, tangy cheeses (winery).",
+   "mwc": "catalogue"
+  }
+ ],
+ "images": {
+  "hero": "hero-jesse-barrel-room.jpg",
+  "winery_building": "hero-winery-building.jpg",
+  "place": [
+   "place-grapes-in-hand.jpg"
+  ],
+  "bottle_shots": "bottle-shots/"
+ },
+ "allowed_absolutes": [],
+ "gaps": [
+  "12-Bottle Mixed not built: the sheet's 12-pack list repeats the 2023 Cabernet Franc and carries stray values, and Karen (Oct 1) proposed swapping the second Riesling for the Grüner Veltliner, which has no cutout or notes. Needs Adriana/Alberto.",
+  "2025 LL Chardonnay Organic: award on the sheet (Gold ACWC 2025) is unverified and cannot belong to a 2025 vintage; the winery website lists 2024. Not used.",
+  "Prices differ between the sheet and the winery site for Rosé and Frontenac Gris (Elvis, Oct 3). No prices are used in the emails.",
+  "2023 LL Foch is scored 87 (below the 88-point showcase rule).",
+  "Award lines for Cabernet Merlot (Gold 92, NWAC 2025) and Cabernet Franc (Silver 93, IWSC 2026) come from the sheet and are not independently verified.",
+  "Spec sheets missing GI/vineyard for several wines; Gamay and Hands Up Red have no spec sheet.",
+  "Spec sheet for the 2022 Cabernet Merlot lists 66% Merlot and 43% Cabernet Franc (109%); blend percentages not quoted.",
+  "Winery images: only winery building, winemaker in the barrel room and a hand holding grapes were pulled; larger Drive originals (5-6 MB) were not needed."
+ ]
+}
