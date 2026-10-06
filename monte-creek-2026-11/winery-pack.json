@@ -588,8 +588,8 @@
   }
  ],
  "images": {
-  "hero": "hero-jesse-barrel-room.jpg",
-  "winery_building": "hero-winery-building.jpg",
+  "hero": "hero-winery-building.jpg",
+  "portrait": "hero-jesse-barrel-room.jpg",
   "place": [
    "place-grapes-in-hand.jpg"
   ],
