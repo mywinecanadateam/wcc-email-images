@@ -1,0 +1,201 @@
+{
+ "site": "https://enotecca.ca",
+ "platform": "commerce7",
+ "images": [
+  {
+   "product": "2021 Fortissimo Selezione di Famiglia",
+   "product_url": "https://enotecca.ca/product/2021-fortissimo-selezione-di-famiglia",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-fortissimo-selezione-2021-web-1752016437530.jpg",
+   "file": "2021-fortissimo-selezione-di-famiglia.jpg",
+   "lineup_key": "2021 Fortissimo Selezione",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "da9227313ba744a63baeaf9c3981a1aba4a7fb84dea749a31939fc00712ddef5",
+   "bytes": 98326,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2022 Espressivo",
+   "product_url": "https://enotecca.ca/product/2022-espressivo",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-espressivo-2022-web-1749754711031.jpg",
+   "file": "2022-espressivo.jpg",
+   "lineup_key": "2022 Espressivo",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "6a1a5defd48cd2e4dca7fb8293826a99da7fd21e971bd9a618c25768008dfa8d",
+   "bytes": 97673,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2022 Fortissimo Selezione di Famiglia",
+   "product_url": "https://enotecca.ca/product/2022-fortissimo-selezione-di-famiglia",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-fortissimo-selezione-2022-web-1752016229697.jpg",
+   "file": "2022-fortissimo-selezione-di-famiglia.jpg",
+   "lineup_key": "2022 Fortissimo Selezione",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "6417d2cd9e508f42d0f5f6f799d46c4f905346b3c27531db6d415d76224bd010",
+   "bytes": 98579,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2023 Espressivo",
+   "product_url": "https://enotecca.ca/product/2023-espressivo",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-espressivo-2023-web-1770151141506.jpg",
+   "file": "2023-espressivo.jpg",
+   "lineup_key": "2023 Espressivo",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "e3319aed5abc31408ad855a7fab2354682c6fde92b2608c7666097d548565b64",
+   "bytes": 97664,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2023 Fortissimo",
+   "product_url": "https://enotecca.ca/product/2023-fortissimo",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-fortissimo-2023-web-1758063022488.jpg",
+   "file": "2023-fortissimo.jpg",
+   "lineup_key": "2023 Fortissimo",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "d682677c3ff3f1a9db605ebc5aa35390581c225c80832ea93ad91d07f7f86f29",
+   "bytes": 95816,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Ava",
+   "product_url": "https://enotecca.ca/product/2025-ava",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-ava-bottle-web-1783709412790.jpg",
+   "file": "2025-ava.jpg",
+   "lineup_key": "2025 Ava",
+   "platform": "commerce7",
+   "label_checked": false,
+   "sha256": "4244564f1db4b7bd489dcd200ab689dd01b0464cbc8166e62bd5ecdb9d1052d3",
+   "bytes": 102046,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 LaStellina",
+   "product_url": "https://enotecca.ca/product/2025-lastellina",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-lastellina-2025-web-1770150553082.jpg",
+   "file": "2025-lastellina.jpg",
+   "lineup_key": "2025 LaStellina",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "ebfd50cf12c16a37c593fa57fa319857d7d2a400da74142107ec931387970363",
+   "bytes": 116851,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Leggiero",
+   "product_url": "https://enotecca.ca/product/2025-leggiero-",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-leggiero-2025-web-1771439803445.jpg",
+   "file": "2025-leggiero.jpg",
+   "lineup_key": "2025 Leggiero",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "0d5d7133413f85536ff81a640d57637f93d142c0573cbd276525358aa06f6c30",
+   "bytes": 104558,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Moscato D'Osoyoos",
+   "product_url": "https://enotecca.ca/product/2025-moscato-d-osoyoos",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-moscato-d-osoyoos-2025-web-1770150734677.jpg",
+   "file": "2025-moscato-d-osoyoos.jpg",
+   "lineup_key": "2025 Moscato",
+   "platform": "commerce7",
+   "label_checked": false,
+   "sha256": "be2957bfe1c061b134b73307291f5c1e021ed7b627a3d970e9b9111cac1b086c",
+   "bytes": 86755,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Petit Blanc",
+   "product_url": "https://enotecca.ca/product/2025-petit-blanc",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-petit-blanc-bottle-web-1773437474213.jpg",
+   "file": "2025-petit-blanc.jpg",
+   "lineup_key": "2025 Petit Blanc",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "d5d4e7b309492c109a460d8f368de961f0f9bd03a7ff6db75a610b05809e5dbf",
+   "bytes": 94447,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Sauvignon Blanc",
+   "product_url": "https://enotecca.ca/product/2025-sauvignon-blanc",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-sauvignon-blanc-bottle-web-1775523761438.jpg",
+   "file": "2025-sauvignon-blanc.jpg",
+   "lineup_key": "2025 Sauvignon Blanc",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "57e74524e3d77f6ec1c3183e28bef45e2ff6a1f3c15cd048c40a98f97838d833",
+   "bytes": 105066,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Vaila Rose",
+   "product_url": "https://enotecca.ca/product/2025-vaila-rose",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-vaila-bottle-web-1773354791532.jpg",
+   "file": "2025-vaila-rose.jpg",
+   "lineup_key": "2025 Vaila Rose",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "5882f499c6421caba1d67baab771abd65101dc95dc6600fd2702a94e739a1c0e",
+   "bytes": 104230,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2025 Vivace",
+   "product_url": "https://enotecca.ca/product/2025-vivace",
+   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-vivace-2025-web-1771439844829.jpg",
+   "file": "2025-vivace.jpg",
+   "lineup_key": "2025 Vivace",
+   "platform": "commerce7",
+   "label_checked": true,
+   "sha256": "21d8c1f2ccc1bc4c3a4a5d0cd4c822d825cd5760c86f5a9e1df0899fbddb5f4d",
+   "bytes": 104103,
+   "pixels": [
+    1140,
+    1720
+   ]
+  }
+ ]
+}
