@@ -84,7 +84,7 @@
    "file": "2025-ava.jpg",
    "lineup_key": "2025 Ava",
    "platform": "commerce7",
-   "label_checked": false,
+   "label_checked": true,
    "sha256": "4244564f1db4b7bd489dcd200ab689dd01b0464cbc8166e62bd5ecdb9d1052d3",
    "bytes": 102046,
    "pixels": [
@@ -129,7 +129,7 @@
    "file": "2025-moscato-d-osoyoos.jpg",
    "lineup_key": "2025 Moscato",
    "platform": "commerce7",
-   "label_checked": false,
+   "label_checked": true,
    "sha256": "be2957bfe1c061b134b73307291f5c1e021ed7b627a3d970e9b9111cac1b086c",
    "bytes": 86755,
    "pixels": [
@@ -201,37 +201,37 @@
  "missing": [
   {
    "wine": "2023 Le Vieux Pin Retouche",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "site only has 2022 1.5L and older vintages; Drive has the LVP-Retouche-2023 tech sheet only"
   },
   {
    "wine": "2025 Le Vieux Pin Retouche",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "lineup versions disagree on 2023 vs 2025; confirm"
   },
   {
    "wine": "2025 Le Vieux Pin Roussanne",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "site's newest is 2021"
   },
   {
    "wine": "2025 Le Vieux Pin Petit Rouge",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "site has 2024 and 2023 bottles, 2025 only in 375 ml (no photo)"
   },
   {
    "wine": "2023 La Stella Allegretto",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "site's newest is 2022"
   },
   {
-   "wine": "2024 Le Vieux Pin Cuv\u00e9e Sereine",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "wine": "2024 Le Vieux Pin Cuvée Sereine",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "not on the site at all"
   },
   {
-   "wine": "2022 Le Vieux Pin Cuv\u00e9e Dor\u00e9e",
-   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "wine": "2022 Le Vieux Pin Cuvée Dorée",
+   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
    "note": "site's newest is 2021"
   }
  ],
@@ -240,7 +240,115 @@
    "file": "people-and-place/winemaker-severine-pinte.jpg",
    "source": "Drive: Wineclub.ca x LaStella/Vieux Pin > Winery Images > Sev_pictureTaniaVeitch.jpg",
    "credit": "Tania Veitch Photography",
-   "note": "S\u00e9verine Pinte, executive winemaker (name from the interview)"
+   "note": "Séverine Pinte, executive winemaker (name from the interview)"
+  },
+  {
+   "file": "people-and-place/winemaker-severine-pinte-vineyard.jpg",
+   "source": "https://lastella.ca/the-winery/people/",
+   "note": "Séverine Pinte, executive winemaker (name from the interview)",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/winemaker-severine-pinte-cellar.jpg",
+   "source": "https://lastella.ca/the-winery/symphony-senses/",
+   "note": "Séverine Pinte, executive winemaker (name from the interview)",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/winery/la-stella-winery-building.webp",
+   "source": "https://enotecca.ca/about/",
+   "note": "La Stella winery building, Osoyoos",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/winery/la-stella-winery-over-vineyard.webp",
+   "source": "https://enotecca.ca/about/",
+   "note": "La Stella winery over the vineyard",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/winery/le-vieux-pin-winery-lavender.webp",
+   "source": "https://enotecca.ca/about/",
+   "note": "Le Vieux Pin winery building and lavender",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/winery/le-vieux-pin-patio-vineyard-view.webp",
+   "source": "https://enotecca.ca/about/",
+   "note": "Le Vieux Pin patio looking over the vineyard",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/le-vieux-pin-old-pine-vineyard-bw.webp",
+   "source": "https://enotecca.ca/about/",
+   "note": "the old pine in the Le Vieux Pin vineyard, black and white",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/la-stella-lumeno-vineyard-lake.jpg",
+   "source": "https://lastella.ca/the-winery/vineyards/",
+   "note": "Lumeno vineyard above Osoyoos Lake",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/la-stella-selona-vineyard-rows.jpg",
+   "source": "https://lastella.ca/the-winery/vineyards/",
+   "note": "Selona vineyard rows",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/la-stella-stagg-vineyard-rows.jpg",
+   "source": "https://lastella.ca/the-winery/vineyards/",
+   "note": "Stagg vineyard rows",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/la-feuille-dor-aerial.jpg",
+   "source": "https://lastella.ca/the-winery/vineyards/",
+   "note": "La Feuille d'Or aerial",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/la-stella-crowley-aerial.jpg",
+   "source": "https://lastella.ca/the-winery/vineyards/",
+   "note": "Crowley vineyard aerial",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/vineyard/osoyoos-lake-view.jpg",
+   "source": "https://lastella.ca/the-winery/the-region/",
+   "note": "Osoyoos Lake and valley",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/team/allan-las.jpg",
+   "source": "https://lastella.ca/the-winery/people/",
+   "note": "team member in the vineyard; name from the site filename only, not confirmed",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/team/dave-marchand-3050-1.jpg",
+   "source": "https://lastella.ca/the-winery/people/",
+   "note": "team member in the barrel room; name from the site filename only, not confirmed",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/team/jody-9013.jpg",
+   "source": "https://lastella.ca/the-winery/people/",
+   "note": "team member in the vineyard; name from the site filename only, not confirmed",
+   "reviewed": true
+  },
+  {
+   "file": "people-and-place/team/michelle-las-cropped.jpg",
+   "source": "https://lastella.ca/the-winery/people/",
+   "note": "team member in the vineyard; name from the site filename only, not confirmed",
+   "reviewed": true
   }
- ]
+ ],
+ "cutouts": {
+  "method": "studio-cutout.py (GrabCut) then prepare_cutouts.py --fix",
+  "date": "2026-10-14",
+  "result": "13 of 13 pass; every cutout opened on a magenta backdrop, labels and capsules intact",
+  "folder": "bottle-shots/"
+ }
 }
