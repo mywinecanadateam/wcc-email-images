@@ -197,5 +197,50 @@
     1720
    ]
   }
+ ],
+ "missing": [
+  {
+   "wine": "2023 Le Vieux Pin Retouche",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "site only has 2022 1.5L and older vintages; Drive has the LVP-Retouche-2023 tech sheet only"
+  },
+  {
+   "wine": "2025 Le Vieux Pin Retouche",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "lineup versions disagree on 2023 vs 2025; confirm"
+  },
+  {
+   "wine": "2025 Le Vieux Pin Roussanne",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "site's newest is 2021"
+  },
+  {
+   "wine": "2025 Le Vieux Pin Petit Rouge",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "site has 2024 and 2023 bottles, 2025 only in 375 ml (no photo)"
+  },
+  {
+   "wine": "2023 La Stella Allegretto",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "site's newest is 2022"
+  },
+  {
+   "wine": "2024 Le Vieux Pin Cuv\u00e9e Sereine",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "not on the site at all"
+  },
+  {
+   "wine": "2022 Le Vieux Pin Cuv\u00e9e Dor\u00e9e",
+   "status": "[IMAGE] \u2014 no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
+   "note": "site's newest is 2021"
+  }
+ ],
+ "people_and_place": [
+  {
+   "file": "people-and-place/winemaker-severine-pinte.jpg",
+   "source": "Drive: Wineclub.ca x LaStella/Vieux Pin > Winery Images > Sev_pictureTaniaVeitch.jpg",
+   "credit": "Tania Veitch Photography",
+   "note": "S\u00e9verine Pinte, executive winemaker (name from the interview)"
+  }
  ]
 }
