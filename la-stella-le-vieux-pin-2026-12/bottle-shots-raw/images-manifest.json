@@ -226,6 +226,82 @@
     1140,
     1720
    ]
+  },
+  {
+   "product": "2022 Retouche",
+   "product_url": null,
+   "source": "LVP-Retouche-2023.pdf (Marcel/Enotecca upload, 2026-10-14)",
+   "image_url": null,
+   "file": "2022-retouche.jpg",
+   "lineup_key": "2022 Retouche",
+   "platform": "pdf-embedded",
+   "label_checked": true,
+   "vintage_mismatch": true,
+   "wanted": "2023 Retouche",
+   "note": "Label reads 2022, lineup needs 2023. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
+   "sha256": "62d91afc7dd13d5774670d8ca9944c1758b101fdc4721aae31dbcd528ba857f0",
+   "bytes": 81068,
+   "pixels": [
+    860,
+    1720
+   ]
+  },
+  {
+   "product": "2022 Allegretto",
+   "product_url": null,
+   "source": "LAS-Allegreto-Pie-Franco-Merlot-2023.pdf (upload, 2026-10-14)",
+   "image_url": null,
+   "file": "2022-allegretto.jpg",
+   "lineup_key": "2022 Allegretto",
+   "platform": "pdf-embedded",
+   "label_checked": true,
+   "vintage_mismatch": true,
+   "wanted": "2023 Allegretto",
+   "note": "Label reads 2022, lineup needs 2023. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
+   "sha256": "7256b54c56e08277aca1d7359cf845b1b9835caf88736519a323f0dd63f439c2",
+   "bytes": 54555,
+   "pixels": [
+    860,
+    1720
+   ]
+  },
+  {
+   "product": "2022 Petit Rouge",
+   "product_url": "https://levieuxpin.ca/product/2022-petit-rouge/",
+   "source": "https://levieuxpin.ca/product/2022-petit-rouge/",
+   "image_url": "https://levieuxpin.ca/wp-content/uploads/2023/03/2022-LVP-Petit-Rouge-Bottle-web.jpg",
+   "file": "2022-petit-rouge.jpg",
+   "lineup_key": "2022 Petit Rouge",
+   "platform": "levieuxpin.ca",
+   "label_checked": true,
+   "vintage_mismatch": true,
+   "wanted": "2025 Petit Rouge",
+   "note": "Label reads 2022, lineup needs 2025. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
+   "sha256": "73f97ad81f8d82fff017a57416c6d651403d1b0bda3efeabfd2b40b8211bba3c",
+   "bytes": 363217,
+   "pixels": [
+    1140,
+    1720
+   ]
+  },
+  {
+   "product": "2020 Roussanne",
+   "product_url": "https://levieuxpin.ca/product/2020-roussanne/",
+   "source": "https://levieuxpin.ca/product/2020-roussanne/",
+   "image_url": "https://levieuxpin.ca/wp-content/uploads/2021/11/2020-LVP-Roussanne-Bottle-web.jpg",
+   "file": "2020-roussanne.jpg",
+   "lineup_key": "2020 Roussanne",
+   "platform": "levieuxpin.ca",
+   "label_checked": true,
+   "vintage_mismatch": true,
+   "wanted": "2025 Roussanne",
+   "note": "Label reads 2020, lineup needs 2025. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
+   "sha256": "f100229e468edcde3aec01bf13ad3475ab698846bf2e141a3bde669d26340a8d",
+   "bytes": 408347,
+   "pixels": [
+    1140,
+    1720
+   ]
   }
  ],
  "missing": [
