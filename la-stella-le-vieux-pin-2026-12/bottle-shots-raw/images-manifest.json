@@ -507,9 +507,9 @@
   }
  ],
  "cutouts": {
-  "method": "studio-cutout.py (backdrop model, smooth symmetric outline) then prepare_cutouts.py --fix",
+  "method": "studio-cutout.py (backdrop model, outline snapped to the real glass edge, smooth symmetric curve, edge colour from the glass core); prepare_cutouts.py report-only (its --fix feathers white-label edges)",
   "date": "2026-10-14",
-  "result": "13 of 13 lineup wines cut out; all pass prepare_cutouts and review-cutouts.py (jaggedness under 0.20); every bottle viewed at 1:1 on white and dark 2026-10-14",
+  "result": "13 of 13 lineup wines; second full review 2026-10-14 after the capsule fringe and edge defects were reported: capsule at 3x, neck and both shoulders at 4x, bases, on white and dark. Sauvignon Blanc is flagged \"white halo\" by prepare_cutouts because its white label reaches the edge; the edge is crisp.",
   "excluded": "photos flagged vintage_mismatch are not cut out",
   "folder": "bottle-shots/"
  },
