@@ -15,7 +15,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2022 Espressivo",
@@ -30,7 +31,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2022 Fortissimo Selezione di Famiglia",
@@ -45,7 +47,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
   },
   {
    "product": "2023 Espressivo",
@@ -60,7 +65,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
   },
   {
    "product": "2023 Fortissimo",
@@ -75,7 +83,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2025 Ava",
@@ -90,7 +99,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2025 LaStellina",
@@ -105,7 +115,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2025 Leggiero",
@@ -120,7 +131,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2025 Moscato D'Osoyoos",
@@ -135,7 +147,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
   },
   {
    "product": "2025 Petit Blanc",
@@ -150,7 +165,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
   },
   {
    "product": "2025 Sauvignon Blanc",
@@ -165,7 +183,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2025 Vaila Rose",
@@ -180,7 +199,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2025 Vivace",
@@ -195,7 +215,8 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": true
   },
   {
    "product": "2024 Cuvée Sereine",
@@ -210,7 +231,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
   },
   {
    "product": "2022 Cuvée Dorée",
@@ -225,7 +249,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
   },
   {
    "product": "2022 Retouche",
@@ -244,7 +271,10 @@
    "pixels": [
     860,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
   },
   {
    "product": "2022 Allegretto",
@@ -263,7 +293,10 @@
    "pixels": [
     860,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
   },
   {
    "product": "2022 Petit Rouge",
@@ -282,7 +315,10 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
   },
   {
    "product": "2020 Roussanne",
@@ -301,36 +337,65 @@
    "pixels": [
     1140,
     1720
-   ]
+   ],
+   "in_lineup": false,
+   "moved_to": "_not-in-lineup/",
+   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
+  },
+  {
+   "product": "2025-LVP-Petit-Rouge-Bottle-web.jpg",
+   "file": "2025-petit-rouge.jpg",
+   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
+   "drive_file_id": "1P93hfHKVOV3EXHNinJINdhajuBqT6gVQ",
+   "pixels": [
+    1140,
+    1720
+   ],
+   "label_checked": true,
+   "label_read": "vintage and wine name read on the label 2026-10-14",
+   "in_lineup": true
+  },
+  {
+   "product": "2025-LVP-Roussanne-Bottle-web.jpg",
+   "file": "2025-roussanne.jpg",
+   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
+   "drive_file_id": "1toX-bj4jBGV0dVpfbOhhvKaNqVMtqu_F",
+   "pixels": [
+    1140,
+    1720
+   ],
+   "label_checked": true,
+   "label_read": "vintage and wine name read on the label 2026-10-14",
+   "in_lineup": true
+  },
+  {
+   "product": "2023-LVP-Retouche-Bottle-web.jpg",
+   "file": "2023-retouche.jpg",
+   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
+   "drive_file_id": "131NrTbE6Umbpqld262YcOnX7EFD-12h8",
+   "pixels": [
+    1140,
+    1720
+   ],
+   "label_checked": true,
+   "label_read": "vintage and wine name read on the label 2026-10-14",
+   "in_lineup": true
+  },
+  {
+   "product": "Lastella-Allegretto-2023-web.jpg",
+   "file": "2023-allegretto.jpg",
+   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
+   "drive_file_id": "1YIXW38j381CZYvs3hHQLjkISGu6rQZMe",
+   "pixels": [
+    1140,
+    1720
+   ],
+   "label_checked": true,
+   "label_read": "vintage and wine name read on the label 2026-10-14",
+   "in_lineup": true
   }
  ],
- "missing": [
-  {
-   "wine": "2023 Le Vieux Pin Retouche",
-   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
-   "note": "site only has 2022 1.5L and older vintages; Drive has the LVP-Retouche-2023 tech sheet only"
-  },
-  {
-   "wine": "2025 Le Vieux Pin Retouche",
-   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
-   "note": "lineup versions disagree on 2023 vs 2025; confirm"
-  },
-  {
-   "wine": "2025 Le Vieux Pin Roussanne",
-   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
-   "note": "site's newest is 2021"
-  },
-  {
-   "wine": "2025 Le Vieux Pin Petit Rouge",
-   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
-   "note": "site has 2024 and 2023 bottles, 2025 only in 375 ml (no photo)"
-  },
-  {
-   "wine": "2023 La Stella Allegretto",
-   "status": "[IMAGE] — no label-matching photo on enotecca.ca, mywinecanada.com (winery not listed on MWC) or Drive; searched 2026-10-14",
-   "note": "site's newest is 2022"
-  }
- ],
+ "missing": [],
  "people_and_place": [
   {
    "file": "people-and-place/winemaker-severine-pinte.jpg",
@@ -442,10 +507,15 @@
   }
  ],
  "cutouts": {
-  "method": "studio-cutout.py (coarse GrabCut, full-resolution edge snap, symmetric smooth outline) then prepare_cutouts.py --fix",
+  "method": "studio-cutout.py (backdrop model, smooth symmetric outline) then prepare_cutouts.py --fix",
   "date": "2026-10-14",
-  "result": "15 of 15 pass prepare_cutouts and review-cutouts.py (jaggedness 0.06-0.17); every bottle viewed at 1:1 on white and dark: smooth edges, labels and capsules intact",
+  "result": "13 of 13 lineup wines cut out; all pass prepare_cutouts and review-cutouts.py (jaggedness under 0.20); every bottle viewed at 1:1 on white and dark 2026-10-14",
   "excluded": "photos flagged vintage_mismatch are not cut out",
   "folder": "bottle-shots/"
+ },
+ "lineup": {
+  "file": "brain: .claude/references/wcc/wineries/2026-12-la-stella-le-vieux-pin/lineup.json",
+  "wines": 13,
+  "with_photo": 13
  }
 }
