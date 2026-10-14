@@ -511,7 +511,11 @@
   "date": "2026-10-14",
   "result": "13 of 13 lineup wines; second full review 2026-10-14 after the capsule fringe and edge defects were reported: capsule at 3x, neck and both shoulders at 4x, bases, on white and dark. Sauvignon Blanc is flagged \"white halo\" by prepare_cutouts because its white label reaches the edge; the edge is crisp. 2026-10-14 third pass: shadow skirt under the 2025 Vivace base removed (and the floor-contact line on every base); all 13 checked at 3-4x.",
   "excluded": "photos flagged vintage_mismatch are not cut out",
-  "folder": "bottle-shots/"
+  "folder": "bottle-shots/",
+  "reviewed": {
+   "date": "2026-10-14",
+   "by": "zoom review (capsule 3x, neck and shoulders 4x, base, white and dark)"
+  }
  },
  "lineup": {
   "file": "brain: .claude/references/wcc/wineries/2026-12-la-stella-le-vieux-pin/lineup.json",
