@@ -442,9 +442,10 @@
   }
  ],
  "cutouts": {
-  "method": "studio-cutout.py (GrabCut) then prepare_cutouts.py --fix",
+  "method": "studio-cutout.py (coarse GrabCut, full-resolution edge snap, symmetric smooth outline) then prepare_cutouts.py --fix",
   "date": "2026-10-14",
-  "result": "15 of 15 pass; every cutout opened on a magenta backdrop, labels and capsules intact",
+  "result": "15 of 15 pass prepare_cutouts and review-cutouts.py (jaggedness 0.06-0.17); every bottle viewed at 1:1 on white and dark: smooth edges, labels and capsules intact",
+  "excluded": "photos flagged vintage_mismatch are not cut out",
   "folder": "bottle-shots/"
  }
 }
