@@ -28,6 +28,7 @@ from pathlib import Path
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 FONT_DIR = Path(__file__).parent / "fonts"
+TITLE_RIGHT_FRAC = 0.485  # right edge of the title block, as a fraction of the canvas width (left edge of a six-bottle cluster, less its margin)
 NAME_FONT_PATH = FONT_DIR / "Lora-Italic.ttf"
 NAME_VF_PATH = FONT_DIR / "Lora-Italic-VF.ttf"  # variable Lora Italic (OFL), used at SemiBold for the cluster hero
 
@@ -262,7 +263,13 @@ def add_winery_name(canvas: Image.Image, winery_name: str, eyebrow: str = "FEATU
     eyebrow_font = ImageFont.truetype(str(EYEBROW_FONT_PATH), eyebrow_size)
     name_font = load_name_font(name_size, bold)
 
-    if bold and winery_name.endswith(" Estate Winery"):  # cluster hero: the same two lines for every pack
+    if bold and " / " in winery_name:  # two wineries: one per line, broken at the slash, the same for every pack
+        first, second = (part.strip() for part in winery_name.split(" / ", 1))
+        lines = [first + " /", second]
+        while max_width and name_size > 30 and max(draw.textlength(ln, font=name_font) for ln in lines) > max_width:
+            name_size -= 2   # the longer line always fits beside the bottles, never runs under them or off the frame
+            name_font = load_name_font(name_size, bold)
+    elif bold and winery_name.endswith(" Estate Winery"):  # cluster hero: the same two lines for every pack
         lines = [winery_name[:-len(" Estate Winery")], "Estate Winery"]
     else:
         lines = _wrap_name(draw, winery_name, name_font, max_width) if max_width else [winery_name]
@@ -365,8 +372,12 @@ def build_hero(background_path: Path, bottle_paths: list[Path], output_path: Pat
         left = place_cluster(canvas, bottles)
         if winery_name:
             name_x = int(CANVAS_W * name_x_frac) if name_x_frac is not None else None
+            x0 = name_x or int(CANVAS_W * 0.035)
+            # The title's width is set by the six-bottle cluster (the 6- and 12-Bottle heroes), the narrowest space beside the
+            # bottles, and used for every pack: a 2-Bottle hero has more room but must read as one set with the 12-Bottle.
+            title_right = int(CANVAS_W * TITLE_RIGHT_FRAC)
             add_winery_name(canvas, winery_name, eyebrow, x0=name_x, bold=True,
-                            max_width=left - (name_x or int(CANVAS_W * 0.035)) - int(CANVAS_W * 0.035))
+                            max_width=min(title_right, left - int(CANVAS_W * 0.035)) - x0)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         canvas.convert("RGB").save(output_path, "JPEG", quality=88)
         return used, skipped
