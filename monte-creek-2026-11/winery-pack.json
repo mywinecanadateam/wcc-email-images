@@ -1255,20 +1255,29 @@
    "vintage": "2025",
    "line": "Living Land",
    "image": "bottle-shots/2025-living-land-gruener-veltliner-organic.png",
-   "specs": {},
-   "score": null,
-   "score_by": "",
+   "specs": {
+    "gi": "Similkameen Valley VQA",
+    "varietal": "Grüner Veltliner",
+    "volume": "750 mL"
+   },
+   "score": 89,
+   "score_by": "Tony Aspler",
    "awards": [],
    "oak": [],
-   "winery_words": "Organic. New release (lineup sheet, modified 2026-10-13). No spec sheet or expert notes yet.",
-   "expert_notes": [],
+   "winery_words": "A dry, crisp organic white with green apple, lime zest and white pepper, plus a light, textured feel from neutral French oak. The finish is clean and slightly mineral. Whole clusters pressed slowly and gently (tasting card, 2026-10-13).",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 89,
+     "text": "Score 89. Serve at 8 to 10 °C; enjoy now through 2028 (tasting card notes)."
+    }
+   ],
    "pairing": "",
    "mwc": "catalogue",
-   "flag": "No expert notes, score or awards yet",
    "email": {
     "short": "Living Land Gr&uuml;ner Veltliner",
     "badge": "New Release",
-    "why": "An organic 2025 Gr&uuml;ner Veltliner, a new release from the Living Land line."
+    "why": "An organic, dry and crisp white with green apple, lime zest and white pepper, finishing clean and slightly mineral."
    }
   }
  ],
