@@ -75,7 +75,7 @@
    "source": "winery spec sheet (2024 vintage)"
   }
  ],
- "lineup_source": "Drive lineup sheet 3.Winery LineUp_MonteCreekWinery.xlsx (modified 2026-10-02), the winery's approved list",
+ "lineup_source": "Drive lineup sheet 3.Winery LineUp_MonteCreekWinery.xlsx (modified 2026-10-13), tab 1.Lineup",
  "lineup_size": 12,
  "packs": {
   "2-bottle-mixed": [
@@ -127,17 +127,17 @@
   ],
   "12-bottle-mixed": [
    "aw_pinot_noir_23",
-   "aw_pinot_noir_23",
    "ll_cab_franc_23",
    "ll_cab_franc_23",
    "ll_cab_merlot_22",
-   "ll_cab_merlot_22",
+   "ll_foch_23",
+   "ll_gamay_24",
    "aw_riesling_22",
    "ll_frontenac_gris_25",
    "ll_chardonnay_25",
    "gruner_veltliner",
-   "aw_rose_25",
-   "ll_sparkling_25"
+   "ll_sparkling_25",
+   "aw_rose_25"
   ]
  },
  "wines": [
@@ -651,7 +651,12 @@
      "dish": "Roasted hazelnuts with a few squares of firm cheese",
      "why": "No sugar: a sweet dessert would make the wine taste thin."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Foch",
+    "badge": "Earthy Red",
+    "why": "Earthy and savoury, with red berries and plums on a broad palate, soft acidity and light tannin. Part of the wine ages in French oak."
+   }
   },
   {
    "key": "ll_gamay_24",
@@ -736,7 +741,12 @@
      "dish": "Toasted almonds with a few cubes of mild cheese",
      "why": "No sugar: a sweet dessert would make the wine taste thin."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Gamay Noir",
+    "badge": "Chillable Red",
+    "why": "Organic and dry, with richly extracted black cherry and a firm tannic structure. Best lightly chilled."
+   }
   },
   {
    "key": "ll_hands_up_red_23",
@@ -820,7 +830,12 @@
      "dish": "Salted roasted walnuts",
      "why": "No sugar: a sweet dessert would make the tannins taste harder."
     }
-   ]
+   ],
+   "email": {
+    "short": "Hands Up Red",
+    "badge": "Red Blend",
+    "why": "A blend of Frontenac Noir, Merlot and Cabernet Franc. Spicy blackberry and vanilla, with juicy black fruit on lively acidity."
+   }
   },
   {
    "key": "ll_frontenac_gris_25",
@@ -1055,7 +1070,16 @@
    },
    "score": 89,
    "score_by": "Tony Aspler",
-   "awards": [],
+   "awards": [
+    {
+     "award": "Silver",
+     "body": "WineAlign",
+     "year": "2026",
+     "points": 90,
+     "source": "lineup sheet 2026-10-13",
+     "status": "winery-stated"
+    }
+   ],
    "oak": [
     {
      "claim": "first fermentation four months in stainless steel, then two months in Charmat tanks",
@@ -1123,7 +1147,12 @@
      "dish": "Fresh strawberries",
      "why": "Light fruit with little sugar stays near the wine's own sweetness."
     }
-   ]
+   ],
+   "email": {
+    "short": "Living Land Sparkling",
+    "badge": "Silver Medal",
+    "why": "100% La Crescent made by the Charmat method. Peach, pineapple and green apple, light and fresh. Silver, WineAlign 2026."
+   }
   },
   {
    "key": "aw_rose_25",
@@ -1213,25 +1242,34 @@
      "dish": "Marcona almonds with a few slices of firm cheese",
      "why": "No sugar: a sweet dessert would make the wine taste thin."
     }
-   ]
+   ],
+   "email": {
+    "short": "Ancient Waters Ros&eacute;",
+    "badge": "Pinot Noir Ros&eacute;",
+    "why": "100% Pinot Noir, half of it saign&eacute;e. Fresh strawberry and ripe cherry with honeysuckle, silky and bright."
+   }
   },
   {
    "key": "gruner_veltliner",
-   "name": "Grüner Veltliner",
-   "vintage": "",
-   "line": "",
-   "image": "bottle-shots/placeholder-gruner-veltliner.png",
+   "name": "Living Land Grüner Veltliner Organic",
+   "vintage": "2025",
+   "line": "Living Land",
+   "image": "bottle-shots/2025-living-land-gruener-veltliner-organic.png",
    "specs": {},
    "score": null,
    "score_by": "",
    "awards": [],
    "oak": [],
-   "winery_words": "Proposed by the winery on Oct 1 as the replacement for the second Ancient Waters Riesling in the 12-Bottle Mixed; about 9 bottles available.",
+   "winery_words": "Organic. New release (lineup sheet, modified 2026-10-13). No spec sheet or expert notes yet.",
    "expert_notes": [],
    "pairing": "",
    "mwc": "catalogue",
-   "placeholder": true,
-   "flag": "No vintage, notes, score, awards or photo yet; image is a placeholder"
+   "flag": "No expert notes, score or awards yet",
+   "email": {
+    "short": "Living Land Gr&uuml;ner Veltliner",
+    "badge": "New Release",
+    "why": "An organic 2025 Gr&uuml;ner Veltliner, a new release from the Living Land line."
+   }
   }
  ],
  "images": {
@@ -1253,7 +1291,8 @@
   "Winery images: only winery building, winemaker in the barrel room and a hand holding grapes were pulled; larger Drive originals (5-6 MB) were not needed.",
   "12-Bottle Mixed follows the sheet's structure (3 reds x2, 4 whites, 1 Rosé, 1 Sparkling) with Grüner Veltliner as the fourth white, per the winery's Oct 1 email. Grüner has no vintage, notes, score, awards or photo (placeholder image).",
   "Pairings follow the WSET pocket guide and pass check-pairings.py. Chardonnay, Gamay and Hands Up Red have no abv or sugar on any spec sheet: their profiles use estimates (listed in `profile.estimated`).",
-  "Awards: Cabernet Merlot Gold NWAC 2025 confirmed (2026-10-06). Cabernet Franc Silver IWSC 2026, Chardonnay Gold ACWC 2025 and Frontenac Gris 89 pts Gismondi are winery-stated (not found in a second source); they stay in the copy and are flagged."
+  "Awards: Cabernet Merlot Gold NWAC 2025 confirmed (2026-10-06). Cabernet Franc Silver IWSC 2026, Chardonnay Gold ACWC 2025 and Frontenac Gris 89 pts Gismondi are winery-stated (not found in a second source); they stay in the copy and are flagged.",
+  "Lineup sheet changed 2026-10-13: 12-Bottle Mixed now 3 reds+Foch+Gamay (Cabernet Franc listed twice), Grüner 2025 added with a photo, Chardonnay no longer lists the ACWC Gold. Allocation tab still describes the older 12-pack (3 reds x2)."
  ],
  "page_slots": [
   "aw_riesling_22",
