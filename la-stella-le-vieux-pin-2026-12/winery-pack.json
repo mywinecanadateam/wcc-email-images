@@ -401,12 +401,12 @@
     {
      "kind": "meat",
      "dish": "Roast pork loin with rosemary and garlic",
-     "why": "A rich, herby roast for a full-bodied red; the house rules rule out Tony's pepper steak with a tannic wine."
+     "why": "A rich, herby roast with enough weight for a full-bodied red."
     },
     {
      "kind": "vegetarian",
      "dish": "Roasted root vegetables with rosemary and sea salt",
-     "why": "Salt and roasted sweetness soften the tannins; echoes the winery's hearty vegetable idea."
+     "why": "Salt and roasted sweetness soften the tannins."
     },
     {
      "kind": "dessert",
@@ -630,17 +630,17 @@
     {
      "kind": "appetizer",
      "dish": "Salted pretzel bites with whole-grain mustard",
-     "why": "Salt softens the firm tannins; stands in for Leah's cured meats, which the house rules rule out with a tannic wine."
+     "why": "Salt softens the firm tannins."
     },
     {
      "kind": "cheese",
      "dish": "Gruyère cubes",
-     "why": "A salty, nutty cheese in place of Leah's aged cheddar."
+     "why": "A salty, nutty cheese with enough fat to soften the tannins."
     },
     {
      "kind": "meat",
      "dish": "Sausage penne with sage and olive oil",
-     "why": "Leah's sausage penne without the tomato, which the rules flag with a tannic wine."
+     "why": "Sage and olive oil keep it rich without overpowering the wine."
     },
     {
      "kind": "vegetarian",
@@ -713,7 +713,7 @@
     {
      "kind": "appetizer",
      "dish": "Steamed mussels in white wine",
-     "why": "Tony's mussels; a delicate shellfish for a full white. The rules rule out his smoked salmon."
+     "why": "Delicate shellfish suits a full-bodied white."
     },
     {
      "kind": "cheese",
@@ -792,12 +792,12 @@
     {
      "kind": "cheese",
      "dish": "Young Gouda cubes",
-     "why": "A mild, buttery cheese; the rules rule out Tony's aged cheddar with a medium-intensity wine."
+     "why": "A mild, buttery cheese for an easy-drinking red."
     },
     {
      "kind": "meat",
      "dish": "Pork chops with a red cherry sauce",
-     "why": "The winery's own meat-based pairing; the rules rule out Tony's beef stew with a medium-intensity wine."
+     "why": "The winery's own meat-based pairing."
     },
     {
      "kind": "vegetarian",
@@ -948,8 +948,8 @@
     },
     {
      "kind": "vegetarian",
-     "dish": "Grilled portobello caps with garlic",
-     "why": "Tony's grilled mushrooms; savoury depth."
+     "dish": "Roasted cauliflower with olive oil and sea salt",
+     "why": "Salt softens the tannins and roasting adds weight."
     },
     {
      "kind": "dessert",
@@ -1082,7 +1082,7 @@
     {
      "kind": "appetizer",
      "dish": "Steamed mussels in a coconut, ginger and lemongrass broth",
-     "why": "The winery's own pairing; the rules rule out Tony's smoked fish with a medium-intensity wine."
+     "why": "The winery's own pairing: bright, aromatic and light."
     },
     {
      "kind": "cheese",
@@ -1121,6 +1121,7 @@
   "Vaila 2025: the spec sheet says 23 hours on the skin and the back label says 16 hours; maceration is left out.",
   "Retouche 2023: Tony Aspler's note is headed 2025; the team decided on 2026-10-28 to treat it as the 2023.",
   "Spec sheets give 'South Okanagan' as the growing area; the card and page print 'Okanagan Valley VQA' (the La Stella labels say BC VQA Okanagan Valley) except Vaila and Roussanne, which Valerie's documents place in Okanagan Valley.",
+  "Pairings follow the credited expert's suggestions and the winery's own, then the house pairing rules (check-pairings.py). Expert picks dropped because a rule rules them out: Tony's pepper steak, game and wild boar for the Fortissimo Selezione (high tannin with umami food); Leah's cured meats, aged cheddar, sausage penne with tomato and the mushroom quiche for Retouche (same rule); Tony's smoked salmon (Roussanne) and smoked fish (Leggiero); Tony's aged cheddar and beef stew (Petit Rouge, medium intensity); Tony's grilled mushrooms (Allegretto, high tannin with umami food); Leah's creme brulee (Vivace) and portobello and dark chocolate (Espressivo), a sweet dessert with a dry wine. Tony gave no pairings for Retouche or the Fortissimo 2023, so those use Leah's or the winery's.",
   "Serving temperatures were set by me as a sommelier except where an expert gave one (Vaila: take it out of the fridge 30 minutes before; Roussanne: not too cold)."
  ],
  "page_slots": [
