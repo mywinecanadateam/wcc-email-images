@@ -258,7 +258,13 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2022-espressivo.png"
+   "image": "bottle-shots/2022-espressivo.png",
+   "awards": [
+    "Bronze – National Wine Awards of Canada 2025"
+   ],
+   "medal": [
+    "NWAC 25' Bronze.png"
+   ]
   },
   {
    "key": "vivace-2025",
@@ -489,7 +495,13 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2025-lastellina.png"
+   "image": "bottle-shots/2025-lastellina.png",
+   "awards": [
+    "Silver – National Wine Awards of Canada 2026"
+   ],
+   "medal": [
+    "NWAC 26' Silver.png"
+   ]
   },
   {
    "key": "vaila-2025",
@@ -572,7 +584,13 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2025-vaila-rose.png"
+   "image": "bottle-shots/2025-vaila-rose.png",
+   "awards": [
+    "Gold – National Wine Awards of Canada 2026"
+   ],
+   "medal": [
+    "NWAC 26' Gold.png"
+   ]
   },
   {
    "key": "retouche-2023",
@@ -1032,7 +1050,13 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2025-sauvignon-blanc.png"
+   "image": "bottle-shots/2025-sauvignon-blanc.png",
+   "awards": [
+    "Silver – National Wine Awards of Canada 2026"
+   ],
+   "medal": [
+    "NWAC 26' Silver.png"
+   ]
   },
   {
    "key": "leggiero-2025",
