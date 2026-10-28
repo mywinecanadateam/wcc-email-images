@@ -176,7 +176,8 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2025-ava.png"
+   "image": "bottle-shots/2025-ava.png",
+   "release": "new"
   },
   {
    "key": "espressivo-2022",
@@ -347,7 +348,8 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2025-vivace.png"
+   "image": "bottle-shots/2025-vivace.png",
+   "release": "new"
   },
   {
    "key": "fortissimo-selezione-2021",
@@ -501,7 +503,8 @@
    ],
    "medal": [
     "NWAC 26' Silver.png"
-   ]
+   ],
+   "release": "new"
   },
   {
    "key": "vaila-2025",
@@ -590,7 +593,8 @@
    ],
    "medal": [
     "NWAC 26' Gold.png"
-   ]
+   ],
+   "release": "new"
   },
   {
    "key": "retouche-2023",
@@ -672,7 +676,8 @@
     }
    ],
    "mwc": "none",
-   "image": "bottle-shots/2023-retouche.png"
+   "image": "bottle-shots/2023-retouche.png",
+   "release": "new"
   },
   {
    "key": "roussanne-2025",
@@ -1056,7 +1061,8 @@
    ],
    "medal": [
     "NWAC 26' Silver.png"
-   ]
+   ],
+   "release": "new"
   },
   {
    "key": "leggiero-2025",
