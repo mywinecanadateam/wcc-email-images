@@ -1,8 +1,8 @@
 {
- "winery": "La Stella Winery & Le Vieux Pin Winery",
+ "winery": "LaStella Winery & Le Vieux Pin Winery",
  "slug": "la-stella-le-vieux-pin-2026-12",
  "month": {
-  "name": "La Stella & Le Vieux Pin",
+  "name": "LaStella & Le Vieux Pin",
   "region_label": "South Okanagan, BC",
   "page_url": "https://wineclub.ca/pages/subscription/la-stella-le-vieux-pin-2026",
   "hero_background": "people-and-place/winery/la-stella-winery-over-vineyard.webp"
@@ -26,7 +26,7 @@
  },
  "facts": [
   {
-   "fact": "Le Vieux Pin (2005) and La Stella (2006) are South Okanagan wineries that make about 16,000 cases a year between them; Le Vieux Pin draws on the Rhône, La Stella on Italy",
+   "fact": "Le Vieux Pin (2005) and LaStella (2006) are South Okanagan wineries that make about 16,000 cases a year between them; Le Vieux Pin draws on the Rhône, LaStella on Italy",
    "source": "interview"
   }
  ],
@@ -181,8 +181,8 @@
   {
    "key": "espressivo-2022",
    "vintage": "2022",
-   "name": "La Stella Espressivo",
-   "brand": "La Stella",
+   "name": "LaStella Espressivo",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "30% Cabernet Franc, 29.5% Cabernet Sauvignon, 29.5% Merlot, 11% Sangiovese",
@@ -263,8 +263,8 @@
   {
    "key": "vivace-2025",
    "vintage": "2025",
-   "name": "La Stella Vivace Pinot Grigio",
-   "brand": "La Stella",
+   "name": "LaStella Vivace Pinot Grigio",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "99% Pinot Grigio, 1% Chardonnay",
@@ -346,8 +346,8 @@
   {
    "key": "fortissimo-selezione-2021",
    "vintage": "2021",
-   "name": "La Stella Fortissimo Selezione",
-   "brand": "La Stella",
+   "name": "LaStella Fortissimo Selezione",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "54% Merlot, 24% Cabernet Sauvignon, 18% Cabernet Franc, 4% Sangiovese",
@@ -420,8 +420,8 @@
   {
    "key": "lastellina-2025",
    "vintage": "2025",
-   "name": "La Stella Lastellina Rosé",
-   "brand": "La Stella",
+   "name": "LaStella Lastellina Rosé",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "70% Cabernet Franc, 30% Merlot",
@@ -816,8 +816,8 @@
   {
    "key": "fortissimo-2023",
    "vintage": "2023",
-   "name": "La Stella Fortissimo",
-   "brand": "La Stella",
+   "name": "LaStella Fortissimo",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "60% Merlot, 21% Cabernet Franc, 12% Cabernet Sauvignon, 7% Sangiovese Grosso",
@@ -889,8 +889,8 @@
   {
    "key": "allegretto-2023",
    "vintage": "2023",
-   "name": "La Stella Allegretto",
-   "brand": "La Stella",
+   "name": "LaStella Allegretto",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "100% own-rooted ('pie franco') Merlot",
@@ -968,7 +968,7 @@
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "100% Sauvignon Blanc",
-    "vineyard": "37% La Stella, 22.4% La Feuille d'Or, 40.6% H&I Farm",
+    "vineyard": "37% LaStella, 22.4% La Feuille d'Or, 40.6% H&I Farm",
     "abv": "13%",
     "cases": "750",
     "aging": "6 months on lees, 66% stainless steel and 34% French oak (0% new)"
@@ -1037,8 +1037,8 @@
   {
    "key": "leggiero-2025",
    "vintage": "2025",
-   "name": "La Stella Leggiero Chardonnay",
-   "brand": "La Stella",
+   "name": "LaStella Leggiero Chardonnay",
+   "brand": "LaStella",
    "specs": {
     "gi": "Okanagan Valley VQA",
     "varietal": "100% Chardonnay (old vines)",
@@ -1112,16 +1112,15 @@
  "images": {
   "hero": "people-and-place/winery/la-stella-winery-over-vineyard.webp",
   "portrait": "hero-severine-vineyard.jpg",
-  "bottle_shots": "bottle-shots/",
-  "page_hero": "hero-page-team.jpg"
+  "bottle_shots": "bottle-shots/"
  },
  "gaps": [
-  "My Wine Canada lists no La Stella or Le Vieux Pin wine and has no winery collection page (MWC search 2026-10-28: 0 results for lastella, none for Le Vieux Pin), so no url_N link can be set.",
+  "My Wine Canada lists no LaStella or Le Vieux Pin wine and has no winery collection page (MWC search 2026-10-28: 0 results for lastella, none for Le Vieux Pin), so no url_N link can be set.",
   "Petit Rouge 2025: Tony Aspler's note carries no score; no other expert tasted it.",
   "Lastellina and the Fortissimo 2023, Allegretto, Sauvignon Blanc and Leggiero have only Tony Aspler's short note: appearance, nose and palate are his words, split into the three lines.",
   "Vaila 2025: the spec sheet says 23 hours on the skin and the back label says 16 hours; maceration is left out.",
   "Retouche 2023: Tony Aspler's note is headed 2025; the team decided on 2026-10-28 to treat it as the 2023.",
-  "Spec sheets give 'South Okanagan' as the growing area; the card and page print 'Okanagan Valley VQA' (the La Stella labels say BC VQA Okanagan Valley) except Vaila and Roussanne, which Valerie's documents place in Okanagan Valley.",
+  "Spec sheets give 'South Okanagan' as the growing area; the card and page print 'Okanagan Valley VQA' (the LaStella labels say BC VQA Okanagan Valley) except Vaila and Roussanne, which Valerie's documents place in Okanagan Valley.",
   "Pairings follow the credited expert's suggestions and the winery's own, then the house pairing rules (check-pairings.py). Expert picks dropped because a rule rules them out: Tony's pepper steak, game and wild boar for the Fortissimo Selezione (high tannin with umami food); Leah's cured meats, aged cheddar, sausage penne with tomato and the mushroom quiche for Retouche (same rule); Tony's smoked salmon (Roussanne) and smoked fish (Leggiero); Tony's aged cheddar and beef stew (Petit Rouge, medium intensity); Tony's grilled mushrooms (Allegretto, high tannin with umami food); Leah's creme brulee (Vivace) and portobello and dark chocolate (Espressivo), a sweet dessert with a dry wine. Tony gave no pairings for Retouche or the Fortissimo 2023, so those use Leah's or the winery's.",
   "Serving temperatures were set by me as a sommelier except where an expert gave one (Vaila: take it out of the fridge 30 minutes before; Roussanne: not too cold)."
  ],
