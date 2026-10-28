@@ -1,397 +1,213 @@
 {
- "site": "https://enotecca.ca",
- "platform": "commerce7",
+ "site": "Drive folder Additional Docs (1tpv3_6avsCy2BxDyEDX2hGlVQCQ6yDyV); no website photos",
+ "platform": "drive",
  "images": [
   {
-   "product": "2021 Fortissimo Selezione di Famiglia",
-   "product_url": "https://enotecca.ca/product/2021-fortissimo-selezione-di-famiglia",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-fortissimo-selezione-2021-web-1752016437530.jpg",
-   "file": "2021-fortissimo-selezione-di-famiglia.jpg",
-   "lineup_key": "2021 Fortissimo Selezione",
-   "platform": "commerce7",
+   "product": "2025 Le Vieux Pin Ava",
+   "file": "2025-ava.png",
+   "lineup_key": "ava-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LVP-Ava-2025.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "19jxBtwmeBSxCJszAVBwhWJC0ian0bKb1",
    "label_checked": true,
-   "sha256": "da9227313ba744a63baeaf9c3981a1aba4a7fb84dea749a31939fc00712ddef5",
-   "bytes": 98326,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2022 Espressivo",
-   "product_url": "https://enotecca.ca/product/2022-espressivo",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-espressivo-2022-web-1749754711031.jpg",
-   "file": "2022-espressivo.jpg",
-   "lineup_key": "2022 Espressivo",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "6a1a5defd48cd2e4dca7fb8293826a99da7fd21e971bd9a618c25768008dfa8d",
-   "bytes": 97673,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2022 Fortissimo Selezione di Famiglia",
-   "product_url": "https://enotecca.ca/product/2022-fortissimo-selezione-di-famiglia",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-fortissimo-selezione-2022-web-1752016229697.jpg",
-   "file": "2022-fortissimo-selezione-di-famiglia.jpg",
-   "lineup_key": "2022 Fortissimo Selezione",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "6417d2cd9e508f42d0f5f6f799d46c4f905346b3c27531db6d415d76224bd010",
-   "bytes": 98579,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
-  },
-  {
-   "product": "2023 Espressivo",
-   "product_url": "https://enotecca.ca/product/2023-espressivo",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-espressivo-2023-web-1770151141506.jpg",
-   "file": "2023-espressivo.jpg",
-   "lineup_key": "2023 Espressivo",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "e3319aed5abc31408ad855a7fab2354682c6fde92b2608c7666097d548565b64",
-   "bytes": 97664,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
-  },
-  {
-   "product": "2023 Fortissimo",
-   "product_url": "https://enotecca.ca/product/2023-fortissimo",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-fortissimo-2023-web-1758063022488.jpg",
-   "file": "2023-fortissimo.jpg",
-   "lineup_key": "2023 Fortissimo",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "d682677c3ff3f1a9db605ebc5aa35390581c225c80832ea93ad91d07f7f86f29",
-   "bytes": 95816,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2025 Ava",
-   "product_url": "https://enotecca.ca/product/2025-ava",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-ava-bottle-web-1783709412790.jpg",
-   "file": "2025-ava.jpg",
-   "lineup_key": "2025 Ava",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "4244564f1db4b7bd489dcd200ab689dd01b0464cbc8166e62bd5ecdb9d1052d3",
-   "bytes": 102046,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2025 LaStellina",
-   "product_url": "https://enotecca.ca/product/2025-lastellina",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-lastellina-2025-web-1770150553082.jpg",
-   "file": "2025-lastellina.jpg",
-   "lineup_key": "2025 LaStellina",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "ebfd50cf12c16a37c593fa57fa319857d7d2a400da74142107ec931387970363",
-   "bytes": 116851,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2025 Leggiero",
-   "product_url": "https://enotecca.ca/product/2025-leggiero-",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-leggiero-2025-web-1771439803445.jpg",
-   "file": "2025-leggiero.jpg",
-   "lineup_key": "2025 Leggiero",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "0d5d7133413f85536ff81a640d57637f93d142c0573cbd276525358aa06f6c30",
-   "bytes": 104558,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2025 Moscato D'Osoyoos",
-   "product_url": "https://enotecca.ca/product/2025-moscato-d-osoyoos",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-moscato-d-osoyoos-2025-web-1770150734677.jpg",
-   "file": "2025-moscato-d-osoyoos.jpg",
-   "lineup_key": "2025 Moscato",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "be2957bfe1c061b134b73307291f5c1e021ed7b627a3d970e9b9111cac1b086c",
-   "bytes": 86755,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
-  },
-  {
-   "product": "2025 Petit Blanc",
-   "product_url": "https://enotecca.ca/product/2025-petit-blanc",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-petit-blanc-bottle-web-1773437474213.jpg",
-   "file": "2025-petit-blanc.jpg",
-   "lineup_key": "2025 Petit Blanc",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "d5d4e7b309492c109a460d8f368de961f0f9bd03a7ff6db75a610b05809e5dbf",
-   "bytes": 94447,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
-  },
-  {
-   "product": "2025 Sauvignon Blanc",
-   "product_url": "https://enotecca.ca/product/2025-sauvignon-blanc",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-sauvignon-blanc-bottle-web-1775523761438.jpg",
-   "file": "2025-sauvignon-blanc.jpg",
-   "lineup_key": "2025 Sauvignon Blanc",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "57e74524e3d77f6ec1c3183e28bef45e2ff6a1f3c15cd048c40a98f97838d833",
-   "bytes": 105066,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2025 Vaila Rose",
-   "product_url": "https://enotecca.ca/product/2025-vaila-rose",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/2025-lvp-vaila-bottle-web-1773354791532.jpg",
-   "file": "2025-vaila-rose.jpg",
-   "lineup_key": "2025 Vaila Rose",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "5882f499c6421caba1d67baab771abd65101dc95dc6600fd2702a94e739a1c0e",
-   "bytes": 104230,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2025 Vivace",
-   "product_url": "https://enotecca.ca/product/2025-vivace",
-   "image_url": "https://images.commerce7.com/enotecca-wineries-and-resorts-inc/images/original/lastella-vivace-2025-web-1771439844829.jpg",
-   "file": "2025-vivace.jpg",
-   "lineup_key": "2025 Vivace",
-   "platform": "commerce7",
-   "label_checked": true,
-   "sha256": "21d8c1f2ccc1bc4c3a4a5d0cd4c822d825cd5760c86f5a9e1df0899fbddb5f4d",
-   "bytes": 104103,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": true
-  },
-  {
-   "product": "2024 Cuvée Sereine",
-   "product_url": "https://levieuxpin.ca/product/2024-cuvee-sereine/",
-   "image_url": "https://levieuxpin.ca/wp-content/uploads/2026/03/2024-LVP-Cuvee-Sereine-Bottle-web.jpg",
-   "file": "2024-cuvee-sereine.jpg",
-   "lineup_key": "2024 Cuvée Sereine",
-   "platform": "levieuxpin.ca (WordPress)",
-   "label_checked": true,
-   "sha256": "550d21630db56ae0f30d06b3501345b3d4a96cf539afa087e7c77ca3cacea96c",
-   "bytes": 403955,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
-  },
-  {
-   "product": "2022 Cuvée Dorée",
-   "product_url": "https://levieuxpin.ca/product/2022-cuvee-doree/",
-   "image_url": "https://levieuxpin.ca/wp-content/uploads/2024/11/2022-LVP-Cuvee-Doree-Bottle-web.jpg",
-   "file": "2022-cuvee-doree.jpg",
-   "lineup_key": "2022 Cuvée Dorée",
-   "platform": "levieuxpin.ca (WordPress)",
-   "label_checked": true,
-   "sha256": "ccde22e1fa4e49b9bf223192e07079722253324ec6fbdab98a31915bc350ab7c",
-   "bytes": 173238,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wine is not in the 2026-12 lineup sheet"
-  },
-  {
-   "product": "2022 Retouche",
-   "product_url": null,
-   "source": "LVP-Retouche-2023.pdf (Marcel/Enotecca upload, 2026-10-14)",
-   "image_url": null,
-   "file": "2022-retouche.jpg",
-   "lineup_key": "2022 Retouche",
-   "platform": "pdf-embedded",
-   "label_checked": true,
-   "vintage_mismatch": true,
-   "wanted": "2023 Retouche",
-   "note": "Label reads 2022, lineup needs 2023. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
-   "sha256": "62d91afc7dd13d5774670d8ca9944c1758b101fdc4721aae31dbcd528ba857f0",
-   "bytes": 81068,
+   "label_vintage_read": "2025",
+   "sha256": "ac43b6a990a4cc91bbe015e816622571229c89de659914d634c6da1e2ede56c2",
    "pixels": [
     860,
     1720
    ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
+   "in_lineup": true
   },
   {
-   "product": "2022 Allegretto",
-   "product_url": null,
-   "source": "LAS-Allegreto-Pie-Franco-Merlot-2023.pdf (upload, 2026-10-14)",
-   "image_url": null,
-   "file": "2022-allegretto.jpg",
-   "lineup_key": "2022 Allegretto",
-   "platform": "pdf-embedded",
+   "product": "2022 La Stella Espressivo",
+   "file": "2022-espressivo.png",
+   "lineup_key": "espressivo-2022",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LAS-Espressivo-2022.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1-NdqHe0bw9wS3YsaApjwbyceiqVbXBL5",
    "label_checked": true,
-   "vintage_mismatch": true,
-   "wanted": "2023 Allegretto",
-   "note": "Label reads 2022, lineup needs 2023. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
-   "sha256": "7256b54c56e08277aca1d7359cf845b1b9835caf88736519a323f0dd63f439c2",
-   "bytes": 54555,
+   "label_vintage_read": "2022",
+   "sha256": "8ae24f771536004e9139219df99fc2e5c3fe4dcad9c2686589632154c78c5ef0",
    "pixels": [
     860,
     1720
    ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
-  },
-  {
-   "product": "2022 Petit Rouge",
-   "product_url": "https://levieuxpin.ca/product/2022-petit-rouge/",
-   "source": "https://levieuxpin.ca/product/2022-petit-rouge/",
-   "image_url": "https://levieuxpin.ca/wp-content/uploads/2023/03/2022-LVP-Petit-Rouge-Bottle-web.jpg",
-   "file": "2022-petit-rouge.jpg",
-   "lineup_key": "2022 Petit Rouge",
-   "platform": "levieuxpin.ca",
-   "label_checked": true,
-   "vintage_mismatch": true,
-   "wanted": "2025 Petit Rouge",
-   "note": "Label reads 2022, lineup needs 2025. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
-   "sha256": "73f97ad81f8d82fff017a57416c6d651403d1b0bda3efeabfd2b40b8211bba3c",
-   "bytes": 363217,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
-  },
-  {
-   "product": "2020 Roussanne",
-   "product_url": "https://levieuxpin.ca/product/2020-roussanne/",
-   "source": "https://levieuxpin.ca/product/2020-roussanne/",
-   "image_url": "https://levieuxpin.ca/wp-content/uploads/2021/11/2020-LVP-Roussanne-Bottle-web.jpg",
-   "file": "2020-roussanne.jpg",
-   "lineup_key": "2020 Roussanne",
-   "platform": "levieuxpin.ca",
-   "label_checked": true,
-   "vintage_mismatch": true,
-   "wanted": "2025 Roussanne",
-   "note": "Label reads 2020, lineup needs 2025. Correct-vintage photo requested from winery; do not use as the lineup vintage.",
-   "sha256": "f100229e468edcde3aec01bf13ad3475ab698846bf2e141a3bde669d26340a8d",
-   "bytes": 408347,
-   "pixels": [
-    1140,
-    1720
-   ],
-   "in_lineup": false,
-   "moved_to": "_not-in-lineup/",
-   "not_in_lineup_reason": "wrong vintage stand-in for a lineup wine"
-  },
-  {
-   "product": "2025-LVP-Petit-Rouge-Bottle-web.jpg",
-   "file": "2025-petit-rouge.jpg",
-   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
-   "drive_file_id": "1P93hfHKVOV3EXHNinJINdhajuBqT6gVQ",
-   "pixels": [
-    1140,
-    1720
-   ],
-   "label_checked": true,
-   "label_read": "vintage and wine name read on the label 2026-10-14",
    "in_lineup": true
   },
   {
-   "product": "2025-LVP-Roussanne-Bottle-web.jpg",
-   "file": "2025-roussanne.jpg",
-   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
-   "drive_file_id": "1toX-bj4jBGV0dVpfbOhhvKaNqVMtqu_F",
+   "product": "2025 La Stella Vivace Pinot Grigio",
+   "file": "2025-vivace.png",
+   "lineup_key": "vivace-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LAS-Vivace-2025.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "142011DtE2TrYJEkWUBw1IAZc9m8ElUZA",
+   "label_checked": true,
+   "label_vintage_read": "2025",
+   "sha256": "c4af235dce1393987fef50c44746b75f2f94cd2e44c30de2e9e1659ad7244a90",
    "pixels": [
-    1140,
+    860,
     1720
    ],
-   "label_checked": true,
-   "label_read": "vintage and wine name read on the label 2026-10-14",
    "in_lineup": true
   },
   {
-   "product": "2023-LVP-Retouche-Bottle-web.jpg",
+   "product": "2021 La Stella Fortissimo Selezione",
+   "file": "2021-fortissimo-selezione-di-famiglia.png",
+   "lineup_key": "fortissimo-selezione-2021",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LAS-Fortissimo-Riserva-2021.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1r6t9pbqFZ7OejhnqMNIZUefyfr29laNO",
+   "label_checked": true,
+   "label_vintage_read": "2021",
+   "sha256": "4e855571ca57cb44aaf679b34dd8dcf8b52f0829c5e5096cbf7cef4588a88d67",
+   "pixels": [
+    860,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2025 La Stella Lastellina Rose",
+   "file": "2025-lastellina.png",
+   "lineup_key": "lastellina-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LAS-LaStellina-Rosato-2025.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1fmmIYalNNe32QNo8BJST5xC34JaJDUfG",
+   "label_checked": true,
+   "label_vintage_read": "2025",
+   "sha256": "3f24d1f52bff095a41895423dd79c23fcb70585bfd76fc07e1c25eac89c681c5",
+   "pixels": [
+    860,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2025 Le Vieux Pin Vaila Rose",
+   "file": "2025-vaila-rose.png",
+   "lineup_key": "vaila-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LVP-Vaila-2025.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1MCfBzXWyOEtmXWv3BmjzE1VOmBq31cJG",
+   "label_checked": true,
+   "label_vintage_read": "2025",
+   "sha256": "1a8ef34c63f9ee93ed9db766323840b7bfb1c7c5091a5a3b499f313aad6e7aa9",
+   "pixels": [
+    860,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2023 Le Vieux Pin Retouche",
    "file": "2023-retouche.jpg",
-   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
+   "lineup_key": "retouche-2023",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > 2023-LVP-Retouche-Bottle-web.jpg",
    "drive_file_id": "131NrTbE6Umbpqld262YcOnX7EFD-12h8",
+   "label_checked": true,
+   "label_vintage_read": "2023",
+   "sha256": "b7b3c364be4f2dbd2540f83b3f10af5958c407c3962f8a77290c32369e2e85e2",
    "pixels": [
     1140,
     1720
    ],
-   "label_checked": true,
-   "label_read": "vintage and wine name read on the label 2026-10-14",
    "in_lineup": true
   },
   {
-   "product": "Lastella-Allegretto-2023-web.jpg",
-   "file": "2023-allegretto.jpg",
-   "source": "Drive: Wine Club Wineries > La Stella / Vieux Pin photos",
-   "drive_file_id": "1YIXW38j381CZYvs3hHQLjkISGu6rQZMe",
+   "product": "2025 Le Vieux Pin Roussanne",
+   "file": "2025-roussanne.jpg",
+   "lineup_key": "roussanne-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > 2025-LVP-Roussanne-Bottle-web.jpg",
+   "drive_file_id": "1toX-bj4jBGV0dVpfbOhhvKaNqVMtqu_F",
+   "label_checked": true,
+   "label_vintage_read": "2025",
+   "sha256": "b78717dd97fb9362a581e52fe75d6f516c2d55eb231c44428110701adbfeee97",
    "pixels": [
     1140,
     1720
    ],
+   "in_lineup": true
+  },
+  {
+   "product": "2025 Le Vieux Pin Petit Rouge",
+   "file": "2025-petit-rouge.jpg",
+   "lineup_key": "petit-rouge-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > 2025-LVP-Petit-Rouge-Bottle-web.jpg",
+   "drive_file_id": "1P93hfHKVOV3EXHNinJINdhajuBqT6gVQ",
    "label_checked": true,
-   "label_read": "vintage and wine name read on the label 2026-10-14",
+   "label_vintage_read": "2025",
+   "sha256": "e4b667347a7adfceb5c019683ae67f161913277e84f5eda8f21c9a9050e710a2",
+   "pixels": [
+    1140,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2023 La Stella Fortissimo",
+   "file": "2023-fortissimo.png",
+   "lineup_key": "fortissimo-2023",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LAS-Fortissimo-2023.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1hy5LctoIS_dF2Q7Zp8Jua87fOH3EWcGA",
+   "label_checked": true,
+   "label_vintage_read": "2023",
+   "sha256": "d9acf4288e41c65c4822d2d301bb932f9790b5e5f58e66f7a358851c5b509aea",
+   "pixels": [
+    860,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2023 La Stella Allegretto",
+   "file": "2023-allegretto.jpg",
+   "lineup_key": "allegretto-2023",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > Lastella-Allegretto-2023-web.jpg",
+   "drive_file_id": "1YIXW38j381CZYvs3hHQLjkISGu6rQZMe",
+   "label_checked": true,
+   "label_vintage_read": "2023",
+   "sha256": "30470c676ab7ad07c90e5dd285a4469a8220cd9c4300025bb8a84c5b39ebf698",
+   "pixels": [
+    1140,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2025 Le Vieux Pin Sauvignon Blanc",
+   "file": "2025-sauvignon-blanc.png",
+   "lineup_key": "sauvignon-blanc-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LVP-Sauvignon-Blanc-2025.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1QYkC3iTLmjhzcKnPCzKqJ02vUTywDkLf",
+   "label_checked": true,
+   "label_vintage_read": "2025",
+   "sha256": "1eb7faa99cde544b293aa9ecb4a1c6967ce93cf91b42adacca8921791d648048",
+   "pixels": [
+    860,
+    1720
+   ],
+   "in_lineup": true
+  },
+  {
+   "product": "2025 La Stella Leggiero Chardonnay",
+   "file": "2025-leggiero.png",
+   "lineup_key": "leggiero-2025",
+   "platform": "drive",
+   "source": "Drive: Wineries of the Month > La Stella / Le Vieux Pin > Additional Docs > LAS-Leggiero-Chardonnay-20245.pdf (bottle photo embedded in the spec sheet)",
+   "drive_file_id": "1gHMBWsANW_7RHtXWOV47Rbn9lstrhYY7",
+   "label_checked": true,
+   "label_vintage_read": "2025",
+   "sha256": "1e0ad3fe94f6eedd345410d5f372d0e2d2c373d8a7fb53649b922e62ef37a003",
+   "pixels": [
+    860,
+    1720
+   ],
    "in_lineup": true
   }
  ],
@@ -507,14 +323,14 @@
   }
  ],
  "cutouts": {
-  "method": "studio-cutout.py (backdrop model, outline snapped to the real glass edge, smooth symmetric curve, edge colour from the glass core); prepare_cutouts.py report-only (its --fix feathers white-label edges)",
-  "date": "2026-10-14",
-  "result": "13 of 13 lineup wines; second full review 2026-10-14 after the capsule fringe and edge defects were reported: capsule at 3x, neck and both shoulders at 4x, bases, on white and dark. Sauvignon Blanc is flagged \"white halo\" by prepare_cutouts because its white label reaches the edge; the edge is crisp. 2026-10-14 third pass: shadow skirt under the 2025 Vivace base removed (and the floor-contact line on every base); all 13 checked at 3-4x.",
-  "excluded": "photos flagged vintage_mismatch are not cut out",
+  "method": "studio-cutout.py (backdrop model, outline snapped to the real glass edge, smooth symmetric curve); prepare_cutouts.py report-only",
+  "date": "2026-10-28",
+  "result": "13 of 13 lineup wines, every photo from the Drive Additional Docs folder (team instruction 2026-10-28: no website images). Nine re-cut today from the spec-sheet photos; Retouche, Roussanne, Petit Rouge and Allegretto from the folder's JPGs. Label vintage read on every bottle and equal to the lineup. Sauvignon Blanc is flagged white halo by prepare_cutouts because its white label reaches the edge; the edge is crisp.",
+  "excluded": "none",
   "folder": "bottle-shots/",
   "reviewed": {
-   "date": "2026-10-14",
-   "by": "zoom review (capsule 3x, neck and shoulders 4x, base, white and dark)"
+   "date": "2026-10-28",
+   "by": "zoom review sheets (capsule, neck and shoulders, label edge, base; white and dark), jaggedness 0.07-0.18, 0 of 13 jagged"
   }
  },
  "lineup": {
