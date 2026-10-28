@@ -1,0 +1,1144 @@
+{
+ "winery": "La Stella Winery & Le Vieux Pin Winery",
+ "slug": "la-stella-le-vieux-pin-2026-12",
+ "month": {
+  "name": "La Stella & Le Vieux Pin",
+  "region_label": "South Okanagan, BC",
+  "page_url": "https://wineclub.ca/pages/subscription/la-stella-le-vieux-pin-2026",
+  "hero_background": "people-and-place/winery/la-stella-winery-over-vineyard.webp"
+ },
+ "province": "BC",
+ "region": "South Okanagan (Oliver and Osoyoos)",
+ "interview": "full",
+ "people": {
+  "winemaker": "Severine Pinte",
+  "role": "Executive Winemaker and Viticulturist",
+  "quotes": [
+   {
+    "text": "We do not need to imitate France, Italy or California. Our opportunity is to make wines that express our own land and identity.",
+    "source": "interview"
+   },
+   {
+    "text": "Sometimes the best decision is to slow down, listen and let nature guide us.",
+    "source": "interview"
+   }
+  ]
+ },
+ "facts": [
+  {
+   "fact": "Le Vieux Pin (2005) and La Stella (2006) are South Okanagan wineries that make about 16,000 cases a year between them; Le Vieux Pin draws on the Rhône, La Stella on Italy",
+   "source": "interview"
+  }
+ ],
+ "lineup_source": "Drive lineup sheet 3.WineryLineup_LaStella/VieuxPin.xlsx (modified 2026-10-28T16:24Z), checked 2026-10-28",
+ "lineup_size": 13,
+ "packs": {
+  "2-bottle-mixed": [
+   "ava-2025",
+   "espressivo-2022"
+  ],
+  "2-bottle-white": [
+   "vivace-2025",
+   "ava-2025"
+  ],
+  "2-bottle-red": [
+   "fortissimo-selezione-2021",
+   "espressivo-2022"
+  ],
+  "2-bottle-rose-sparkling": [
+   "lastellina-2025",
+   "vaila-2025"
+  ],
+  "3-bottle-mixed": [
+   "retouche-2023",
+   "vivace-2025",
+   "espressivo-2022"
+  ],
+  "3-bottle-white": [
+   "roussanne-2025",
+   "vivace-2025",
+   "ava-2025"
+  ],
+  "3-bottle-red": [
+   "espressivo-2022",
+   "petit-rouge-2025",
+   "fortissimo-selezione-2021"
+  ],
+  "6-bottle-mixed": [
+   "lastellina-2025",
+   "vivace-2025",
+   "ava-2025",
+   "espressivo-2022",
+   "petit-rouge-2025",
+   "fortissimo-selezione-2021"
+  ],
+  "6-bottle-red": [
+   "espressivo-2022",
+   "fortissimo-selezione-2021",
+   "fortissimo-2023",
+   "retouche-2023",
+   "petit-rouge-2025",
+   "allegretto-2023"
+  ],
+  "12-bottle-mixed": [
+   "espressivo-2022",
+   "fortissimo-selezione-2021",
+   "fortissimo-2023",
+   "retouche-2023",
+   "sauvignon-blanc-2025",
+   "petit-rouge-2025",
+   "leggiero-2025",
+   "vivace-2025",
+   "ava-2025",
+   "roussanne-2025",
+   "lastellina-2025",
+   "vaila-2025"
+  ]
+ },
+ "wines": [
+  {
+   "key": "ava-2025",
+   "vintage": "2025",
+   "name": "Le Vieux Pin Ava",
+   "brand": "Le Vieux Pin",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "56% Roussanne, 34% Viognier, 10% Marsanne",
+    "vineyard": "",
+    "abv": "14.4%",
+    "cases": "1,233",
+    "aging": "7 months in 24% stainless steel and 76% French oak (0% new, 57% puncheon)"
+   },
+   "score": 92,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 92,
+     "text": "A blend of Roussanne, Marsanne and Viognier. Light straw in colour with a hint of lime; peach pit nose with a mineral thread; medium to full-bodied, dry, peach and yellow apple flavours with minerality; richly extracted, beautifully balanced and full in the mouth. Drink now and through 2027.",
+     "pairing": "Grilled salmon; game birds; camembert."
+    },
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 90,
+     "appearance": "A very clear pale gold",
+     "nose": "Opening with hints of both Jasmine and Gardenia and some sweet dusty rose.",
+     "palate": "Very smooth with outstanding levels of acidity that bring freshness to the mouth. Excellent body. Some citrus and stone fruit mix with the medium structure of the body, with a delicate hint of toasty notes to finish.",
+     "pairing": "Veal, chicken or pork schnitzel; butternut squash soup with a touch of ginger."
+    }
+   ],
+   "page_note": {
+    "style": "A Rhône-style white blend: textured, weighty and full, but never overbearing. The winery says it will wow in its youth and again after 5–8 years in bottle.",
+    "score_line": "92. Aged 7 months, 76% in French oak and 24% in stainless steel, with lees stirring twice a week for the first two months. A splash decant, or a long one, helps it open.",
+    "appearance": "Light straw in colour with a hint of lime.",
+    "nose": "Peach pit with a mineral thread.",
+    "palate": "Medium to full-bodied and dry, with peach and yellow apple flavours and minerality. Richly extracted, beautifully balanced and full in the mouth.",
+    "serving": "10–12 °C.",
+    "window": "Enjoy now through 2027",
+    "extra": "1,233 cases were made.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 14.4,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Butternut squash soup with a touch of ginger",
+     "why": "Gentle sweetness and spice suit the wine's ripe peach fruit (Valerie's pick)."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Camembert on crusty bread",
+     "why": "A creamy cheese matches the wine's weight; the acidity refreshes (Tony's pick)."
+    },
+    {
+     "kind": "meat",
+     "dish": "Grilled salmon",
+     "why": "A rich fish for a full-bodied white (Tony's pick)."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Mild vegetable Pad Thai",
+     "why": "The winery's own plant-based pairing; mild heat suits an aromatic white."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Sliced fresh pear with toasted almonds",
+     "why": "Fruit and nuts echo the wine's peach and marzipan notes without out-sweetening it."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-ava.png"
+  },
+  {
+   "key": "espressivo-2022",
+   "vintage": "2022",
+   "name": "La Stella Espressivo",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "30% Cabernet Franc, 29.5% Cabernet Sauvignon, 29.5% Merlot, 11% Sangiovese",
+    "vineyard": "49% Selona, 17% U2, 15% Le Point de Vue, 10% Le Faucon, 9% Lumino",
+    "abv": "14.0%",
+    "cases": "736",
+    "aging": "20 months in French oak barrels, 14% new"
+   },
+   "score": 93,
+   "score_by": "Leah Spooner",
+   "page_expert": "Leah Spooner",
+   "expert_notes": [
+    {
+     "expert": "Leah Spooner",
+     "score": 93,
+     "appearance": "Deep maroon",
+     "nose": "Black coffee, blackberry, dried rose petals and molasses.",
+     "palate": "Full-bodied, powerful, yet maintains elegance and sophistication. All aromas are reflected as flavours on the palate creating a succulent, balanced sip. Polished tannins, with an earthy, mineral element chiming in towards an extra long finish.",
+     "notes": "The intensity and balance of flavours are really impressive here. This is drinking well now, but could cellar until 2033.",
+     "pairing": "Sweet teriyaki chicken, slow cooked prime rib, bison steaks, hoisin flavoured noodles, stuffed portobello mushrooms."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "Ruby colour; toasty, plum and blackberry bouquet with oak spice; savoury black fruit flavours; firmly structured, well-balanced with lively acidity and well-integrated oak. Can be opened now but will reward cellaring 1-2 years."
+    }
+   ],
+   "page_note": {
+    "style": "A Tuscan-inspired red blend led by Cabernet Sauvignon and Cabernet Franc from old vines, made in honour of the Tuscan pioneers of the 1950s and 60s. Powerful, yet elegant.",
+    "score_line": "93. Aged 20 months in French oak barrels (14% new). Drinking well now, and it could cellar until 2033.",
+    "appearance": "Deep maroon.",
+    "nose": "Black coffee, blackberry, dried rose petals and molasses.",
+    "palate": "Full-bodied and powerful, yet elegant and sophisticated. The aromas return as flavours for a succulent, balanced sip. Polished tannins, with an earthy, mineral element, lead to an extra long finish.",
+    "serving": "16–18 °C.",
+    "window": "Enjoy now, cellar until 2033",
+    "extra": "The intensity and balance of flavours are really impressive. 736 cases were made. Unfined and lightly coarse filtered.",
+    "expert": "Leah Spooner"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "high",
+    "tannin": "high",
+    "sweetness_gl": 2,
+    "abv": 14.0,
+    "intensity": "high",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Warm marinated olives and sourdough",
+     "why": "Salt softens the wine's firm tannins."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Gouda cubes",
+     "why": "A mild, buttery cheese that does not fight the tannins."
+    },
+    {
+     "kind": "meat",
+     "dish": "Slow-roasted prime rib",
+     "why": "Rich, fatty beef calls for a structured red (Leah's pick)."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted root vegetables with rosemary and sea salt",
+     "why": "Salt and sweet roasted flavours soften the tannins."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted walnuts",
+     "why": "Salted nuts soften tannin and echo the oak."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2022-espressivo.png"
+  },
+  {
+   "key": "vivace-2025",
+   "vintage": "2025",
+   "name": "La Stella Vivace Pinot Grigio",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "99% Pinot Grigio, 1% Chardonnay",
+    "vineyard": "51% Kulshan, 32% Eagle Bluff, 16% Kaur, 1% H&I Farm",
+    "abv": "13%",
+    "cases": "1,315",
+    "aging": "6 months in stainless steel"
+   },
+   "score": 92,
+   "score_by": "Leah Spooner",
+   "page_expert": "Leah Spooner",
+   "expert_notes": [
+    {
+     "expert": "Leah Spooner",
+     "score": 92,
+     "appearance": "Pale gold",
+     "nose": "Lifted aromatics of peach, honeydew melon, and guava undertones.",
+     "palate": "A more voluptuous expression of the grape, this Pinot Grigio is medium-bodied with substantial weight mid-palate. Peach and lemon notes leaning towards ripe, sun-drenched fruit and hints of almond. There's a lively acidity here to put everything in balance. Long finish.",
+     "notes": "The Southern Okanagan is noted for crafting fuller-bodied white wine styles with intensely ripe, fruity characteristics.",
+     "pairing": "Chick pea salad, ceviche, maple glazed salmon, crème brulee."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 89,
+     "text": "Straw colour with a coppery tint; leesy, apple nose; medium-bodied, dry, peach and apple flavours with lively acidity and good length. Drink now.",
+     "pairing": "Pasta with seafood; roast chicken; grilled salmon."
+    }
+   ],
+   "page_note": {
+    "style": "A fuller, more voluptuous Pinot Grigio from the South Okanagan, with weight in the middle of the palate and lively acidity for balance.",
+    "score_line": "92. Aged 6 months in stainless steel.",
+    "appearance": "Pale gold.",
+    "nose": "Lifted aromatics of peach and honeydew melon, with guava undertones.",
+    "palate": "Medium-bodied with substantial weight mid-palate. Peach and lemon lean towards ripe, sun-drenched fruit, with hints of almond. Lively acidity puts everything in balance, and the finish is long.",
+    "serving": "8–10 °C.",
+    "window": "Ready to enjoy now",
+    "extra": "The South Okanagan is noted for fuller-bodied white wine styles with intensely ripe, fruity character. 1,315 cases were made.",
+    "expert": "Leah Spooner"
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 13.0,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Ceviche with lime and cilantro",
+     "why": "High acidity meets high acidity (Leah's pick)."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Fresh goat cheese on crackers",
+     "why": "Tangy and creamy; the acidity refreshes."
+    },
+    {
+     "kind": "meat",
+     "dish": "Maple-glazed salmon",
+     "why": "A rich fish and a fuller white (Leah's pick)."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Chickpea salad with lemon and herbs",
+     "why": "Lemon echoes the acidity (Leah's pick)."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Toasted almonds with thin slices of fresh pear",
+     "why": "Almond echoes the wine's almond notes; the fruit is not sweeter than the wine."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-vivace.png"
+  },
+  {
+   "key": "fortissimo-selezione-2021",
+   "vintage": "2021",
+   "name": "La Stella Fortissimo Selezione",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "54% Merlot, 24% Cabernet Sauvignon, 18% Cabernet Franc, 4% Sangiovese",
+    "vineyard": "",
+    "abv": "14.5%",
+    "cases": "500",
+    "aging": "19 months in barrels, puncheons and botti of French and Slavonian origin, 20% new oak"
+   },
+   "score": 90,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "A blend of Merlot, Cabernet Sauvignon, Cabernet Franc and Sangiovese. Ruby colour with a tawny hue; cedary, black fruit nose with vanilla oak and a tarry note; full-bodied (14.5% alcohol), dry, spicy, smoky, black fruit flavours with ripe tannins and racy acidity. Hold 1-2 years.",
+     "pairing": "Game; pepper steak; wild boar pasta."
+    }
+   ],
+   "page_note": {
+    "style": "The winery's special selection of the finest barrels, aged longer in barrel and bottle (Fortissimo Riserva, Selezione di Famiglia). Spicy and savoury, already accessible.",
+    "score_line": "90. Aged 19 months in barrels, puncheons and botti of French and Slavonian oak, 20% new.",
+    "appearance": "Ruby colour with a tawny hue.",
+    "nose": "Cedary, black fruit with vanilla oak and a tarry note.",
+    "palate": "Full-bodied and dry, with spicy, smoky, black fruit flavours, ripe tannins and racy acidity.",
+    "serving": "16–18 °C.",
+    "window": "Enjoy now, better in 1–2 years",
+    "extra": "500 cases were made. Unfined and lightly coarse filtered.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "high",
+    "tannin": "high",
+    "sweetness_gl": 2,
+    "abv": 14.5,
+    "intensity": "high",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Bruschetta with roasted garlic and rosemary",
+     "why": "Salty, savoury and herbal; the garlic matches the wine's intensity."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Asiago",
+     "why": "A firm, salty cheese that softens the tannins."
+    },
+    {
+     "kind": "meat",
+     "dish": "Roast pork loin with rosemary and garlic",
+     "why": "A rich, herby roast for a full-bodied red; the house rules rule out Tony's pepper steak with a tannic wine."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted root vegetables with rosemary and sea salt",
+     "why": "Salt and roasted sweetness soften the tannins; echoes the winery's hearty vegetable idea."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted almonds",
+     "why": "Salted nuts soften tannin and echo the oak."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2021-fortissimo-selezione-di-famiglia.png"
+  },
+  {
+   "key": "lastellina-2025",
+   "vintage": "2025",
+   "name": "La Stella Lastellina Rosé",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "70% Cabernet Franc, 30% Merlot",
+    "vineyard": "",
+    "abv": "12.5%",
+    "cases": "200",
+    "aging": "3 months in stainless steel"
+   },
+   "score": 90,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "(Cabernet Franc and Merlot). Pale pink in colour; fresh cherry bouquet; medium-bodied, dry, strawberry and cherry flavours with zesty acidity. Drink now.",
+     "pairing": "Charcuterie; seafood; salad."
+    }
+   ],
+   "page_note": {
+    "style": "A rosato made by both the press and saignée methods: dry yet never austere, with Cabernet Franc's lifted spice and Merlot's red and dark fruit.",
+    "score_line": "90. Aged 3 months in stainless steel.",
+    "appearance": "Pale pink.",
+    "nose": "Fresh cherry.",
+    "palate": "Medium-bodied and dry, with strawberry and cherry flavours and zesty acidity.",
+    "serving": "8–10 °C.",
+    "window": "Ready to enjoy now",
+    "extra": "200 cases were made. A modest 12.5% alcohol makes it equally at home on the patio or at the dinner table.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 4,
+    "abv": 12.5,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Charcuterie board with grainy mustard",
+     "why": "A classic rosé pairing; the acidity cuts the richness (Tony's pick)."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Fresh goat cheese on crackers",
+     "why": "The winery suggests cheeses; a fresh, tangy one keeps the pairing light."
+    },
+    {
+     "kind": "meat",
+     "dish": "Grilled shrimp with lemon",
+     "why": "Seafood and zesty acidity (Tony's pick)."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Tomato and basil salad with a light vinaigrette",
+     "why": "A salad, as Tony suggests; high acidity holds up to the tomato."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Fresh strawberries",
+     "why": "Berry flavours echo the wine's strawberry and cherry."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-lastellina.png"
+  },
+  {
+   "key": "vaila-2025",
+   "vintage": "2025",
+   "name": "Le Vieux Pin Vaila Rosé",
+   "brand": "Le Vieux Pin",
+   "specs": {
+    "gi": "Okanagan Valley, Skaha Bluff, OK Falls and Oliver",
+    "varietal": "100% Pinot Noir",
+    "vineyard": "53.1% Parker, 38.3% Nathan Philips, 8.6% Meliora",
+    "abv": "12.5%",
+    "cases": "1,057",
+    "aging": "6 months in stainless steel"
+   },
+   "score": 90,
+   "score_by": "Valerie van der Gracht",
+   "page_expert": "Valerie van der Gracht",
+   "expert_notes": [
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 90,
+     "appearance": "Clear and clean with a rich salmon colour that catches the eye immediately promising freshness and vitality.",
+     "nose": "Old world, with a touch of mushroom, strawberries, raspberries and lighter fruits.",
+     "palate": "Great flavour. Some stone fruit and berries that followed the nose. Excellent acidity. A nice mouth feel, lingering with a richness to the body, and the wine stays so fresh.",
+     "serving": "Remove the bottle from the refrigerator at least 30 minutes before serving.",
+     "pairing": "Seafood dishes such as coquille Saint-Jacques or broiled lobster tail with clarified butter; almost any lightly flavoured fish; pan-fried Coho salmon with lemon and parsley."
+    },
+    {
+     "expert": "Tony Aspler",
+     "score": 89,
+     "text": "Pale salmon pink; yellow cherry nose; medium-bodied, dry, sour cherry flavour; great length. Drink now and through 2027.",
+     "pairing": "Charcuterie; grilled fish; Brie."
+    }
+   ],
+   "page_note": {
+    "style": "A Pinot Noir rosé made by the traditional press method and aged entirely in stainless steel; not a by-product of red wine. Serious yet playful, with a pale salmon colour.",
+    "score_line": "90. Aged 6 months in stainless steel.",
+    "appearance": "A clear, clean, rich salmon colour that promises freshness and vitality.",
+    "nose": "Old world at first, with a touch of mushroom, then strawberries, raspberries and lighter fruits.",
+    "palate": "Great flavour right away: stone fruit and berries that follow the nose, with excellent acidity and a nice mouth feel. It lingers with richness in the body and stays fresh.",
+    "serving": "8–10 °C. Take it out of the refrigerator about 30 minutes before serving.",
+    "window": "Enjoy now through 2027",
+    "extra": "1,057 cases were made. Bone dry.",
+    "expert": "Valerie van der Gracht"
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 12.5,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Seared scallops with lemon butter",
+     "why": "Valerie's coquille Saint-Jacques idea, simplified; acidity tames the richness."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Brie with crackers",
+     "why": "A creamy cheese that the wine's acidity refreshes (Tony's pick)."
+    },
+    {
+     "kind": "meat",
+     "dish": "Pan-fried salmon with lemon and parsley",
+     "why": "Valerie's Coho salmon pairing: colour and flavour match."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Tomato, cucumber and feta salad",
+     "why": "Light, bright and salty; high acidity keeps up."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Fresh raspberries",
+     "why": "Berry flavours echo the wine; the fruit is not sweeter than the wine."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-vaila-rose.png"
+  },
+  {
+   "key": "retouche-2023",
+   "vintage": "2023",
+   "name": "Le Vieux Pin Retouche",
+   "brand": "Le Vieux Pin",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "47% Cabernet Franc, 27% Merlot, 18% Syrah, 8% Cabernet Sauvignon",
+    "vineyard": "La Feuille d'Or and Stagg's",
+    "abv": "13.6%",
+    "cases": "384 (plus 90 magnums)",
+    "aging": "20 months in neutral French oak barrels"
+   },
+   "score": 90,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "Headed '2025' in the document; the team decided (2026-10-28) to treat it as this wine. A blend of Cabernet Franc, Merlot, Syrah and Cabernet Sauvignon. Deep purple-ruby in colour; concentrated black fruit bouquet with oak spice; medium to full-bodied, dry, firmly structured, plum and blackberry flavours with balancing acidity and well-integrated oak. Hold 1-2 years."
+    },
+    {
+     "expert": "Leah Spooner",
+     "score": 88,
+     "appearance": "Dark ruby/garnet",
+     "nose": "Rustic aromas of oak, prune, red cherry and cranberry.",
+     "palate": "Notes of dark cherry, prune, and oak on the forefront. Undertones of smoked meat, and dried sage. Full-bodied, with firm, grippy tannins and a medium finish.",
+     "notes": "Tannins are firm and this wine would benefit from the softening that aging allows. Cellar for 6-8 years.",
+     "pairing": "Genoa salami, other cured meats, sausage penne, bacon burgers, aged cheddar."
+    }
+   ],
+   "page_note": {
+    "style": "A homage to the 19th-century practice of 'Hermitaging' in Bordeaux, when Syrah was quietly added to the blend. Here the Syrah sits invisibly behind the Cabernet and Merlot.",
+    "score_line": "90. Aged 20 months in neutral French oak barrels. The winery expects a peak five to seven years after bottling.",
+    "appearance": "Deep purple-ruby.",
+    "nose": "Concentrated black fruit with oak spice.",
+    "palate": "Medium to full-bodied and dry, firmly structured, with plum and blackberry flavours, balancing acidity and well-integrated oak.",
+    "serving": "16–18 °C.",
+    "window": "Enjoy now, better in 1–2 years",
+    "extra": "A very low-yielding, warm 2023 gives a riper, plusher Right Bank style. 384 cases and 90 magnums were made.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "medium",
+    "tannin": "high",
+    "sweetness_gl": 2,
+    "abv": 13.6,
+    "intensity": "high",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Salted pretzel bites with whole-grain mustard",
+     "why": "Salt softens the firm tannins; stands in for Leah's cured meats, which the house rules rule out with a tannic wine."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Gruyère cubes",
+     "why": "A salty, nutty cheese in place of Leah's aged cheddar."
+    },
+    {
+     "kind": "meat",
+     "dish": "Sausage penne with sage and olive oil",
+     "why": "Leah's sausage penne without the tomato, which the rules flag with a tannic wine."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Stuffed peppers with mildly spiced lentils and potatoes",
+     "why": "The winery's own plant-based pairing."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted almonds",
+     "why": "Salted nuts soften tannin and echo the oak."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2023-retouche.png"
+  },
+  {
+   "key": "roussanne-2025",
+   "vintage": "2025",
+   "name": "Le Vieux Pin Roussanne",
+   "brand": "Le Vieux Pin",
+   "specs": {
+    "gi": "Okanagan Valley",
+    "varietal": "100% Roussanne",
+    "vineyard": "Le Grand Pin",
+    "abv": "14.6%",
+    "cases": "180",
+    "aging": "6 months in 100% neutral French oak barrels, with lees stirring twice a week"
+   },
+   "score": 92,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 92,
+     "text": "Light gold colour; honeyed peach bouquet with a light floral note; full-bodied (14.6% alcohol), dry; peach and apricot flavours, richly extracted, well-balanced with a long, fresh finish. Drink now or cellar 1-2 years.",
+     "pairing": "Grilled trout; smoked salmon, mussels; chicken in cream sauce."
+    },
+    {
+     "expert": "Valerie van der Gracht",
+     "score": 88,
+     "appearance": "A lovely golden yellow in the glass. Crystal clear.",
+     "nose": "Crisp apple, mostly Granny Smith, the faintest touch of tropical, and citrus tinged with pith.",
+     "palate": "Fairly bold. Citrus and green apple, a finish of lemon zest and an essence of honey. Medium body with Bartlett pear and a very slight oak finish.",
+     "serving": "Not too cold: something less than room temperature.",
+     "pairing": "Mild seafood such as Icelandic cod or ling cod with beurre blanc; stinky cheeses with salty crackers."
+    }
+   ],
+   "page_note": {
+    "style": "A single-vineyard Roussanne from Le Grand Pin: full-bodied and richly extracted, with honeyed peach and a long, fresh finish.",
+    "score_line": "92. Aged 6 months in neutral French oak barrels.",
+    "appearance": "Light gold.",
+    "nose": "Honeyed peach with a light floral note.",
+    "palate": "Full-bodied and dry, with peach and apricot flavours. Richly extracted and well balanced, with a long, fresh finish.",
+    "serving": "10–12 °C. Not too cold, so the flavours can show.",
+    "window": "Enjoy now, better in 1–2 years",
+    "extra": "Only 180 cases were made.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "medium",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 14.6,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Steamed mussels in white wine",
+     "why": "Tony's mussels; a delicate shellfish for a full white. The rules rule out his smoked salmon."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Taleggio on salted crackers",
+     "why": "Valerie's 'stinky cheeses with salty crackers'."
+    },
+    {
+     "kind": "meat",
+     "dish": "Chicken in a cream sauce",
+     "why": "Tony's pick: a creamy dish for a full-bodied white."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Cauliflower gratin",
+     "why": "Creamy, savoury and mild; matches the wine's weight."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Toasted almonds with thin slices of fresh pear",
+     "why": "Fruit and nuts echo the honeyed peach without out-sweetening the wine."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-roussanne.png"
+  },
+  {
+   "key": "petit-rouge-2025",
+   "vintage": "2025",
+   "name": "Le Vieux Pin Petit Rouge",
+   "brand": "Le Vieux Pin",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "Merlot, Syrah, Cabernet Franc and Petit Verdot, in nearly equal proportions",
+    "vineyard": "",
+    "abv": "13.6%",
+    "cases": "1,698",
+    "aging": "6 months in stainless steel, oak barrels and concrete vat"
+   },
+   "score": null,
+   "score_by": "",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": null,
+     "text": "A blend of Merlot, Syrah, Cabernet Franc and Petit Verdot. Purple-violet in colour; toasty, plum and black cherry nose; medium to full-bodied, dry, savoury, plum and blackberry flavours carried on lively acidity. Hold 1-2 years.",
+     "pairing": "BBQed meats; beef stew; aged cheddar."
+    }
+   ],
+   "page_note": {
+    "style": "A wine made with the same precision as the rest of Le Vieux Pin, yet immediately approachable: friendly, versatile and good value.",
+    "score_line": "Not scored yet: the expert's note carries no score.",
+    "appearance": "Purple-violet.",
+    "nose": "Toasty, with plum and black cherry.",
+    "palate": "Medium to full-bodied and dry, savoury, with plum and blackberry flavours carried on lively acidity.",
+    "serving": "16–18 °C.",
+    "window": "Enjoy now, better in 1–2 years",
+    "extra": "1,698 cases were made. Bright acidity, supple tannins and generous fruit.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "medium",
+    "sweetness_gl": 2,
+    "abv": 13.6,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Pâté and charcuterie board",
+     "why": "The winery's own meat-based pairing."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Gouda cubes",
+     "why": "A mild, buttery cheese; the rules rule out Tony's aged cheddar with a medium-intensity wine."
+    },
+    {
+     "kind": "meat",
+     "dish": "Pork chops with a red cherry sauce",
+     "why": "The winery's own meat-based pairing; the rules rule out Tony's beef stew with a medium-intensity wine."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Hearty ratatouille",
+     "why": "The winery's own plant-based pairing."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted pecans",
+     "why": "Salted nuts echo the toasty notes and soften the tannins."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-petit-rouge.png"
+  },
+  {
+   "key": "fortissimo-2023",
+   "vintage": "2023",
+   "name": "La Stella Fortissimo",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "60% Merlot, 21% Cabernet Franc, 12% Cabernet Sauvignon, 7% Sangiovese Grosso",
+    "vineyard": "",
+    "abv": "13.8%",
+    "cases": "1,432 (plus 120 magnums and 12 double magnums)",
+    "aging": "17 months in 9% re-fill French oak barrels, 39% Slavonian botti and 3% Hungarian oak barrels, no new oak"
+   },
+   "score": 90,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 90,
+     "text": "A blend of Merlot, Cabernet Franc, Cabernet Sauvignon and Sangiovese. Ruby in colour; cedary, black fruit nose with oak spice; medium to full-bodied, dry, savoury, cherry flavour with lively acidity, well-integrated oak and great length. Hold 1-2 years."
+    }
+   ],
+   "page_note": {
+    "style": "A homage to the Tuscan pioneers of the 1950s and 60s. Charming for a young, structured red, with more early approachability than many past vintages.",
+    "score_line": "90. Aged 17 months in French oak barrels, Slavonian botti and Hungarian oak, with no new oak.",
+    "appearance": "Ruby.",
+    "nose": "Cedary black fruit with oak spice.",
+    "palate": "Medium to full-bodied and dry, savoury, with cherry flavour, lively acidity, well-integrated oak and great length.",
+    "serving": "16–18 °C.",
+    "window": "Enjoy now, better in 1–2 years",
+    "extra": "1,432 cases were made. Unfined and lightly coarse filtered.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "high",
+    "tannin": "medium",
+    "sweetness_gl": 2,
+    "abv": 13.8,
+    "intensity": "high",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Bruschetta with roasted garlic and rosemary",
+     "why": "Savoury and herbal; matches the wine's intensity."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Asiago",
+     "why": "A firm, salty cheese that suits a structured red."
+    },
+    {
+     "kind": "meat",
+     "dish": "Tuscan roast lamb with a rosemary crust",
+     "why": "The winery's own meat pairing."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Sweet potato and mushroom cannelloni",
+     "why": "The winery's own plant-based pairing."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted almonds",
+     "why": "Salted nuts soften tannin."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2023-fortissimo.png"
+  },
+  {
+   "key": "allegretto-2023",
+   "vintage": "2023",
+   "name": "La Stella Allegretto",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "100% own-rooted ('pie franco') Merlot",
+    "vineyard": "100% Le Faucon, on white silica sand",
+    "abv": "13.5%",
+    "cases": "165",
+    "aging": ""
+   },
+   "score": 91,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 91,
+     "text": "Medium ruby-purple in colour; plum and cherry bouquet with oak spice; full-bodied, dry with racy acidity; subtle use of oak; evident but ripe tannins. Hold 1-2 years.",
+     "pairing": "Pot roast; lamb; grilled mushrooms."
+    }
+   ],
+   "page_note": {
+    "style": "A very special single-vineyard Merlot from vines on their own rootstock in white silica sand: elegant, lifted and transparent. The 2023 is a powerhouse.",
+    "score_line": "91.",
+    "appearance": "Medium ruby-purple.",
+    "nose": "Plum and cherry with oak spice.",
+    "palate": "Full-bodied and dry, with racy acidity, subtle oak and evident but ripe tannins.",
+    "serving": "16–18 °C.",
+    "window": "Enjoy now, better in 1–2 years",
+    "extra": "165 cases were made. A long decant gives immediate impact, and it will reward several years in the cellar.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "full",
+    "acidity": "high",
+    "tannin": "high",
+    "sweetness_gl": 2,
+    "abv": 13.5,
+    "intensity": "high",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Warm marinated olives and sourdough",
+     "why": "Salt softens the tannins."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Young Gouda cubes",
+     "why": "A mild cheese that does not fight the tannins."
+    },
+    {
+     "kind": "meat",
+     "dish": "Pot roast",
+     "why": "Tony's pick; slow-cooked richness for a full-bodied Merlot."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Grilled portobello caps with garlic",
+     "why": "Tony's grilled mushrooms; savoury depth."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Roasted salted walnuts",
+     "why": "Salted nuts soften tannin."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2023-allegretto.png"
+  },
+  {
+   "key": "sauvignon-blanc-2025",
+   "vintage": "2025",
+   "name": "Le Vieux Pin Sauvignon Blanc",
+   "brand": "Le Vieux Pin",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "100% Sauvignon Blanc",
+    "vineyard": "37% La Stella, 22.4% La Feuille d'Or, 40.6% H&I Farm",
+    "abv": "13%",
+    "cases": "750",
+    "aging": "6 months on lees, 66% stainless steel and 34% French oak (0% new)"
+   },
+   "score": 91,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 91,
+     "text": "Pale straw in colour; grassy, gooseberry nose with lively acidity; medium-bodied, crisply dry; lemony, grapefruit and green plum flavours. Well-balanced and lingering. Drink now.",
+     "pairing": "Asparagus; goat's cheese, oysters, seafood."
+    }
+   ],
+   "page_note": {
+    "style": "An assemblage inspired by California's Fumé Blanc, Marlborough and Pouilly-Fumé; gooseberry, fresh herbs and lifted green notes.",
+    "score_line": "91.",
+    "appearance": "Pale straw.",
+    "nose": "Grassy and gooseberry, with lively acidity.",
+    "palate": "Medium-bodied and crisply dry, with lemony, grapefruit and green plum flavours. Well balanced and lingering.",
+    "serving": "8–10 °C.",
+    "window": "Ready to enjoy now",
+    "extra": "750 cases were made.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 13.0,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Oysters on the half shell with lemon",
+     "why": "Tony's oysters; acidity and brine are a classic match."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Goat cheese on crackers",
+     "why": "Tony's pick; tangy cheese for a tangy wine."
+    },
+    {
+     "kind": "meat",
+     "dish": "Baked cod with lemon and herbs",
+     "why": "Tony's seafood; light and fresh."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Falafel with cucumber and mint sauce",
+     "why": "The winery's own plant-based pairing."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Toasted almonds with thin slices of fresh pear",
+     "why": "Fruit and nuts without out-sweetening the wine."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-sauvignon-blanc.png"
+  },
+  {
+   "key": "leggiero-2025",
+   "vintage": "2025",
+   "name": "La Stella Leggiero Chardonnay",
+   "brand": "La Stella",
+   "specs": {
+    "gi": "Okanagan Valley VQA",
+    "varietal": "100% Chardonnay (old vines)",
+    "vineyard": "51.7% Golden Mile, 48.3% north of Oliver",
+    "abv": "13%",
+    "cases": "350",
+    "aging": "6 months on lees, 35% in neutral French oak barrels and 65% in stainless steel"
+   },
+   "score": 92,
+   "score_by": "Tony Aspler",
+   "page_expert": "Tony Aspler",
+   "expert_notes": [
+    {
+     "expert": "Tony Aspler",
+     "score": 92,
+     "text": "Pale straw in colour; spicy, toasty, apple nose; medium-bodied, dry, elegant, beautifully balanced apple, peach and lemon flavours carried on lively acidity. Great length. Drink now and through 2027.",
+     "pairing": "Trout; smoked fish; runny cheeses."
+    }
+   ],
+   "page_note": {
+    "style": "An old-vine Chardonnay in the style of Northern Italy's cool hillsides: pure minerality, vibrant acidity and crisp fruit, with no overt oak.",
+    "score_line": "92.",
+    "appearance": "Pale straw.",
+    "nose": "Spicy and toasty, with apple.",
+    "palate": "Medium-bodied, dry and elegant, with beautifully balanced apple, peach and lemon flavours carried on lively acidity. Great length.",
+    "serving": "8–10 °C.",
+    "window": "Enjoy now through 2027",
+    "extra": "350 cases were made.",
+    "expert": "Tony Aspler"
+   },
+   "profile": {
+    "body": "medium",
+    "acidity": "high",
+    "tannin": "none",
+    "sweetness_gl": 2,
+    "abv": 13.0,
+    "intensity": "medium",
+    "estimated": true
+   },
+   "pairings": [
+    {
+     "kind": "appetizer",
+     "dish": "Steamed mussels in a coconut, ginger and lemongrass broth",
+     "why": "The winery's own pairing; the rules rule out Tony's smoked fish with a medium-intensity wine."
+    },
+    {
+     "kind": "cheese",
+     "dish": "Brie with crusty bread",
+     "why": "Tony's runny cheeses; creamy, with acidity to refresh."
+    },
+    {
+     "kind": "meat",
+     "dish": "Pan-fried trout with lemon",
+     "why": "Tony's trout; light and fresh."
+    },
+    {
+     "kind": "vegetarian",
+     "dish": "Roasted butternut squash with toasted pine nuts",
+     "why": "The winery's own plant-based pairing."
+    },
+    {
+     "kind": "dessert",
+     "dish": "Sliced fresh apple with toasted almonds",
+     "why": "Echoes the wine's apple notes without out-sweetening it."
+    }
+   ],
+   "mwc": "none",
+   "image": "bottle-shots/2025-leggiero.png"
+  }
+ ],
+ "images": {
+  "hero": "people-and-place/winery/la-stella-winery-over-vineyard.webp",
+  "portrait": "hero-severine-vineyard.jpg",
+  "bottle_shots": "bottle-shots/"
+ },
+ "gaps": [
+  "My Wine Canada lists no La Stella or Le Vieux Pin wine and has no winery collection page (MWC search 2026-10-28: 0 results for lastella, none for Le Vieux Pin), so no url_N link can be set.",
+  "Petit Rouge 2025: Tony Aspler's note carries no score; no other expert tasted it.",
+  "Lastellina and the Fortissimo 2023, Allegretto, Sauvignon Blanc and Leggiero have only Tony Aspler's short note: appearance, nose and palate are his words, split into the three lines.",
+  "Vaila 2025: the spec sheet says 23 hours on the skin and the back label says 16 hours; maceration is left out.",
+  "Retouche 2023: Tony Aspler's note is headed 2025; the team decided on 2026-10-28 to treat it as the 2023.",
+  "Spec sheets give 'South Okanagan' as the growing area; the card and page print 'Okanagan Valley VQA' (the La Stella labels say BC VQA Okanagan Valley) except Vaila and Roussanne, which Valerie's documents place in Okanagan Valley.",
+  "Serving temperatures were set by me as a sommelier except where an expert gave one (Vaila: take it out of the fridge 30 minutes before; Roussanne: not too cold)."
+ ],
+ "page_slots": [
+  "espressivo-2022",
+  "ava-2025",
+  "vivace-2025",
+  "fortissimo-selezione-2021",
+  "petit-rouge-2025",
+  "lastellina-2025",
+  "retouche-2023",
+  "vaila-2025",
+  "roussanne-2025",
+  "fortissimo-2023",
+  "allegretto-2023"
+ ],
+ "mwc_catalogue_url": "",
+ "audit": {
+  "date": "2026-10-28",
+  "method": "Lineup sheet is the source of truth; awards: the lineup lists none."
+ }
+}
