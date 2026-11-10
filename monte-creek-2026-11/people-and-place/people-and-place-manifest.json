@@ -1,0 +1,271 @@
+{
+ "images": [
+  {
+   "page": "https://montecreekwinery.com/vineyard-tours/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2025/06/20200930_Tourism-Kamloops_Kamloops-Wine-Trail-3918-scaled.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "vineyard-tours--20200930-tourism-kamloops-kamloops-wine-trail-3918-scaled.jpg",
+   "sha256": "7db4a3b81fc2085445e15b73dee213fe667b4a64bde495e2547880fd3f143588",
+   "bytes": 429269,
+   "pixels": [
+    2560,
+    1707
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/monte-creek-winery/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2021/07/IMG_0846-1024x768-1.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "monte-creek-winery--img-0846-1024x768-1.jpg",
+   "sha256": "abe7c70e0c712c34879303718fddfbf59652072386b1257d0d0ad98a86ecbef9",
+   "bytes": 332822,
+   "pixels": [
+    1024,
+    683
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/monte-creek-winery/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2020/07/Evan-Groves-Monte-Creek-Ranch-Winery-19.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "monte-creek-winery--evan-groves-monte-creek-ranch-winery-19.jpg",
+   "sha256": "7e68e64313c5e04fca6b349cd504aa50a937e7b3bc7efc24ca0c44786b0a42fb",
+   "bytes": 26978590,
+   "pixels": [
+    7952,
+    5304
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/monte-creek-winery/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2020/07/Evan-Groves-Monte-Creek-Ranch-Winery-10.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "monte-creek-winery--evan-groves-monte-creek-ranch-winery-10.jpg",
+   "sha256": "58a4e389e2e7bc6f348ac1af549913cd4cd63c23dd077899ea4b978cee847127",
+   "bytes": 21436295,
+   "pixels": [
+    7952,
+    5304
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/monte-creek-winery/",
+   "image_url": "https://montecreekwinery.com//wp-content/uploads/2019/10/Monte-Creek-Ranch-Winery-building-and-backdrop.jpg",
+   "alt": "Monte Creek Ranch Winery building overlooking the South Thompson River",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "monte-creek-winery--monte-creek-ranch-winery-building-and-backdrop.jpg",
+   "sha256": "a0bb9c8b2a8dadceebc33f69b520fa76e1fe98e29bba2b6f131ccac877d13741",
+   "bytes": 628034,
+   "pixels": [
+    1024,
+    683
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/monte-creek-winery/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2019/10/tasting-room.jpg",
+   "alt": "Weddings at Monte Creek Ranch",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "monte-creek-winery--tasting-room.jpg",
+   "sha256": "bc665cac8ca92e9c313e0f80813058f56a6fb21ab8f6c1c6933576503c5fd2dd",
+   "bytes": 2088948,
+   "pixels": [
+    2048,
+    1120
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/monte-creek-winery/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2022/03/Monte-Creek-Greenhouse-111.jpg",
+   "alt": "green-house-monte-creek-winery",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "monte-creek-winery--monte-creek-greenhouse-111.jpg",
+   "sha256": "938be580802c3564aebfafca34f5cde3d9f8f2a4278213d8af26f1e67ca03f9f",
+   "bytes": 29015078,
+   "pixels": [
+    8192,
+    5464
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/reservation/our-vineyards/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2020/11/20200930_Tourism-Kamloops_Kamloops-Wine-Trail-1180.jpg",
+   "alt": "Monte Creek Winery Kamloops",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "reservation-our-vineyards--20200930-tourism-kamloops-kamloops-wine-trail-1180.jpg",
+   "sha256": "9023ac715d7c12cd6ba5073098dafca92adfc38857f677ef2451bd213480e209",
+   "bytes": 9307181,
+   "pixels": [
+    6355,
+    4237
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/reservation/our-vineyards/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2021/05/20200930_Tourism-Kamloops_Kamloops-Wine-Trail-1279.jpg",
+   "alt": "Monte-Creek-Vineyard",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "reservation-our-vineyards--20200930-tourism-kamloops-kamloops-wine-trail-1279.jpg",
+   "sha256": "0e549a57a15e1038b00c475a21ae86623a0957709f2a6e41ef45bf8dba59d759",
+   "bytes": 8762635,
+   "pixels": [
+    6720,
+    4480
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/reservation/our-vineyards/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2021/04/Keremeos-Vineyard-cropped.jpg",
+   "alt": "Keremeos-Vineyard-monte-creek",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "reservation-our-vineyards--keremeos-vineyard-cropped.jpg",
+   "sha256": "68ee1e5d285a41c3ed48cc274a6e93fd1c7c04f2a163902f6c5cfd5497b87cad",
+   "bytes": 2829254,
+   "pixels": [
+    2568,
+    1712
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/reservation/our-vineyards/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2021/05/Tyler-Meade-Photography-Monte-Creek-Ranch-Winery-59-scaled-e1621532315633.jpg",
+   "alt": "Monte-Creek-Winery",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "reservation-our-vineyards--tyler-meade-photography-monte-creek-ranch-winery-59-scaled-e1621532315633.jpg",
+   "sha256": "fc9a2d3ce37b94754b1f65c10a046ec6e4e9e9933062299a04d11021014c6f54",
+   "bytes": 524259,
+   "pixels": [
+    2560,
+    1145
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/tasting-room/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2024/04/MagalieJPhotography-website.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "tasting-room--magaliejphotography-website.jpg",
+   "sha256": "f4cc89a3b0c9e6132784b90a61fe55989b55782939089e077223a991484a8e99",
+   "bytes": 365989,
+   "pixels": [
+    2422,
+    1428
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/tasting-room/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2020/03/KWT-Horiz-Green.jpg",
+   "alt": "KWT-Horiz--Green",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "tasting-room--kwt-horiz-green.jpg",
+   "sha256": "9ff37969fa3d005ddd079e7b13b0c9affd34572209ac4267b19ddad9f21f1c35",
+   "bytes": 987170,
+   "pixels": [
+    1725,
+    550
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/from-vine-to-cellar-celebrating-the-2026-harvest/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2026/10/FG-on-the-vine.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "from-vine-to-cellar-celebrating-the-2026-harvest--fg-on-the-vine.jpg",
+   "sha256": "eff2cd33e82a6695cc90f56afc21b5a12d2977ad98b3f2192899c569c6a6cb67",
+   "bytes": 234585,
+   "pixels": [
+    1067,
+    1600
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/from-vine-to-cellar-celebrating-the-2026-harvest/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2026/10/Sorting-table-with-LH-scaled.jpeg",
+   "alt": "Staff working on the sorting table with Lion's Head in the background",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "from-vine-to-cellar-celebrating-the-2026-harvest--sorting-table-with-lh-scaled.jpeg",
+   "sha256": "d39c83387518103f621140fa8e1381de1a5808d8b0895db4677aa709cbb6fe17",
+   "bytes": 676928,
+   "pixels": [
+    1920,
+    2560
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/from-vine-to-cellar-celebrating-the-2026-harvest/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2026/10/LC-being-dumped-on-Sorting-table.jpg",
+   "alt": "La Crescent being moved from the picking bin to the sorting table",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "from-vine-to-cellar-celebrating-the-2026-harvest--lc-being-dumped-on-sorting-table.jpg",
+   "sha256": "d07d3f3f2c7509c0174276862a08123ef223972dfac5c0ec3f73dfe5cdca70f7",
+   "bytes": 610292,
+   "pixels": [
+    1067,
+    1600
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/from-vine-to-cellar-celebrating-the-2026-harvest/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2026/10/LC-being-dumped-on-Sorting-table-vertical.jpg",
+   "alt": "",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "from-vine-to-cellar-celebrating-the-2026-harvest--lc-being-dumped-on-sorting-table-vertical.jpg",
+   "sha256": "37a5d57d4529e4f11511f77a67d4373b0e9557568e80e3165920601e8f8dac82",
+   "bytes": 386867,
+   "pixels": [
+    1067,
+    1600
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/from-vine-to-cellar-celebrating-the-2026-harvest/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2026/10/Ladder.jpg",
+   "alt": "La Crescent grapes going into the press",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "from-vine-to-cellar-celebrating-the-2026-harvest--ladder.jpg",
+   "sha256": "a50125a11235944991428a885361a0b0260ad4a953240b5673636388437d8815",
+   "bytes": 330337,
+   "pixels": [
+    1067,
+    1600
+   ]
+  },
+  {
+   "page": "https://montecreekwinery.com/from-vine-to-cellar-celebrating-the-2026-harvest/",
+   "image_url": "https://montecreekwinery.com/wp-content/uploads/2026/10/Close-up-sorting-table.jpg",
+   "alt": "og:image",
+   "kind": "unreviewed",
+   "reviewed": false,
+   "file": "from-vine-to-cellar-celebrating-the-2026-harvest--close-up-sorting-table.jpg",
+   "sha256": "84bad73006da837823c40ff5b2ec79a3fcdb8b652e75eed2ca5a22ea2bc659bc",
+   "bytes": 352715,
+   "pixels": [
+    1600,
+    1067
+   ]
+  }
+ ],
+ "_note": "2026-11-10: fetched from montecreekwinery.com with wcc-email-source-winery-images step 7 (--discover). Sorted into winery/, vineyard/, harvest/ and downsized to 2400 px; logo and bottle-shelf shots dropped. _email/ holds the 298 x 240 crops the Wine Education emails use. No winemaker portraits on the site: the winemaker's portraits are the Drive photos already in the folder (hero-jesse-barrel-room.jpg, thank-you-jesse-in-the-vineyard.jpg). Photographer credits are in the filenames of the source pages: Evan Groves, Tyler Meade Photography, Magalie J Photography, Tourism Kamloops / Kamloops Wine Trail."
+}
