@@ -1,0 +1,1040 @@
+{
+ "campaign": "MWC 12 Days of Canadian Wine, December 2026",
+ "lineup_source": "brain: working-docs/mwc-advent-calendar-2026.md (The bundles)",
+ "checked": "2026-11-24",
+ "images": [
+  {
+   "file": "nv-cuvee-catharine-rose-brut.jpg",
+   "wine_key": "nv-cuvee-catharine-rose-brut",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/henry-of-pelham-estate-winery-cuvee-catharine-rose-brut",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/cuvee-catharine-rose-brut-henry-of-pelham-estate-winery.webp?v=1739739127",
+   "sha256": "b257bd20f0a63c047baba58d2d30f700950b9b6727a2291db5e10038ee9f5480",
+   "size": [
+    800,
+    1200
+   ],
+   "label_checked": true,
+   "note": "MWC photo by instruction: light-blue label and foil match the Day 1 hero; winery's own shows a gold-foil, turquoise-label bottle",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/nv-cuvee-catharine-rose-brut.png"
+  },
+  {
+   "file": "2024-speck-family-reserve-chardonnay.png",
+   "wine_key": "2024-speck-family-reserve-chardonnay",
+   "source": "winery",
+   "product_url": "https://store.henryofpelham.com/products/2024-chardonnay-speck-family-reserve",
+   "image_url": "https://cdn.shopify.com/s/files/1/2200/5151/files/Product_Images_-_HOP_Website_SFR_Chard.png?v=1747057206",
+   "sha256": "6915c45ef754df1147b5d088a9fd5d3f3131e875176751d09ba2898e94064ed7",
+   "size": [
+    600,
+    600
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage; 600 px source (small)",
+   "small": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-speck-family-reserve-chardonnay.png"
+  },
+  {
+   "file": "2024-speck-family-reserve-pinot-noir.png",
+   "wine_key": "2024-speck-family-reserve-pinot-noir",
+   "source": "winery",
+   "product_url": "https://store.henryofpelham.com/products/2024-pinot-noir-speck-family-reserve",
+   "image_url": "https://cdn.shopify.com/s/files/1/2200/5151/files/SFR_Pinot_Noir.png?v=1752019768",
+   "sha256": "1284cb172e2c64db2a7754b35ede44e308b175fe45d41b95962a7bba4ff85e71",
+   "size": [
+    600,
+    600
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage; 600 px source (small)",
+   "small": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-speck-family-reserve-pinot-noir.png"
+  },
+  {
+   "file": "2023-speck-family-reserve-riesling.png",
+   "wine_key": "2023-speck-family-reserve-riesling",
+   "source": "winery",
+   "product_url": "https://store.henryofpelham.com/products/2023-riesling-speck-family-reserve",
+   "image_url": "https://cdn.shopify.com/s/files/1/2200/5151/files/ProductImages-HOPWebsiteSFRChard.png?v=1696512839",
+   "sha256": "9a83a7873796becab02fbd7e60172c0a9ef61db57df016a6f6e882f684140368",
+   "size": [
+    600,
+    600
+   ],
+   "label_checked": true,
+   "note": "winery photo by instruction (MWC's listing photo reported as The Dry River Reserve Riesling); label carries no vintage; 600 px source (small)",
+   "small": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2023-speck-family-reserve-riesling.png"
+  },
+  {
+   "file": "2023-speck-family-reserve-baco-noir.png",
+   "wine_key": "2023-speck-family-reserve-baco-noir",
+   "source": "winery",
+   "product_url": "https://store.henryofpelham.com/products/2023-baco-noir-speck-family-reserve",
+   "image_url": "https://cdn.shopify.com/s/files/1/2200/5151/files/SFR_Baco_Noir.png?v=1752021041",
+   "sha256": "2f08b12bcde0aa9d5d4dfee5c95b8515dd6c975bafaf86fdb3420e488f20c8e3",
+   "size": [
+    600,
+    600
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage; 600 px source (small)",
+   "small": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2023-speck-family-reserve-baco-noir.png"
+  },
+  {
+   "file": "2025-riesling-icewine.png",
+   "wine_key": "2025-riesling-icewine",
+   "source": "winery",
+   "product_url": "https://store.henryofpelham.com/products/2025-riesling-icewine",
+   "image_url": "https://cdn.shopify.com/s/files/1/2200/5151/files/Product_Images_-_HOP_Riesling_Icewine.png?v=1749489734",
+   "sha256": "30f1b277aba13cb9f98ca196931d21713fec6a944e6872053c2cd57c2339f4df",
+   "size": [
+    600,
+    600
+   ],
+   "label_checked": true,
+   "note": "winery photo; 375 mL half bottle; 600 px source (small)",
+   "small": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2025-riesling-icewine.png"
+  },
+  {
+   "file": "2025-reserve-riesling-dry.jpg",
+   "wine_key": "2025-reserve-riesling-dry",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/reserve-riesling-kacaba-vineyards",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/reserve-riesling-dry-2025-kacaba-vineyards.webp?v=1786038942",
+   "sha256": "26cd6572d0c512b44983cfbe39480fe551c3343bdc855877a51aebea8d49c8c8",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo: the winery's product image is a Black Friday ad graphic; label reads 2025 Reserve Riesling",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2025-reserve-riesling-dry.png"
+  },
+  {
+   "file": "2023-cabernet-franc.jpg",
+   "wine_key": "2023-cabernet-franc",
+   "source": "winery",
+   "product_url": "https://kacaba.com/products/2023-cabernet-franc",
+   "image_url": "https://cdn.shopify.com/s/files/1/1777/4973/files/2023-Kacaba_Cabernet_franc-Escarpment_web_silver_medal.jpg?v=1782502570",
+   "sha256": "8b4f1f8a92c12b87975d5e6788dda13a6b368bd5ce7771df279a9ea737b47258",
+   "size": [
+    550,
+    1944
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2023 Cabernet Franc; ACWC Bronze sticker on the glass",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2023-cabernet-franc.png"
+  },
+  {
+   "file": "2023-merlot.jpg",
+   "wine_key": "2023-merlot",
+   "source": "winery",
+   "product_url": "https://kacaba.com/products/2023-merlot",
+   "image_url": "https://cdn.shopify.com/s/files/1/1777/4973/files/2023-Kacaba_Merlot-Escarpment_web.jpg?v=1768684601",
+   "sha256": "fa513e1ce47a55b3dd1da23b0f56b45b7845fe36ec7702a4dbb865b091cd4357",
+   "size": [
+    550,
+    2309
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2023 Merlot",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2023-merlot.png"
+  },
+  {
+   "file": "2022-reserve-syrah.jpg",
+   "wine_key": "2022-reserve-syrah",
+   "source": "winery",
+   "product_url": "https://kacaba.com/products/reserve-syrah-2022",
+   "image_url": "https://cdn.shopify.com/s/files/1/1777/4973/files/2022-Signature_Series_Reserve_Syrah-v4_web_awards_37b76771-ab83-4e4a-ae3b-fb4efac1c256.jpg?v=1770495799",
+   "sha256": "bf2525878a03e9c558860f41dcfc6f8aa3d60a3fac47fb1c6bec67f2229eb9d4",
+   "size": [
+    409,
+    1335
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2022 Reserve Syrah; medal stickers on the glass",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2022-reserve-syrah.png"
+  },
+  {
+   "file": "2019-unoaked-chardonnay.jpg",
+   "wine_key": "2019-unoaked-chardonnay",
+   "source": "winery",
+   "product_url": "https://kacaba.com/products/unoaked-chardonnay-2019",
+   "image_url": "https://cdn.shopify.com/s/files/1/1777/4973/products/2019-Select-Series-UnoakedChardonnay-Sustainable-web.jpg?v=1598304369",
+   "sha256": "1341b500a27cb65c7035c701454a7a0fc7d264081b4ec454b3ccadfcc43d5f4e",
+   "size": [
+    560,
+    2048
+   ],
+   "label_checked": true,
+   "note": "winery photo; listing has no vintage, label reads 2019",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2019-unoaked-chardonnay.png"
+  },
+  {
+   "file": "2021-cabernet.jpg",
+   "wine_key": "2021-cabernet",
+   "source": "winery",
+   "product_url": "https://kacaba.com/products/cabernet-2021",
+   "image_url": "https://cdn.shopify.com/s/files/1/1777/4973/files/Untitleddesign_5_02f6ff46-a633-4faf-90a9-97e5a55b7e59.jpg?v=1698852958",
+   "sha256": "ddcf505092f171e6412aa092bc88cec77bcf5d468543f078475a98e5256c8db6",
+   "size": [
+    407,
+    1280
+   ],
+   "label_checked": true,
+   "note": "winery photo; listing has no vintage, label reads 2021",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2021-cabernet.png"
+  },
+  {
+   "file": "2025-living-land-rose.png",
+   "wine_key": "2025-living-land-rose",
+   "source": "winery",
+   "product_url": "https://montecreekwinery.com/product/2025-living-land-rose",
+   "image_url": "https://images.commerce7.com/monte-creek-ranch-winery/images/original/montecreekwinery-2020llrose-1772235625620.png",
+   "sha256": "83fb194e9f1bdebbc5d81889f81899fd61a11748d7077bc211264f9c2027264f",
+   "size": [
+    1100,
+    3344
+   ],
+   "label_checked": true,
+   "note": "winery photo; Living Land Rosé; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2025-living-land-rose.png"
+  },
+  {
+   "file": "2024-sparkling-rose-village.png",
+   "wine_key": "2024-sparkling-rose-village",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/sparkling-rose-village-2024",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/sparkling-rose-village-2024_3ded5d45-0a8a-4d74-9363-1d67a123fff4.webp?v=1792611307",
+   "sha256": "f7aa88dfb2e81a033864ed07003529583e0060167787642069ce9f87c1653a9e",
+   "size": [
+    750,
+    1126
+   ],
+   "label_checked": true,
+   "note": "MWC photo (Squarespace winery site has no feed); label 2024 Sparkling Rosé Village",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-sparkling-rose-village.png"
+  },
+  {
+   "file": "2024-black-sage-road-blanc.png",
+   "wine_key": "2024-black-sage-road-blanc",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/black-sage-road-blanc-2024",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/black-sage-road-blanc-20241.webp?v=1779298925",
+   "sha256": "4af63dcf46ae55c454c2d405d38f0b3a003628071a3bd08718e6d86aae4a2ced",
+   "size": [
+    750,
+    1126
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label 2024 Black Sage Rd. Blanc",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-black-sage-road-blanc.png"
+  },
+  {
+   "file": "2022-black-sage-road-rouge.png",
+   "wine_key": "2022-black-sage-road-rouge",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/black-sage-road-rouge-2022",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/black-sage-road-rouge-2022_1.webp?v=1779298919",
+   "sha256": "ef6e8f8712ee90c20fb45af03035e8c05f3fe60348cb7cc025c83b2ba1cf2557",
+   "size": [
+    750,
+    1126
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label Black Sage Rd. Rouge 2022",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2022-black-sage-road-rouge.png"
+  },
+  {
+   "file": "2024-rose-village.png",
+   "wine_key": "2024-rose-village",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/rose-village-2024",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/rose-village-20241.webp?v=1779298904",
+   "sha256": "8d03a9937224f3d9e6ae82eade9fdccb164cbabf460ffc09da392f80bc6f8eb6",
+   "size": [
+    750,
+    1126
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label 2024 Rosé Village",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-rose-village.png"
+  },
+  {
+   "file": "2024-gamay-village.png",
+   "wine_key": "2024-gamay-village",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/gamay-village-2024",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/gamay-village-2024_1.webp?v=1779298914",
+   "sha256": "c2450fb6e7354c56258539fb865fb87981c13d6654a2e42acabfd3cfaa6fcd4f",
+   "size": [
+    750,
+    1126
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label 2024 Gamay Village",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-gamay-village.png"
+  },
+  {
+   "file": "2024-chardonnay-village.png",
+   "wine_key": "2024-chardonnay-village",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/chardonnay-village-2024",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/chardonnay-village-20241.webp?v=1779298879",
+   "sha256": "7eb1f216f0d0ca90c401e14b54dc51c54df828a563daeb36e040804af11890c0",
+   "size": [
+    750,
+    1126
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label 2024 Chardonnay Village",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-chardonnay-village.png"
+  },
+  {
+   "file": "2021-white-meritage.png",
+   "wine_key": "2021-white-meritage",
+   "source": "winery",
+   "product_url": "https://www.bench1775.com/product/2021-white-meritage",
+   "image_url": "https://images.commerce7.com/bench-1775-winery/images/original/2021-whitemeritage-e-1770669580346.png",
+   "sha256": "3f1c7c51fc0157995a6c89e75b68e540d01f7f3c2cd4ddc9be42a9e75873241e",
+   "size": [
+    857,
+    3425
+   ],
+   "label_checked": true,
+   "note": "winery photo; label reads 2021 White Meritage (MWC's photo shows 2020, so the winery photo fixes the mismatch)",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2021-white-meritage.png"
+  },
+  {
+   "file": "2020-blanc-de-blanc.png",
+   "wine_key": "2020-blanc-de-blanc",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/bench-1775-winery-blanc-de-blanc-2020",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/b1775_2020-blancdeblanc-min_f86cfb04-56d1-4825-b811-a96f9e6e57f7.webp?v=1759920895",
+   "sha256": "50494f6b46a8a951397d7cfb014c07151831bb2f02f64233f7858be92ef607ec",
+   "size": [
+    800,
+    1200
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label 2020 Blanc de Blanc (winery image 174 px wide)",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2020-blanc-de-blanc.png"
+  },
+  {
+   "file": "2022-viognier.jpg",
+   "wine_key": "2022-viognier",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/bench-1775-winery-viognier-2022",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/viognier-2022-bench-1775-winery.webp?v=1739738437",
+   "sha256": "82e8f7a21be1acc8277199e82a2d8e80579710438da1b6e5ce803a61c75dfa9a",
+   "size": [
+    783,
+    1175
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label 2022 Viognier (winery image 244 px wide)",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2022-viognier.png"
+  },
+  {
+   "file": "2022-whistler-sauvignon-blanc-icewine.png",
+   "wine_key": "2022-whistler-sauvignon-blanc-icewine",
+   "source": "winery",
+   "product_url": "https://www.bench1775.com/product/whistler-sauvignon-blanc-icewine-200ml",
+   "image_url": "https://images.commerce7.com/bench-1775-winery/images/original/2022-wh-sbiw-200ml-e-1775749677725.png",
+   "sha256": "ad002f0ae6977923516cde2121461bfe7127754dc826a0d86b121da6b3bcca76",
+   "size": [
+    693,
+    3337
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2022 Icewine Sauvignon Blanc 200 mL",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2022-whistler-sauvignon-blanc-icewine.png"
+  },
+  {
+   "file": "2024-pommard-clone-pinot-noir.png",
+   "wine_key": "2024-pommard-clone-pinot-noir",
+   "source": "winery",
+   "product_url": "https://spearheadwinery.com/product/2024-pommard-clone-pinot-noir",
+   "image_url": "https://images.commerce7.com/spearhead-winery/images/original/2024-dual-citizen-pommard_small-1771205657027.png",
+   "sha256": "fcc09da2ea5fc869f490e9ad58fdbc6d36e6386d14c8a2d107d36398988eba55",
+   "size": [
+    250,
+    450
+   ],
+   "label_checked": true,
+   "note": "winery photo; 250x450 source, the largest either site has (small)",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2024-pommard-clone-pinot-noir.png"
+  },
+  {
+   "file": "2024-clone-777-pinot-noir.png",
+   "wine_key": "2024-clone-777-pinot-noir",
+   "source": "winery",
+   "product_url": "https://spearheadwinery.com/product/2024-clone-777-pinot-noir",
+   "image_url": "https://images.commerce7.com/spearhead-winery/images/original/2024-dual-citizen-clone-777_small-1771205579992.png",
+   "sha256": "5e0a38f74e8c00f564bfa40b7621bbe50caa273c79dcafb3fc6346845ad60208",
+   "size": [
+    250,
+    450
+   ],
+   "label_checked": true,
+   "note": "winery photo; small source",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2024-clone-777-pinot-noir.png"
+  },
+  {
+   "file": "2025-pinot-gris.jpg",
+   "wine_key": "2025-pinot-gris",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/pinot-gris-spearhead-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/pinot-gris-2025-spearhead-winery.webp?v=1788111699",
+   "sha256": "c53682b977f694488842b3162c31e343e542cd27444b0de1fb7058fc0097eeab",
+   "size": [
+    300,
+    450
+   ],
+   "label_checked": true,
+   "note": "MWC photo (not on the winery store); small source; label carries no vintage",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2025-pinot-gris.png"
+  },
+  {
+   "file": "2024-syrah.png",
+   "wine_key": "2024-syrah",
+   "source": "winery",
+   "product_url": "https://spearheadwinery.com/product/2024-syrah",
+   "image_url": "https://images.commerce7.com/spearhead-winery/images/original/2024-dual-citizen-syrah_sm-1771205502977.png",
+   "sha256": "57ac983a36dabbdbcbbebeeaefcf0538eb0738d9426c2148efbb01696c169e71",
+   "size": [
+    250,
+    450
+   ],
+   "label_checked": true,
+   "note": "winery photo; small source",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2024-syrah.png"
+  },
+  {
+   "file": "2024-chardonnay.png",
+   "wine_key": "2024-chardonnay",
+   "source": "winery",
+   "product_url": "https://spearheadwinery.com/product/2024-chardonnay",
+   "image_url": "https://images.commerce7.com/spearhead-winery/images/original/2024-dual-citizen-chardonnay_small-1771205537774.png",
+   "sha256": "63c41c659c3977149ff980a694960b2fd5875b5100eae5719e5a3e187076acc1",
+   "size": [
+    250,
+    450
+   ],
+   "label_checked": true,
+   "note": "winery photo; small source",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2024-chardonnay.png"
+  },
+  {
+   "file": "2024-white-pinot-noir.png",
+   "wine_key": "2024-white-pinot-noir",
+   "source": "winery",
+   "product_url": "https://spearheadwinery.com/product/2024-white-pinot-noir",
+   "image_url": "https://images.commerce7.com/spearhead-winery/images/original/2024-dual-citizen-white-pinot-noir_small-1771205795156.png",
+   "sha256": "529d446f34fea96cc0a9ba78694e720b6328cf120229258ffb6ad0a322c7702c",
+   "size": [
+    250,
+    450
+   ],
+   "label_checked": true,
+   "note": "winery photo; small source",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2024-white-pinot-noir.png"
+  },
+  {
+   "file": "2025-cliffhanger-red.jpg",
+   "wine_key": "2025-cliffhanger-red",
+   "source": "winery",
+   "product_url": "https://morainewinery.com/product/cliffhanger-red-2025",
+   "image_url": "https://images.commerce7.com/moraine-estate-winery/images/original/moraine-cliffhanger-red-2017-nv-1639523141857.jpg",
+   "sha256": "b2bfb755ae72d5970ce446293444abd2d3306cf3f3905f523a530e826db48de7",
+   "size": [
+    2000,
+    4500
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2025-cliffhanger-red.png"
+  },
+  {
+   "file": "2024-shipuchka-frizzante.jpg",
+   "wine_key": "2024-shipuchka-frizzante",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/moraine-estate-winery-shipuchka-frizzante-2022",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/shipuchka-frizzante-2022-moraine-estate-winery.webp?v=1756843019",
+   "sha256": "b817e39174dc11c16b586ef240a5b2d713d92581c2ed9d3f7d85e43d723a00bd",
+   "size": [
+    573,
+    860
+   ],
+   "label_checked": true,
+   "note": "MWC photo (winery's is the same label shot on a lit cyclorama); label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2024-shipuchka-frizzante.png"
+  },
+  {
+   "file": "2025-reserve-riesling.jpg",
+   "wine_key": "2025-reserve-riesling",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/reserve-riesling-2025-moraine-estate-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/reserve-riesling-2025-moraine-estate-winery.webp?v=1777484396",
+   "sha256": "41ddc45af32b1a428f797ee48e0f03a2366a7a09fc76dd174f8f867d7daa98ae",
+   "size": [
+    377,
+    566
+   ],
+   "label_checked": true,
+   "note": "MWC photo: label reads Reserve Riesling; the winery's Reserve Riesling product shows the plain Riesling label; small source",
+   "small": true,
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2025-reserve-riesling.png"
+  },
+  {
+   "file": "2023-estate-pinot-noir.jpg",
+   "wine_key": "2023-estate-pinot-noir",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/estate-pinot-noir-2023-moraine-estate-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/estate-pinot-noir-2023-moraine-estate-winery.webp?v=1770399607",
+   "sha256": "c774ea40ec40d1bd823672ac75bb6dde86aa2f5d5947fc12cdb3bb37b0658df3",
+   "size": [
+    374,
+    561
+   ],
+   "label_checked": true,
+   "note": "MWC photo (winery store sells 2025 only); label carries no vintage; small source",
+   "small": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2023-estate-pinot-noir.png"
+  },
+  {
+   "file": "2022-syrah.jpg",
+   "wine_key": "2022-syrah",
+   "source": "winery",
+   "product_url": "https://morainewinery.com/product/syrah-2022",
+   "image_url": "https://images.commerce7.com/moraine-estate-winery/images/original/moraine-syrah-2017-nv-1639523340853.jpg",
+   "sha256": "11a5f9aa5e0d6affa4640d020bd994194486b68ff802285e1a2b40f7f23b53a2",
+   "size": [
+    2000,
+    4500
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2022-syrah.png"
+  },
+  {
+   "file": "2023-oport.jpg",
+   "wine_key": "2023-oport",
+   "source": "winery",
+   "product_url": "https://morainewinery.com/product/oport-2023",
+   "image_url": "https://images.commerce7.com/moraine-estate-winery/images/original/oportnv-1681230390880.jpg",
+   "sha256": "02ece05053061ef62f2c35377ccf4c0ee0f074111f4053744c7bbba9c55702be",
+   "size": [
+    4500,
+    6747
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2023-oport.png"
+  },
+  {
+   "file": "2023-montage.jpg",
+   "wine_key": "2023-montage",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/montage-2023-la-frenz-estate-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/montage-2023-la-frenz-estate-winery.webp?v=1794937263",
+   "sha256": "863e22310e0a7e1ff97595f1a46baf6862c8cf156c44cfe7125ce7a22d3c1ce1",
+   "size": [
+    682,
+    1024
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label reads 2023 Montage (winery image 150 px wide)",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2023-montage.png"
+  },
+  {
+   "file": "2023-reserve-pinot-noir.jpg",
+   "wine_key": "2023-reserve-pinot-noir",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/reserve-pinot-noir-2023-la-frenz-estate-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/reserve-pinot-noir-2023-la-frenz-estate-winery.webp?v=1794937297",
+   "sha256": "0fb489925dc1989cebb35eea23b29e09cfd8c92e0b8bb8b11f250d53c23c42ae",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo (winery store sells 2024 only); label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2023-reserve-pinot-noir.png"
+  },
+  {
+   "file": "2025-chardonnay.png",
+   "wine_key": "2025-chardonnay",
+   "source": "winery",
+   "product_url": "https://www.lafrenzwinery.com/product/2025-chardonnay",
+   "image_url": "https://images.commerce7.com/la-frenz-estate-winery/images/original/chardonnaybottle_trans-1773340045465.png",
+   "sha256": "01d1a85d07da163c67d00ca04e2ddcf1dd77e0eff295a48288ec3c7424421d5b",
+   "size": [
+    583,
+    1338
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2025-chardonnay.png"
+  },
+  {
+   "file": "2025-pinot-noir-rose.png",
+   "wine_key": "2025-pinot-noir-rose",
+   "source": "winery",
+   "product_url": "https://www.lafrenzwinery.com/product/2025-pinot-noir-rose",
+   "image_url": "https://images.commerce7.com/la-frenz-estate-winery/images/original/lafrenz_pinotnoirrosenv-1743620371023.png",
+   "sha256": "94b957691d5718a31f5b54a340db34d1d070c866b2e865cdb92b754757728670",
+   "size": [
+    2468,
+    6723
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2025-pinot-noir-rose.png"
+  },
+  {
+   "file": "2025-la-frenz-viognier.jpg",
+   "wine_key": "2025-la-frenz-viognier",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/viognier-2025-la-frenz-estate-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/viognier-2025-la-frenz-estate-winery.webp?v=1794937302",
+   "sha256": "745a89b7399d70b0a2d27dfe65ba972d362040370d547642f7d82ee1c0e6c57e",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo (winery image 150 px wide); label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2025-la-frenz-viognier.png"
+  },
+  {
+   "file": "2025-sauvignon-blanc.png",
+   "wine_key": "2025-sauvignon-blanc",
+   "source": "winery",
+   "product_url": "https://www.lafrenzwinery.com/product/2025-sauvignon-blanc",
+   "image_url": "https://images.commerce7.com/la-frenz-estate-winery/images/original/lafrenz_savblancnv-1743620484863.png",
+   "sha256": "3ac84a5b709afc0ea8e13c33620737e3c107e5204cf7d6317b0066a65176b981",
+   "size": [
+    2751,
+    6807
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2025-sauvignon-blanc.png"
+  },
+  {
+   "file": "nv-meritage-hawks-flight-reserve.jpg",
+   "wine_key": "nv-meritage-hawks-flight-reserve",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/meritage-hawks-flight-reserve-sprucewood-shores-estate-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/meritage-hawks-flight-reserve-sprucewood-shores-estate-winery.webp?v=1746121315",
+   "sha256": "8b466e8cdf95ebff74e73567ade2f6e311f7690dd43e12f31fe2bc5ff22c220a",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo (winery site on Odoo, no feed)",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/nv-meritage-hawks-flight-reserve.png"
+  },
+  {
+   "file": "2020-merlot-hawks-flight-reserve.jpg",
+   "wine_key": "2020-merlot-hawks-flight-reserve",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/sprucewood-shores-estate-winery-merlot-hawk-s-flight-reserve-2020",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/merlot-hawks-flight-reserve-2020-sprucewood-shores-estate-winery.webp?v=1739738451",
+   "sha256": "906a2b753e3e11a877cb11d830e3c304bdd4a56d8ddad149f0904d4d5aff033e",
+   "size": [
+    570,
+    855
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2020-merlot-hawks-flight-reserve.png"
+  },
+  {
+   "file": "nv-riesling-sparkling.png",
+   "wine_key": "nv-riesling-sparkling",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/sprucewood-shores-estate-winery-riesling-sparkling-2017",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/riesling-sparkling-sprucewood-shores-estate-winery.webp?v=1739957528",
+   "sha256": "7f7cbf3bf9203b7707e52bf7c0c7468ba3157662d32acb03bfebf26fdb159af5",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/nv-riesling-sparkling.png"
+  },
+  {
+   "file": "2021-sauvignon-blanc.png",
+   "wine_key": "2021-sauvignon-blanc",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/sprucewood-shores-estate-winery-sauvignon-blanc-2021",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/nv_sauvignon_blanc-v1_1-min_3ad152b9-1f3f-43f2-af1d-778f50f4d1c1.webp?v=1739739419",
+   "sha256": "e4cf816ac74971fd790b3060cfe1cbceb79774543ab0ab697783fdad0cb4f6e2",
+   "size": [
+    800,
+    1200
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2021-sauvignon-blanc.png"
+  },
+  {
+   "file": "2021-pinot-noir.png",
+   "wine_key": "2021-pinot-noir",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/sprucewood-shores-estate-winery-pinot-noir-2021",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/pinot-noir-2021-sprucewood-shores-estate-winery.webp?v=1739738935",
+   "sha256": "434518b9f2590957ac789ae1545a2dc1d865e51f4b6ba6dfabdf6fe3bc99ba61",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo; label carries no vintage",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/2021-pinot-noir.png"
+  },
+  {
+   "file": "nv-warm-n-cozy.png",
+   "wine_key": "nv-warm-n-cozy",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/sprucewood-shores-estate-winery-warm-n-cozy",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/warm-n-cozy-sprucewood-shores-estate-winery.webp?v=1739739101",
+   "sha256": "61be3c57955b28a6b728fc933fea7eba3b4618d64de83a10c243613ad5480fe1",
+   "size": [
+    1000,
+    1500
+   ],
+   "label_checked": true,
+   "note": "MWC photo",
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/nv-warm-n-cozy.png"
+  },
+  {
+   "file": "2022-malbec.png",
+   "wine_key": "2022-malbec",
+   "source": "winery",
+   "product_url": "https://mooncurser.com/product/malbec",
+   "image_url": "https://images.commerce7.com/moon-curser-vineyards-osoyoos/images/original/malbec-2022-web-c7-480x1200-1775587990400.png",
+   "sha256": "4976d4f837da06fdd4381d15d1c36c8eac3f3de24d510177b818217a52a143d4",
+   "size": [
+    480,
+    1200
+   ],
+   "label_checked": true,
+   "note": "winery photo; label reads 2022 Malbec (MWC's photo shows 2021, so the winery photo fixes the mismatch)",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2022-malbec.png"
+  },
+  {
+   "file": "2022-eclipse.png",
+   "wine_key": "2022-eclipse",
+   "source": "winery",
+   "product_url": "https://mooncurser.com/product/eclipse",
+   "image_url": "https://images.commerce7.com/moon-curser-vineyards-osoyoos/images/original/eclipse-2022-web-c7-480x1200-1775587944542.png",
+   "sha256": "d7191c9942fede1e1a02d9408798449497b777a8b99df0d833d5a35b66b0fabd",
+   "size": [
+    480,
+    1200
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2022 Eclipse",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2022-eclipse.png"
+  },
+  {
+   "file": "2025-roussanne-marsanne.png",
+   "wine_key": "2025-roussanne-marsanne",
+   "source": "winery",
+   "product_url": "https://mooncurser.com/product/roussanne-marsanne",
+   "image_url": "https://images.commerce7.com/moon-curser-vineyards-osoyoos/images/original/roussanne-marsanne-0-web-c7-480x1200-1775588099065.png",
+   "sha256": "cd3c14fd2ae2173ce2dd1071fc209ad841a476d1334d0fff1c33a4518eb5957f",
+   "size": [
+    480,
+    1200
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2025-roussanne-marsanne.png"
+  },
+  {
+   "file": "2022-dead-of-night.png",
+   "wine_key": "2022-dead-of-night",
+   "source": "winery",
+   "product_url": "https://mooncurser.com/product/dead-of-night",
+   "image_url": "https://images.commerce7.com/moon-curser-vineyards-osoyoos/images/original/dead-of-night-0-web-c7-480x1200-1775587901628.png",
+   "sha256": "3183679efddad6f1c867e09e8ecaca4e41545be1ef88b8501c0899e562178660",
+   "size": [
+    480,
+    1200
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2022-dead-of-night.png"
+  },
+  {
+   "file": "2022-touriga-nacional.png",
+   "wine_key": "2022-touriga-nacional",
+   "source": "winery",
+   "product_url": "https://mooncurser.com/product/touriga-nacional",
+   "image_url": "https://images.commerce7.com/moon-curser-vineyards-osoyoos/images/original/touriga-nacional-0-web-c7-480x1200-1775588167842.png",
+   "sha256": "18d692a0f1b20a47902f8daaa891a63eb0e223e732a8dd10813fc42ae6748c99",
+   "size": [
+    480,
+    1200
+   ],
+   "label_checked": true,
+   "note": "winery photo; label carries no vintage",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2022-touriga-nacional.png"
+  },
+  {
+   "file": "2025-moon-curser-viognier.png",
+   "wine_key": "2025-moon-curser-viognier",
+   "source": "winery",
+   "product_url": "https://mooncurser.com/product/viognier",
+   "image_url": "https://images.commerce7.com/moon-curser-vineyards-osoyoos/images/original/viognier-2025-web-c7-480x1200_260331-1775074585363.png",
+   "sha256": "c043af05dcc62361ff469fcfb96df49e814c672a23fedcae1d996ae70eab1311",
+   "size": [
+    480,
+    1200
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2025 Viognier",
+   "cutout": "source already transparent (winery's own cutout); faint floor shadow trimmed",
+   "cutout_file": "bottle-shots/2025-moon-curser-viognier.png"
+  },
+  {
+   "file": "2024-vidal-icewine.jpg",
+   "wine_key": "2024-vidal-icewine",
+   "source": "winery",
+   "product_url": "https://palatinehillsestatewinery.com/products/2023-vidal-icewine-copy",
+   "image_url": "https://cdn.shopify.com/s/files/1/0498/0470/5951/files/EditedBottleShots_1.png?v=1786541479",
+   "sha256": "8c1ff06405421d9fb9054646108b9f89adab092d9f67c486f1f44ea029a6dfec",
+   "size": [
+    1200,
+    1500
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2024 Vidal Icewine 375 mL",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2024-vidal-icewine.png"
+  },
+  {
+   "file": "2023-overtime-white-meritage.jpg",
+   "wine_key": "2023-overtime-white-meritage",
+   "source": "winery",
+   "product_url": "https://palatinehillsestatewinery.com/products/2023-overtime-white-meritage",
+   "image_url": "https://cdn.shopify.com/s/files/1/0498/0470/5951/files/9.png?v=1786544431",
+   "sha256": "097767537f65032fbbd49f83e7ece1d2755d49750595805eb2bb2619bf790ad0",
+   "size": [
+    1200,
+    1500
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2023 White Meritage",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2023-overtime-white-meritage.png"
+  },
+  {
+   "file": "2025-schmoozer-cabernet-merlot.jpg",
+   "wine_key": "2025-schmoozer-cabernet-merlot",
+   "source": "winery",
+   "product_url": "https://palatinehillsestatewinery.com/products/2025-ramblers-schmoozer-cabernet-merlot",
+   "image_url": "https://cdn.shopify.com/s/files/1/0498/0470/5951/files/Untitleddesign_18.png?v=1781817489",
+   "sha256": "5013861e085d7ddcea5dc41ed7423d7944b6ccba882f0d9c29341359188c21d3",
+   "size": [
+    1200,
+    1500
+   ],
+   "label_checked": true,
+   "note": "winery photo; label 2025 Cabernet Merlot",
+   "cutout": "rembg isnet-general-use (background removal only), 1 px edge tighten",
+   "cutout_file": "bottle-shots/2025-schmoozer-cabernet-merlot.png"
+  },
+  {
+   "file": "2020-red-meritage.jpg",
+   "wine_key": "2020-red-meritage",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/red-meritage-2020-bench-1775-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/red-meritage-2020-bench-1775-winery.webp?v=1773337257",
+   "sha256": "8c41c31949fcefc95b32ba84cf12db36585f613bf5e3ff642bf7a304cf7f4109",
+   "size": [
+    783,
+    1175
+   ],
+   "label_checked": true,
+   "note": "Listing sells 2020; the winery's and MWC's photos both read 2018 Red Meritage; no 2020 photo in Drive",
+   "vintage_mismatch": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/_vintage-mismatch/2020-red-meritage.png"
+  },
+  {
+   "file": "2020-cabernet-franc.png",
+   "wine_key": "2020-cabernet-franc",
+   "source": "mwc",
+   "product_url": "https://mywinecanada.com/products/cabernet-franc-bench-1775-winery",
+   "image_url": "https://cdn.shopify.com/s/files/1/0737/1381/1668/files/cabernet-franc-2020-bench-1775-winery.webp?v=1785346872",
+   "sha256": "a55bc994f88bd8ec841d5d5b6298e4017268784970c6cd20c85f848956ce05f3",
+   "size": [
+    400,
+    600
+   ],
+   "label_checked": true,
+   "note": "Listing sells 2020; the winery's and MWC's photos both read 2018 Cabernet Franc; no 2020 photo in Drive",
+   "small": true,
+   "vintage_mismatch": true,
+   "cutout": "studio-cutout.py (backdrop padded first)",
+   "cutout_file": "bottle-shots/_vintage-mismatch/2020-cabernet-franc.png"
+  }
+ ],
+ "reused_cutouts": [
+  {
+   "file": "bottle-shots/2022-living-land-cabernet-merlot.png",
+   "from": "monte-creek-2026-11/bottle-shots/2022-living-land-cabernet-merlot.png"
+  },
+  {
+   "file": "bottle-shots/2025-living-land-sparkling.png",
+   "from": "monte-creek-2026-11/bottle-shots/2025-living-land-sparkling.png"
+  },
+  {
+   "file": "bottle-shots/2022-ancient-waters-riesling.png",
+   "from": "monte-creek-2026-11/bottle-shots/2022-ancient-waters-riesling.png"
+  },
+  {
+   "file": "bottle-shots/2023-living-land-foch.png",
+   "from": "monte-creek-2026-11/bottle-shots/2023-living-land-foch.png"
+  },
+  {
+   "file": "bottle-shots/2025-living-land-frontenac-gris.png",
+   "from": "monte-creek-2026-11/bottle-shots/2025-living-land-frontenac-gris.png"
+  },
+  {
+   "file": "bottle-shots/nv-overtime-brut-nature.png",
+   "from": "palatine-hills-2026-10/bottle-shots/overtime-brut.png"
+  },
+  {
+   "file": "bottle-shots/2024-lakeshore-merlot.png",
+   "from": "palatine-hills-2026-10/bottle-shots/2024-lakeshore-merlot.png"
+  },
+  {
+   "file": "bottle-shots/2023-overtime-chardonnay.png",
+   "from": "palatine-hills-2026-10/bottle-shots/2023-overtime-chardonnay.png"
+  },
+  {
+   "file": "bottle-shots/2023-retouche.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2023-retouche.png"
+  },
+  {
+   "file": "bottle-shots/2025-vivace.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2025-vivace.png"
+  },
+  {
+   "file": "bottle-shots/2022-espressivo.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2022-espressivo.png"
+  },
+  {
+   "file": "bottle-shots/2025-lastellina.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2025-lastellina.png"
+  },
+  {
+   "file": "bottle-shots/2025-ava.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2025-ava.png"
+  },
+  {
+   "file": "bottle-shots/2025-petit-rouge.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2025-petit-rouge.png"
+  },
+  {
+   "file": "bottle-shots/2021-fortissimo-selezione-di-famiglia.png",
+   "from": "la-stella-le-vieux-pin-2026-12/bottle-shots/2021-fortissimo-selezione-di-famiglia.png"
+  }
+ ],
+ "bottle_scale_in_packs": {
+  "2025-riesling-icewine": "0.78 (375 mL)",
+  "2024-vidal-icewine": "0.78 (375 mL)",
+  "2022-whistler-sauvignon-blanc-icewine": "0.65 (200 mL)",
+  "2023-oport": "0.82 (500 mL)"
+ },
+ "missing": [
+  {
+   "wine": "Bench 1775 Red Meritage 2020 (Day 5 3-pack and 6-pack)",
+   "why": "winery and MWC photos both show the 2018 label; no 2020 photo in Drive"
+  },
+  {
+   "wine": "Bench 1775 Cabernet Franc 2020 (Day 5 6-pack)",
+   "why": "winery and MWC photos both show the 2018 label; no 2020 photo in Drive"
+  }
+ ],
+ "label_mismatches_found": [
+  "Bench 1775 White Meritage 2021: MWC photo shows 2020; the winery's photo shows 2021 and is used",
+  "Moon Curser Malbec 2022: MWC photo shows 2021; the winery's photo shows 2022 and is used",
+  "Bench 1775 Red Meritage: listing 2020, both photos 2018 (not used; Day 5 packs held in packs/_needs-decision/)",
+  "Bench 1775 Cabernet Franc: listing 2020, both photos 2018 (not used; same)",
+  "Moraine Reserve Riesling 2025: the winery's Reserve Riesling product shows the plain Riesling label; MWC's photo (Reserve) used",
+  "Henry of Pelham Speck Family Reserve Riesling 2023: MWC listing photo reported as The Dry River Reserve Riesling (the copy served today reads Speck Family Reserve); the winery's photo used either way",
+  "Henry of Pelham Cuvée Catharine Rosé Brut: winery photo is a gold-foil, turquoise-label bottle; MWC's light-blue bottle used to match the hero; confirm which ships",
+  "Kacaba Unoaked Chardonnay and Cabernet: listings carry no vintage; labels read 2019 and 2021",
+  "Sprucewood Shores Riesling Sparkling: MWC handle ends -2017; listing and label show no vintage"
+ ]
+}
